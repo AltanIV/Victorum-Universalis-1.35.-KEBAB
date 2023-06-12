@@ -1,5 +1,6 @@
 #5303 - Jaghbub
 
+#Default
 culture = libyan_berber_culture
 religion = sunni
 capital = "Al Jaghbub"
@@ -11,6 +12,17 @@ base_manpower = 1
 native_size = 30
 native_ferocity = 5
 native_hostileness = 5
+
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
+
+#Histories
+1444.11.11 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
 
 1634.1.1 = {
 	owner = TRP

@@ -5,11 +5,11 @@
 #Core Details
 capital = "Krosno"
 is_city = yes
-owner = SIL
-controller = SIL
+owner = GLG
+controller = GLG
 
 #Demographics
-culture = polish
+culture = silesian_german
 religion = catholic
 
 #Development and Trade
@@ -19,8 +19,8 @@ base_manpower = 1
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SIL
-add_core = POL
+add_core = GLG
+add_core = KRO
 
 #Other Political
 hre = yes
@@ -53,15 +53,6 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = {
-	culture = silesian_german
-	owner = GLG
-	controller = GLG
-	remove_core = SIL
-	remove_core = POL
-	add_core = GLG
-	add_core = KRO
-}
 1476.2.22 = {
 	owner = BRA
 	controller = BRA

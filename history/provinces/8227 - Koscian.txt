@@ -5,8 +5,8 @@
 #Core Details
 capital = "Koscian"
 is_city = yes
-owner = GPL
-controller = GPL
+owner = POL
+controller = POL
 
 #Demographics
 culture = polish
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = vodka	#no particular reason why here, Poland was also producer of vodka
 
 #Cores and Occupation (Alphabetical after current)
-add_core = GPL
 add_core = POL
 
 #Other Political
@@ -58,11 +57,6 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = {
-	owner = POL
-	controller = POL
-	add_core = POL
-}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

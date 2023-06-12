@@ -1,5 +1,6 @@
 #6672 - Kunuz
 
+#Default
 owner = KUU
 controller = KUU
 add_core = KUU
@@ -13,5 +14,12 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = muslim
 discovered_by = east_african

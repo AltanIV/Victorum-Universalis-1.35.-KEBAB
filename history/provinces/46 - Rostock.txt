@@ -2,11 +2,11 @@
 #Region - Germany
 #Area - Mecklenburg
 
-owner = DYM			#used to be ROS, indepedent of Mecklenburg, but could go either way
-controller = DYM
-add_core = DYM
+owner = MKL			#used to be ROS, indepedent of Mecklenburg, but could go either way
+controller = MKL
+add_core = MKL
 add_core = ROS
-culture = polabian_culture
+culture = pommeranian
 religion = catholic
 hre = yes
 base_tax = 6 
@@ -46,12 +46,6 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-1444.1.11 = {
-	owner = MKL
-	controller = MKL
-	add_core = MKL
-	culture = pommeranian
-}
 1531.1.1 = { religion = protestant }
 1628.1.1 = { fort_16th = yes } #Fortified by Wallenstein
 1677.1.1 = { unrest = 4 }# Disastrous fire in Rostock

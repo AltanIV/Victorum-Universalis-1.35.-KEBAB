@@ -1,8 +1,8 @@
 #7827 - Schlochau
 
-owner = POL
-controller = POL
-add_core = POL
+owner = TEU
+controller = TEU
+add_core = TEU
 culture = kashubian_culture
 religion = catholic
 capital = "Schlochau"
@@ -36,12 +36,6 @@ discovered_by = swiss
 
 # History for VU completed by docRobert
 
-1444.1.11 = {
-    owner = TEU
-	controller = TEU
-	add_core = TEU
-	remove_core = POL
-}
 1454.6.1 = {
 	owner = DNZ
 	controller = DNZ

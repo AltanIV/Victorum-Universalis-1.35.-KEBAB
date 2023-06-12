@@ -2,6 +2,7 @@
 #Region - Germany
 #Area - Upper Rhineland
 
+#Default
 owner = HOM
 controller = HOM
 add_core = HOM 
@@ -14,9 +15,15 @@ base_tax = 3
 base_production = 2
 trade_goods = livestock
 base_manpower = 2
-
 extra_cost = 8
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -37,6 +44,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
 #Documented 1050 AD
 1467.6.15 = { add_core = BUR } # Charles the Bold ascends and lays claims on the Alsace
 1469.1.1 = { owner = BUR controller = BUR } # Upper Alsace given to Charles the Bold by Archduke Sigismund

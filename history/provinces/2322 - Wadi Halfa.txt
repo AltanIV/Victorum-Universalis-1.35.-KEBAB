@@ -1,5 +1,6 @@
 #2322 - Wadi Halfa
 
+#Default
 owner = MAK
 controller = MAK
 add_core = MAK
@@ -12,17 +13,24 @@ trade_goods = camel
 hre = no
 base_tax = 4
 base_production = 4
-add_core = NBA
-
-discovered_by = muslim
-discovered_by = east_african
-
 extra_cost = 5
 
+#Claimants
+add_core = NBA
+
+#Buildings
+
+#Special Modifiers
 add_permanent_province_modifier = {
 	name = vu_nile_river_in_arid_desert_province
 	duration = -1
 }
+
+#Known by Technology groups
+discovered_by = muslim
+discovered_by = east_african
+
+#Histories
 
 1484.1.1 = {
 	owner = ABB

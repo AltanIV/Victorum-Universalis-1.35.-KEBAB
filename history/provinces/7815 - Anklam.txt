@@ -33,6 +33,7 @@ discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
 
+1275.1.1 = { culture = pommeranian }
 1295.1.1 = {
 	owner = STE
 	controller = STE

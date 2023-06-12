@@ -40,6 +40,8 @@ discovered_by = ottoman
     owner = CHR
     controller = CHR
     add_core = CHR
+	remove_core = KIR
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

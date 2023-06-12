@@ -43,3 +43,5 @@ discovered_by = ottoman
 	owner = POL
 	controller = POL
 	add_core = POL
+	remove_core = KIR
+}

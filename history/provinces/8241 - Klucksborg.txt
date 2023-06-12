@@ -9,7 +9,7 @@ owner = OPL
 controller = OPL
 
 #Demographics
-culture = polish
+culture = schlesian
 religion = catholic
 
 #Development and Trade
@@ -52,7 +52,10 @@ discovered_by = muslim
 discovered_by = ottoman
 
 #History by docRobert
-
+1444.1.1 = {
+	remove_core = POL
+	add_core = KLU
+}
 1526.8.30 = { add_core = HAB } # Never really annexed to Habsburgs, remained their fief
 1536.1.1 = {
 	owner = LEG

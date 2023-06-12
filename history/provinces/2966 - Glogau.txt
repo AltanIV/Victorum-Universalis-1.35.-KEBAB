@@ -44,12 +44,14 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
 	owner = GLG
 	controller = GLG
 	remove_core = SIL
 	remove_core = POL
 	add_core = GLG
+	culture = silesian_german
+}
 #1419.12.1 = { revolt = { type = heretic_rebels size = 0 } controller = REB } # Hussite Wars, Battle of Nekmir
 #1436.7.5 = { revolt = {} controller = SIL } # Peace is signed in Jihlava
 1476.2.22 = { owner = SAG controller = SAG add_core = SAG add_core = BOH }

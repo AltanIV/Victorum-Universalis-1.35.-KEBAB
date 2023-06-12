@@ -44,3 +44,5 @@ discovered_by = nomad_group
 	owner = KIE
 	controller = KIE
 	add_core = KIE
+	remove_core = KIR
+}

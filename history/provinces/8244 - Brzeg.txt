@@ -4,7 +4,7 @@ capital = "Brzeg"
 is_city = yes
 owner = SIL
 controller = SIL
-culture = polish
+culture = schlesian
 religion = catholic
 #Development and Trade
 base_tax = 2
@@ -39,12 +39,13 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
 	owner = BEG
 	controller = BEG
 	remove_core = SIL
 	remove_core = POL
 	add_core = BEG
+}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

@@ -53,13 +53,15 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
+	culture = silesian_german
 	owner = TRO
 	controller = TRO
 	remove_core = SIL
 	remove_core = POL
 	add_core = TRO
 	add_core = MSTS
+}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

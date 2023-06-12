@@ -43,9 +43,11 @@ discovered_by = ottoman
 # History completed by docRobert
 
 1444.1.11 = {
-	owner = POL
-	controller = POL
-	add_core = POL
+	owner = MAZ
+	controller = MAZ
+	add_core = MAZ
+	remove_core = KIR
+}
 1462.7.1 = { owner = POL controller = POL add_core = POL remove_core = MAZ } # Belz incorporated into Poland
 1569.7.1 = {
 	owner = PLC

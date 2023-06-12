@@ -37,7 +37,10 @@ discovered_by = muslim
 discovered_by = ottoman
 
 #Histories
-1444.1.1 = 
+1444.1.1 = {
 	owner = BOH
 	controller = BOH
 	add_core = BOH
+	remove_core = SIL
+	culture = silesian_german
+}

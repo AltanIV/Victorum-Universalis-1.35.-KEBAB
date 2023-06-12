@@ -39,6 +39,8 @@ discovered_by = russian
 	owner = BRA
 	controller = BRA
 	add_core = BRA
+	remove_core = SOR
+}
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }
 1660.1.1 = {

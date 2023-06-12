@@ -39,6 +39,9 @@ discovered_by = ottoman
 	owner = POL
 	controller = POL
 	add_core = POL
+	remove_core = HUN
+	add_core = VOL
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

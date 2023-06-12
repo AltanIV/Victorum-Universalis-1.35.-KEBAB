@@ -45,3 +45,5 @@ discovered_by = russian
 	owner = LIT
 	controller = LIT
 	add_core = LIT
+	remove_core = KIR
+}

@@ -53,13 +53,15 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
+	culture = silesian_german
 	owner = GLG
 	controller = GLG
 	remove_core = SIL
 	remove_core = POL
 	add_core = GLG
 	add_core = KRO
+}
 1476.2.22 = {
 	owner = BRA
 	controller = BRA

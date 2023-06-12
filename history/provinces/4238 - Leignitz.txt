@@ -37,12 +37,14 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
 	owner = LEG
 	controller = LEG
 	remove_core = SIL
 	remove_core = POL
 	add_core = LEG
+	culture = silesian_german
+}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = GLG
 	controller = GLG

@@ -44,6 +44,8 @@ discovered_by = nomad_group
 	owner = LIT
 	controller = LIT
 	add_core = LIT
+	remove_core = KIR
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

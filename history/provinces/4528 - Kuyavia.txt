@@ -48,6 +48,7 @@ discovered_by = ottoman
 	controller = POL
 	add_core = POL
 	remove_core = MAZ
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

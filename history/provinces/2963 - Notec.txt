@@ -3,7 +3,7 @@
 
 owner = GPL
 controller = GPL
-capital = "Zlot�w" #JP suggests Naklo. Zlotow seems more important.
+capital = "Zlotów" #JP suggests Naklo. Zlotow seems more important.
 culture = polish
 religion = catholic
 trade_goods = livestock		#rich valley of Notec River, perfect for farming. There was gold mine is Zlot�w but it only existed in medieval era and would soon be depleted.
@@ -43,6 +43,7 @@ discovered_by = ottoman
 	owner = POL
 	controller = POL
 	add_core = POL
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

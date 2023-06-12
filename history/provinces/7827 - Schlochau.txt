@@ -36,10 +36,12 @@ discovered_by = swiss
 
 # History for VU completed by docRobert
 
-1444.1.11 = 
+1444.1.11 = {
     owner = TEU
 	controller = TEU
 	add_core = TEU
+	remove_core = POL
+}
 1454.6.1 = {
 	owner = DNZ
 	controller = DNZ

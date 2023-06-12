@@ -1,9 +1,9 @@
 #7815 - Anklam
 
-owner = POM
-controller = POM
-add_core = POM
-culture = pommeranian
+owner = DYM
+controller = DYM
+add_core = DYM
+culture = polabian_culture
 religion = catholic
 capital = "Treptow"				#or Spantekow. Also Anklam and Demmin are nearby and much more important, though both would cause issues with hsitorical borders. This little corner needs about 40 provinces to be perfectly accurate, so we compromise.
 base_tax = 2
@@ -33,6 +33,7 @@ discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
 
+1275.1.1 = { culture = pommeranian }
 1295.1.1 = {
 	owner = STE
 	controller = STE

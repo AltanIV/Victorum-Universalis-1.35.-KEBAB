@@ -1,3 +1,0 @@
-#3725 - Matrou
-
-discovered_by = east_african

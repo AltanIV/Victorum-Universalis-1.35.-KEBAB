@@ -1,10 +1,10 @@
 #Nachod
 
-owner = GLG
-controller = GLG
-add_core = GLG
+owner = SIL
+controller = SIL
 add_core = SIL
-culture = silesian_german
+add_core = POL
+culture = polish
 religion = catholic
 capital = "Zielona G�ra"
 trade_goods = silver
@@ -44,6 +44,15 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = GLG
+	controller = GLG
+	remove_core = SIL
+	remove_core = POL
+	add_core = GLG
+	culture = silesian_german
+}
+	
 1476.2.22 = {
 	owner = BRA
 	controller = BRA

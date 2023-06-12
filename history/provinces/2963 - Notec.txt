@@ -1,9 +1,9 @@
 #Repurposed from Bydgoszcz and Kujawe into Zlotow and Krajna for 1.27, as 1.27 added a bunch and moved everything around.
 #3218 - Krajna
 
-owner = POL
-controller = POL
-capital = "Zlot�w" #JP suggests Naklo. Zlotow seems more important.
+owner = GPL
+controller = GPL
+capital = "Zlotów" #JP suggests Naklo. Zlotow seems more important.
 culture = polish
 religion = catholic
 trade_goods = livestock		#rich valley of Notec River, perfect for farming. There was gold mine is Zlot�w but it only existed in medieval era and would soon be depleted.
@@ -12,6 +12,7 @@ base_tax = 2
 base_production = 1 
 base_manpower = 1 
 is_city = yes
+add_core = GPL
 add_core = POL
 
 
@@ -38,6 +39,11 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

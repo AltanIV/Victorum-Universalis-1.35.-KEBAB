@@ -1,8 +1,8 @@
 #7825 - Lauenburg in Pommern
 
-owner = POM
-controller = POM
-add_core = POM
+owner = POL
+controller = POL
+add_core = POL
 culture = kashubian_culture # at 1444 was major population of the town
 religion = catholic
 capital = "Lauenburg"
@@ -39,6 +39,7 @@ discovered_by = swiss
 	owner = STP
 	controller = STP
 	add_core = STP
+	remove_core = POL
 }	#Barnim II of Pomerania dies, killed by the husband of a woman he seduced. Pomerania fractures.
 1329.1.1 = {
 	owner = TEU

@@ -42,7 +42,6 @@ discovered_by = swiss
 	owner = TEU
 	controller = TEU
 	add_core = TEU
-	remove_core = DNZ
 	unrest = 0
 } # 2nd Peace of Thorn, Granted to Poland
 1525.4.10 = {

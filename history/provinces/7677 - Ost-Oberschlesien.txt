@@ -4,9 +4,10 @@
 #	coal
 #}
 
-owner = RAC		# Silesian duchy under Bohemian rule, giving temporarily to Rattibor to avoid creating new vassals
-controller = RAC
-add_core = RAC
+owner = OPL		# Silesian duchy under Bohemian rule, giving temporarily to Rattibor to avoid creating new vassals
+controller = OPL
+add_core = OPL
+add_core = POL
 culture = schlesian
 religion = catholic
 hre = yes
@@ -39,6 +40,13 @@ discovered_by = polish
 discovered_by = russian
 
 # History completed by docRobert
+1444.1.1 = {
+	owner = RAC
+	controller = RAC
+	remove_core = OPL
+	remove_core = POL
+	add_core = RAC
+}
 1521.6.1 = {
 	owner = OPL
 	controller = OPL

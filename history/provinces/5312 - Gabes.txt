@@ -1,4 +1,4 @@
-#New Victorum Universalis Province
+#5312 - Gabes
 
 owner = TUN
 controller = TUN
@@ -13,6 +13,13 @@ base_production = 3
 base_manpower = 1 
 is_city = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
@@ -33,6 +40,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN } # Tunisian territorial lands - By San Felipe
 
 1491.1.1 = {
 	base_tax = 4

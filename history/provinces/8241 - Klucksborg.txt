@@ -20,7 +20,7 @@ trade_goods = salt
 
 #Cores and Occupation (Alphabetical after current)
 add_core = OPL
-add_core = POL
+add_core = KLU
 
 #Other Political
 hre = yes
@@ -52,10 +52,7 @@ discovered_by = muslim
 discovered_by = ottoman
 
 #History by docRobert
-1444.1.1 = {
-	remove_core = POL
-	add_core = KLU
-}
+
 1526.8.30 = { add_core = HAB } # Never really annexed to Habsburgs, remained their fief
 1536.1.1 = {
 	owner = LEG

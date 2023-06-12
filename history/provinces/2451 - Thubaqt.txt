@@ -1,7 +1,9 @@
-# - Thubaqt
+#2451 - Thubaqt
 
+#Default
 owner = TUN
 controller = TUN
+add_core = TUN
 culture = tripolitanian
 religion = sunni
 capital = "Thubaqt"
@@ -11,9 +13,15 @@ base_tax = 3
 base_production = 3
 base_manpower = 2 
 is_city = yes
-add_core = TUN
-add_core = TRP
 
+#Claimants
+add_core = BSM
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -33,6 +41,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = BSM controller = BSM add_core = BSM } # Banu Sulaym territorial lands - By San Felipe
+
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN } # Tunisian territorial lands - By San Felipe
 
 1534.1.1 = {
 	owner = BSM

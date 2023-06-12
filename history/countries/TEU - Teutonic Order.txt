@@ -7,6 +7,7 @@ add_accepted_culture = kashubian_culture
 religion = catholic
 #technology_group = western
 technology_group = german_group
+unit_type = western
 historical_friend = LIV
 historical_rival = POL
 capital = 1841	# Marienburg

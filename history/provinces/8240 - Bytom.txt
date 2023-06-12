@@ -5,11 +5,11 @@
 #Core Details
 capital = "Bytom"
 is_city = yes
-owner = OPL
-controller = OPL
+owner = TES
+controller = TES
 
 #Demographics
-culture = polish
+culture = schlesian
 religion = catholic
 
 #Development and Trade
@@ -20,8 +20,9 @@ trade_goods = lead	# Rich in lead+zinc ore
 #latent_trade_goods = { coal } # Lead+zinc mines prioritized to this day, scarse coal deposits
 
 #Cores and Occupation (Alphabetical after current)
-add_core = OPL
-add_core = POL
+add_core = TES
+add_core = BET
+add_core = OLE
 
 #Other Political
 hre = yes
@@ -54,13 +55,6 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = 
-	owner = TES
-	controller = TES
-	add_core = OPL
-	add_core = TES
-	add_core = BET
-	add_core = OLE
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

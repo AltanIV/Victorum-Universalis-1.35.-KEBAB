@@ -1,8 +1,8 @@
 #7842 - Greifswald
 
-owner = RUG
-controller = RUG
-add_core = RUG
+owner = POM
+controller = POM
+add_core = POM
 culture = polabian_culture	#last remnants of slavic culture, slavs were still present in scaresly-populated forests
 religion = catholic
 hre = yes

@@ -1,9 +1,9 @@
 #7818 - KamminPomerania
 
-owner = DYM
-controller = DYM
-add_core = DYM
-culture = kashubian_culture
+owner = POM
+controller = POM
+add_core = POM
+culture = pommeranian
 religion = catholic
 capital = "Kammin"
 base_tax = 3 

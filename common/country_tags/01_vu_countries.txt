@@ -851,6 +851,13 @@ RAP = "countries/Rapanui.txt"
 #China
 SNG = "countries/Song.txt"
 
+#Eastern Europe
+DYM = "countries/Dymin.txt"
+GPL = "countries/Greaterpoland.txt"
+KIR = "countries/Kievan RUS.txt"
+KPL = "countries/Kalisz.txt"
+SLP = "countries/Slawno.txt"
+
 #France
 ALL = "countries/Albi.txt"
 BLS = "countries/Blois.txt"

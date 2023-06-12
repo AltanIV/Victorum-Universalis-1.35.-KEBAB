@@ -1,8 +1,8 @@
 #7263 - BialaPodlaskie
 
-owner = KIR
-controller = KIR
-add_core = KIR
+owner = LIT
+controller = LIT
+add_core = LIT
 culture = ruthenian
 religion = orthodox
 capital = "Biala"
@@ -37,10 +37,6 @@ discovered_by = ottoman
 
 # History for VU completed by docRobert
 
-1444.1.11 = {
-	owner = LIT
-	controller = LIT
-	add_core = LIT
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

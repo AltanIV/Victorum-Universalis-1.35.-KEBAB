@@ -1,9 +1,9 @@
 #4746 - Stargard
 
-owner = DYM
-controller = DYM 
-add_core = DYM
-culture = kashubian_culture
+owner = POM
+controller = POM
+add_core = POM
+culture = pommeranian
 religion = catholic
 capital = "Stargard"
 base_tax = 3 

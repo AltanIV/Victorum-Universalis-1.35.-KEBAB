@@ -1,7 +1,9 @@
 #8740 - Kibili
 
+#Default
 owner = TUN
-controller = TUN 
+controller = TUN
+add_core = TUN
 culture = libyan_berber_culture
 religion = sunni
 capital = "Kibili"
@@ -11,9 +13,15 @@ base_tax = 2
 base_production = 2
 base_manpower = 1 
 is_city = yes
-add_core = TUN
+
+#Claimants
 add_core = GHD
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -34,6 +42,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = GHD controller = GHD add_core = GHD } # Djerid territorial lands - By San Felipe
+
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN } # Tunisian territorial lands - By San Felipe
 
 1534.8.16 = {
 	owner = TUR

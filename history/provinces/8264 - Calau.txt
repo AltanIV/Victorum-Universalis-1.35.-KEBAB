@@ -5,8 +5,8 @@
 #Core Details
 capital = "Calau"
 is_city = yes
-owner = SOR
-controller = SOR
+owner = BOH
+controller = BOH
 
 #Demographics
 culture = sorbian
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
+add_core = BOH
 add_core = SOR
 
 #Other Political
@@ -50,8 +51,3 @@ discovered_by = polish
 discovered_by = russian
 
 #Histories
-1444.1.1 = {
-	owner = BOH
-	controller = BOH
-	add_core = BOH
-}

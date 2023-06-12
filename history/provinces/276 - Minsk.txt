@@ -1,8 +1,7 @@
 #276 - Minsk
 
-owner = KIR
-controller = KIR
-add_core = KIR
+owner = LIT
+controller = LIT  
 culture = byelorussian
 religion = orthodox
 hre = no
@@ -13,6 +12,7 @@ base_manpower = 1
 add_local_autonomy = 25
 capital = "Minsk"
 is_city = yes
+add_core = LIT
 fort_15th = yes
 center_of_trade = 1
 extra_cost = 8
@@ -39,12 +39,6 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
-1444.1.11 = {
-	owner = LIT
-	controller = LIT
-	add_core = LIT
-	remove_core = KIR
-}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

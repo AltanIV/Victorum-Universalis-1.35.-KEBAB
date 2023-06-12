@@ -5,8 +5,8 @@
 #Core Details
 capital = "Cieszyn"
 is_city = yes
-owner = OPL
-controller = OPL
+owner = TES
+controller = TES
 
 #Demographics
 culture = schlesian
@@ -19,8 +19,7 @@ base_manpower = 2
 trade_goods = glass
 
 #Cores and Occupation (Alphabetical after current)
-add_core = OPL
-add_core = POL
+add_core = TES
 
 #Other Political
 hre = yes
@@ -53,13 +52,6 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = {
-	owner = TES
-	controller = TES
-	remove_core = OPL
-	remove_core = POL
-	add_core = TES
-}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

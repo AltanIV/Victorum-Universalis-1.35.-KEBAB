@@ -1,10 +1,9 @@
 #7819 - Arnswalde
 
-owner = GPL
-controller = GPL
-add_core = GPL
-add_core = POL
-culture = polish
+owner = TEU
+controller = TEU
+add_core = TEU
+culture = pommeranian
 religion = catholic
 capital = "Driesen"		# Castle in Driesen was much more important in early history of the region than Arnswalde
 base_tax = 2 
@@ -36,10 +35,6 @@ discovered_by = swiss
 
 # History for VU completed by docRobert
 
-1444.1.1 = {
-	owner = TEU
-	controller = TEU
-	add_core = TEU
 1454.2.22 = {
 	owner = BRA
 	controller = BRA

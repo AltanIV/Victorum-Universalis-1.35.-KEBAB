@@ -9,7 +9,7 @@ owner = OPL
 controller = OPL
 
 #Demographics
-culture = polish
+culture = schlesian
 religion = catholic
 
 #Development and Trade
@@ -53,11 +53,13 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
 	owner = TES
 	controller = TES
 	remove_core = OPL
+	remove_core = POL
 	add_core = TES
+}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

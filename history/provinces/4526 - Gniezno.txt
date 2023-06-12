@@ -48,6 +48,7 @@ discovered_by = ottoman
 	owner = POL
 	controller = POL
 	add_core = POL
+}
 1569.7.1 = {
 	add_core = LIT	# Union of Lublin, west to Poland & south to Lithuania
 	owner = PLC

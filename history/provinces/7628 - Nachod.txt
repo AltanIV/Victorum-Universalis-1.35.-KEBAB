@@ -44,12 +44,14 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
 	owner = GLG
 	controller = GLG
 	remove_core = SIL
 	remove_core = POL
 	add_core = GLG
+	culture = silesian_german
+}
 	
 1476.2.22 = {
 	owner = BRA

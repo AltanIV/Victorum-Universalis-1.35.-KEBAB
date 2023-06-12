@@ -41,12 +41,14 @@ discovered_by = russian
 
 # History completed by docRobert
 
-1444.1.1 = 
-	owner = RAT
-	controller = RAT
+1444.1.1 = {
+	owner = RAC
+	controller = RAC
 	remove_core = OPL
 	remove_core = POL
-	add_core = RAT
+	add_core = RAC
+	culture = silesian_german
+}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

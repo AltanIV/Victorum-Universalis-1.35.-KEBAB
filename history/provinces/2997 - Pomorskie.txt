@@ -42,6 +42,7 @@ discovered_by = russian
 	controller = TEU
 	add_core = TEU
 	remove_core = POL
+}
 1454.2.10 = {
 	add_core = POL
 	revolt = {

@@ -35,10 +35,7 @@ discovered_by = russian
 
 
 1402.1.1 = { owner = TEU controller = TEU add_core = TEU }
-1444.1.11 = 
-    owner = BRA
-	controller = BRA
-	add_core = BRA
+1444.1.11 = { remove_core = GLP }
 1454.2.22 = {
 	owner = BRA
 	controller = BRA

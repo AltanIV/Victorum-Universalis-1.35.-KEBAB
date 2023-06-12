@@ -54,6 +54,8 @@ discovered_by = nomad_group
 	owner = ZAZ
 	controller = ZAZ
 	add_core = ZAZ
+	remove_core = KIR
+}
 1555.1.1 = { owner = ZAZ controller = ZAZ add_core = ZAZ remove_core = LIT culture = ruthenian religion = orthodox } # Fortified military camp, independent state
 1657.1.1 = {
 	owner = RUS

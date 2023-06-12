@@ -2,7 +2,7 @@
 
 owner = OPL
 controller = OPL
-culture = polish
+culture = schlesian
 religion = catholic
 hre = yes
 base_tax = 3
@@ -37,6 +37,7 @@ discovered_by = russian
 
 # History completed by docRobert
 
+1343.1.1 = { remove_core = POL }
 1523.1.1 = { religion = protestant }
 1526.8.30 = {
 	add_core = HAB

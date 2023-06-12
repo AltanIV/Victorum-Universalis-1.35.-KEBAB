@@ -51,8 +51,9 @@ discovered_by = polish
 discovered_by = russian
 
 #Histories
-1444.1.1 = 
+1444.1.1 = {
 	owner = BOH
 	controller = BOH
 	add_core = BOH
 	remove_core = MEI
+}

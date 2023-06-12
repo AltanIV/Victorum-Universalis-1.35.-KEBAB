@@ -47,6 +47,8 @@ extra_cost = 15
 	owner = POL
 	controller = POL
 	add_core = POL
+	remove_core = HUN
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

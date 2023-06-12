@@ -44,6 +44,8 @@ discovered_by = ottoman
 	owner = LIT
 	controller = LIT
 	add_core = LIT
+	remove_core = KIR
+}
 1563.2.15 = { controller = RUS } # Captured by Ivan the Terrible, during the Livonian war
 1569.7.1 = {
 	owner = PLC

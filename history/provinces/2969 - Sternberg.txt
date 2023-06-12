@@ -38,12 +38,14 @@ discovered_by = russian
 
 #History completed by docRobert
 
-1444.1.1 = 
+1444.1.1 = {
 	owner = BRA
 	controller = BRA
 	remove_core = SIL
 	remove_core = POL
 	add_core = BRA
+	culture = saxon
+}
 1535.7.11 = {
 	owner = TEU		# TEMPORARY TAG, should be Neumark in the future
 	controller = TEU

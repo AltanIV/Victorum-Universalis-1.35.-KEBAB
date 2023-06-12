@@ -54,6 +54,8 @@ extra_cost = 16
 	owner = KIE
 	controller = KIE
 	add_core = KIE
+	remove_core = KIR
+}
 1471.1.1 = {
 	owner = LIT
 	controller = LIT 

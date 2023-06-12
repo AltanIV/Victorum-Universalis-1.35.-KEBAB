@@ -35,12 +35,14 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-1444.1.11 = 
+1444.1.11 = {
+	culture = saxon
 	owner = BRA
 	controller = BRA
 	remove_core = SIL
 	remove_core = POL
 	add_core = BRA
+}
 1539.1.1 = { religion = protestant }
 1594.1.1 = { fort_15th = no fort_16th = yes }
 1650.1.1 = { culture = prussian }

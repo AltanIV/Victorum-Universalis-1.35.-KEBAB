@@ -40,6 +40,9 @@ discovered_by = swiss
 	owner = TEU
 	controller = TEU
 	add_core = TEU
+	remove_core = POL
+	culture = pommeranian
+}
 1454.2.22 = {
 	owner = BRA
 	controller = BRA

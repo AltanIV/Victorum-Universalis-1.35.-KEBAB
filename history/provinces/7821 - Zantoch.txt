@@ -47,6 +47,8 @@ discovered_by = swiss
 	owner = POL
 	controller = POL
 	add_core = POL
+	hre = no
+}
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

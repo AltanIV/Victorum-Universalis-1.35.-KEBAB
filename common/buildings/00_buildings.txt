@@ -6618,6 +6618,7 @@ farm_estate = {
 			trade_goods = potato
 			trade_goods = rice
 			trade_goods = tomato
+			vegetables #Makes sense to have vegetables in a farm doesn't it ?
 			trade_goods = vodka
 			trade_goods = wine
 			trade_goods = whiskey

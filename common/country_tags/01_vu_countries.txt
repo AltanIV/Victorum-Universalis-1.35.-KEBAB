@@ -242,6 +242,7 @@ WLD = "countries/Waldeck.txt"
 WRT = "countries/Wertheim.txt"
 ZGM = "countries/Ziegenhain.txt"
 ZWE = "countries/Zweibrucken.txt"
+WDS = "countries/Waldsassen.txt"
 
 #NEW VU additions by San Felipe
 NGC = "countries/North_German_Confederation.txt"
@@ -848,6 +849,9 @@ RAP = "countries/Rapanui.txt"
 #XXX = "countries/xxxx.txt"
 
 #VU New Magna Carta Start Date
+#Anatolia
+CHB = "countries/Chobanids.txt"
+
 #China
 SNG = "countries/Song.txt"
 

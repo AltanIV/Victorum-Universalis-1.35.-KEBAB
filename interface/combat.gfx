@@ -1021,7 +1021,7 @@ spriteTypes = {
         texturefile = "gfx/interface/lisboa.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_sintra_palace"
+        name = "GFX_combat_terrain_urban_sintra"
         texturefile = "gfx/interface/sintra_palace.dds"
     }
     spriteType = {                                                        

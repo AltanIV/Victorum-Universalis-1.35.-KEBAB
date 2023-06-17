@@ -324,6 +324,7 @@ on_startup = {
 			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
 			while = {
                 limit = {
+				    is_year = 1444.11.11
                     NOT = {
                         check_variable = { which = num_of_infantry value = 28 }
                     }
@@ -333,6 +334,7 @@ on_startup = {
             }
             while = {
                 limit = {
+				    is_year = 1444.11.11
                     check_variable = { which = num_of_infantry value = 29 }
                 }
                 random_owned_province = {
@@ -666,6 +668,7 @@ on_startup = {
 			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
             while = {
                 limit = {
+				    is_year = 1444.11.11
                     NOT = {
                         check_variable = { which = num_of_infantry value = 56 }
                     }
@@ -675,6 +678,7 @@ on_startup = {
             }
             while = {
                 limit = {
+				    is_year = 1444.11.11
                     check_variable = { which = num_of_infantry value = 57 }
                 }
                 random_owned_province = {
@@ -750,6 +754,7 @@ on_startup = {
 			export_to_variable = { which = num_of_galley value = trigger_value:num_of_galley }
             while = {
                 limit = {
+				    is_year = 1444.11.11
                     NOT = {
                         check_variable = { which = num_of_galley value = 16 }
                     }
@@ -1882,22 +1887,22 @@ on_new_monarch = {
 			has_reform = elective_monarchy
 			OR = {
 				technology_group = western
-				technology_group = english
-				technology_group = french
-				technology_group = dutch
-				technology_group = german_group
-				technology_group = italian
-				technology_group = portuguese
-				technology_group = roman
-				technology_group = scandinavian
-				technology_group = spanish
-				technology_group = swiss
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = english_tech_group
+				technology_group = french_tech_group
+				technology_group = dutch_tech_group
+				technology_group = german_tech_group
+				technology_group = italian_tech_group
+				technology_group = portuguese_tech_group
+				technology_group = roman_tech_group
+				technology_group = scandinavian_tech_group
+				technology_group = spanish_tech_group
+				technology_group = swiss_tech_group
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian 
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group 
 			}
 		}
 		country_event = { id = vu_plc.7 }		# Estates influence in elected monarch
@@ -1907,22 +1912,22 @@ on_new_monarch = {
 			has_reform = elective_monarchy
 			OR = {
 				technology_group = western
-				technology_group = english
-				technology_group = french
-				technology_group = dutch
-				technology_group = german_group
-				technology_group = italian
-				technology_group = portuguese
-				technology_group = roman
-				technology_group = scandinavian
-				technology_group = spanish
-				technology_group = swiss
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = english_tech_group
+				technology_group = french_tech_group
+				technology_group = dutch_tech_group
+				technology_group = german_tech_group
+				technology_group = italian_tech_group
+				technology_group = portuguese_tech_group
+				technology_group = roman_tech_group
+				technology_group = scandinavian_tech_group
+				technology_group = spanish_tech_group
+				technology_group = swiss_tech_group
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian 
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group 
 			}
 			OR = {
 				ruler_is_foreigner = yes

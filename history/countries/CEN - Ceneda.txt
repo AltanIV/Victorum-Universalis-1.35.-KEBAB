@@ -1,7 +1,8 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 1
-technology_group = western
+technology_group = italian_tech_group
+unit_type = western
 primary_culture = friulian_culture
 religion = catholic
 capital = 7087

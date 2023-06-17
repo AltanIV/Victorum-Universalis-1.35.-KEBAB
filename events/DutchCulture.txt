@@ -30,6 +30,7 @@ mean_time_to_happen = {
 		name = "dutch_culture.1.a"
 		set_global_flag = dutchculture
 		hidden_effect = {
+		custom_tooltip = dutch_cultural_awakening
 		every_province = { 
 			limit = { culture = ger_dutch }
 			change_culture = dutch 
@@ -74,45 +75,54 @@ mean_time_to_happen = {
 		every_country = {
 			limit = { primary_culture = ger_dutch }
 			change_primary_culture = dutch 
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_brabantian  }
 			change_primary_culture = brabantian  
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_dutch_saxon   }
 			change_primary_culture = dutch_saxon   
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_zeelandic    }
 			change_primary_culture = zeelandic   
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_limburgish     }
 			change_primary_culture = limburgish    
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_guelders      }
-			change_primary_culture = guelders     
+			change_primary_culture = guelders  
+			change_technology_group = dutch_tech_group   
 			}
 		every_country = { 
 			limit = { primary_culture = ger_flemish       }
-			change_primary_culture = flemish      
+			change_primary_culture = flemish     
+			change_technology_group = dutch_tech_group 
 			}
 		every_country = { 
 			limit = { primary_culture = ger_frisian        }
-			change_primary_culture = frisian       
+			change_primary_culture = frisian   
+			change_technology_group = dutch_tech_group    
 			}
 		every_country = { 
 			limit = { primary_culture = ger_east_frisian         }
-			change_primary_culture = east_frisian        
+			change_primary_culture = east_frisian 
+			change_technology_group = dutch_tech_group       
 			}
 		every_country = { 
 			limit = { primary_culture = ger_north_frisian          }
-			change_primary_culture = north_frisian         
+			change_primary_culture = north_frisian    
+			change_technology_group = dutch_tech_group     
 			}
 		}
-		custom_tooltip = dutch_cultural_awakening
 	}
 }
 
@@ -130,6 +140,7 @@ country_event = {
 	option = {
 		name = "dutch_culture.2.a"
 		hidden_effect = {
+		custom_tooltip = dutch_cultural_awakening
 		set_global_flag = dutchculture
 		every_province = { 
 			limit = { culture = ger_dutch }
@@ -175,44 +186,53 @@ country_event = {
 		every_country = {
 			limit = { primary_culture = ger_dutch }
 			change_primary_culture = dutch 
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_brabantian  }
 			change_primary_culture = brabantian  
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_dutch_saxon   }
-			change_primary_culture = dutch_saxon   
+			change_primary_culture = dutch_saxon  
+			change_technology_group = dutch_tech_group 
 			}
 		every_country = { 
 			limit = { primary_culture = ger_zeelandic    }
 			change_primary_culture = zeelandic   
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_limburgish     }
 			change_primary_culture = limburgish    
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_guelders      }
 			change_primary_culture = guelders     
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_flemish       }
 			change_primary_culture = flemish      
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_frisian        }
 			change_primary_culture = frisian       
+			change_technology_group = dutch_tech_group
 			}
 		every_country = { 
 			limit = { primary_culture = ger_east_frisian         }
-			change_primary_culture = east_frisian        
+			change_primary_culture = east_frisian    
+			change_technology_group = dutch_tech_group    
 			}
 		every_country = { 
 			limit = { primary_culture = ger_north_frisian          }
-			change_primary_culture = north_frisian         
+			change_primary_culture = north_frisian  
+			change_technology_group = dutch_tech_group       
 			}
 		}
-		custom_tooltip = dutch_cultural_awakening
 	}
 }

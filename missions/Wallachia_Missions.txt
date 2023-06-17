@@ -995,7 +995,7 @@ wallachia_missions_3_turk_cuck = {
 		trigger = {
 			is_in_war = {
 				attacker_leader = ROOT
-   		 		casus_belli = cb_independence_war 
+   		 		defender_leader = TUR 
 			}
 		}
 		effect = {

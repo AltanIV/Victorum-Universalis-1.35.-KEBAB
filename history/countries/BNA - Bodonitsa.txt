@@ -1,10 +1,11 @@
 government = monarchy
 add_government_reform = marquisiate_reform
-government_rank = 1
-technology_group = eastern
-primary_culture = greek
+government_rank = 3
+technology_group = french_tech_group
+unit_type = western
+primary_culture = cosmopolitan_french
 religion = catholic
-capital = 7111
+capital = 3699
 
 1204.1.1 = {
 	monarch = {

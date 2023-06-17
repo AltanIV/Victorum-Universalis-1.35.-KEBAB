@@ -4,7 +4,8 @@ government_rank = 1
 primary_culture = swabian
 add_accepted_culture = franconian
 religion = catholic
-technology_group = western
+technology_group = german_tech_group
+unit_type = western
 capital = 7567 #Hohenberg
 
 1431.1.1 = {

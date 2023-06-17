@@ -24,7 +24,7 @@ groups = {
 			value = 75
 		}
 	}
-	english = {
+	english_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -41,7 +41,7 @@ groups = {
 			value = 75
 		}
 	}
-	french = {
+	french_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -58,7 +58,7 @@ groups = {
 			value = 75
 		}
 	}
-	german_group = {
+	german_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -75,7 +75,7 @@ groups = {
 			value = 75
 		}
 	}
-	italian = {
+	italian_tech_group = {
 	   start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -92,7 +92,7 @@ groups = {
 			value = 75
 		}
 	}
-	russian = {
+	russian_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -109,7 +109,7 @@ groups = {
 			value = 75
 		}
 	}
-    scandinavian = {
+    scandinavian_tech_group = {
 	   start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -126,7 +126,7 @@ groups = {
 			value = 75
 		}
 	}
-	spanish = {
+	spanish_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -365,7 +365,7 @@ groups = {
 			value = 50
 		}
 	}
-	rapanuan = {
+	rapanuan_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		is_primitive = yes
@@ -391,7 +391,7 @@ groups = {
 			value = 50
 		}
 	}
-	papuan = {
+	papuan_tech_group = {
 		start_level = 2
 		start_cost_modifier = 2.25
 		is_primitive = yes
@@ -399,7 +399,7 @@ groups = {
 			value = 50
 		}
 	}
-	dutch = {
+	dutch_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -416,7 +416,7 @@ groups = {
 			value = 75
 		}
 	}
-	portuguese = {
+	portuguese_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -433,7 +433,7 @@ groups = {
 			value = 75
 		}
 	}
-	byzantine = {
+	byzantine_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -450,7 +450,7 @@ groups = {
 			value = 75
 		}
 	}
-	hungarian = {
+	hungarian_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -467,7 +467,7 @@ groups = {
 			value = 75
 		}
 	}
-	polish = {
+	polish_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -484,7 +484,7 @@ groups = {
 			value = 75
 		}
 	}
-	swiss = {
+	swiss_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -501,7 +501,7 @@ groups = {
 			value = 75
 		}
 	}
-	bohemian = {
+	bohemian_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -518,7 +518,7 @@ groups = {
 			value = 75
 		}
 	}
-	roman = {
+	roman_tech_group = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {

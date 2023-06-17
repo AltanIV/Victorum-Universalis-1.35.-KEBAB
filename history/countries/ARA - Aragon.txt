@@ -4,7 +4,8 @@ primary_culture = aragonese
 add_accepted_culture = catalan
 add_accepted_culture = sicilian
 religion = catholic
-technology_group = western
+technology_group = spanish_tech_group
+unit_type = western
 capital = 220 # Valencia
 add_army_professionalism = 0.05
 

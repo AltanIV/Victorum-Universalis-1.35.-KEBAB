@@ -1,5 +1,8 @@
 #So there are two ways of connecting this. First is to use coordinates ;start_x;start_y;stop_x;stop_y; which can be gathered by opening bmp map and then refering to how Rob has explained it in the server map room or to do it the automatic way by simply entering -1;-1;-1;-1; which will automatically connect two provinces. 
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+43;1841;sea;7310;-1;-1;-1;-1;Danzig-Marienburg
+7257;7196;sea;3016;-1;-1;-1;-1;Dnipro-Ekaterinoslav
+2957;8778;sea;8355;-1;-1;-1;-1;Regensburg-Kelheim
 7766;12;sea;1258;-1;-1;-1;-1;Skåne-Sjaelland
 7768;14;sea;5494;-1;-1;-1;-1;Sjaelland-Fyn
 14;4142;sea;5494;-1;-1;-1;-1;Fyn-Aarhus
@@ -88,7 +91,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 85;84;sea;8357;-1;-1;-1;-1;Koln - Berg
 6933;6934;sea;1559;-1;-1;-1;-1;Kiis Gwaay - Gwaay Haanas
 7769;7608;sea;5494;-1;-1;-1;-1;Randers-Samso
-43;1841;sea;7310;-1;-1;-1;-1;Danzig - Marienburg
 1984;7607;sea;5499;-1;-1;-1;-1;Aalborg - Hjorring
 113;7076;sea;7309;-1;-1;-1;-1;Ferrara - Chioggia
 8454;3040;sea;1298;-1;-1;-1;-1;Elba - Piombino
@@ -150,7 +152,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3195;5375;sea;1319;-1;-1;-1;-1;Lemnos-Imbros
 5375;5377;sea;1319;-1;-1;-1;-1;Imbros-Samothraki
 5364;7127;sea;1319;-1;-1;-1;-1;Thasos-Kavala
-5379;7117;sea;1319;-1;-1;-1;-1;Skiathos-Quluz
+5379;3711;sea;1319;-1;-1;-1;-1;Skiathos-Trikerion
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
 8419;8416;sea;1340;-1;-1;-1;-1;Ramanathapuram-Jaffna
 2803;502;sea;1522;-1;-1;-1;-1;Orinoco Delta-Trinidad
@@ -260,11 +262,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 142;7132;sea;1311;-1;-1;-1;-1;Corfu-Thesprotia
 2296;4779;sea;6360;-1;-1;-1;-1;Biga-Gallipoli
 7110;7113;sea;1319;-1;-1;-1;-1;Oreoi-ZetounionBodonitsa
-7110;7117;sea;1319;-1;-1;-1;-1;Oreoi-Demetrias
+7110;3711;sea;1319;-1;-1;-1;-1;Oreoi-Trikerion
 146;5294;sea;5493;-1;-1;-1;-1;Athens-Kithnos
 7163;5308;sea;1312;-1;-1;-1;-1;Monemvasia-Kithira
 7109;5568;sea;5493;-1;-1;-1;-1;Karystos-Andros
-5568;164;sea;5493;-1;-1;-1;-1;Andros-Naxos
+5568;3703;sea;5493;-1;-1;-1;-1;Andros-Tinos
+3703;164;sea;5493;-1;-1;-1;-1;Tinos-Naxos
 5294;5569;sea;5493;-1;-1;-1;-1;Kithnos-Milos
 5569;164;sea;5493;-1;-1;-1;-1;Milos-Naxos
 5566;164;sea;5493;-1;-1;-1;-1;Thera-Naxos
@@ -277,7 +280,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5642;7851;sea;1260;-1;-1;-1;-1;Gdov-Ugandi
 7730;7731;sea;8353;-1;-1;-1;-1;Makarska-Brac
 136;7731;sea;8353;-1;-1;-1;-1;Spalato-Brac
-137;7731;sea;8353;-1;-1;-1;-1;Ragusa-Brac
 7734;7735;sea;8353;-1;-1;-1;-1;Senj-Krk
 130;7735;sea;8353;-1;-1;-1;-1;Istria-Krk
 54;4141;sea;1268;-1;-1;-1;-1;Stade-Dithmarschen

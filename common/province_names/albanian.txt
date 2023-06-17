@@ -16,3 +16,5 @@
 4701 = "Korinti"
 4754 = "Kotorri"
 4780 = "Ohër"
+5094 = { "Kukës" "Kolgecaj" }
+7144 = { "Malësia" "Peshkopi" }

@@ -11113,6 +11113,11 @@ brandenburg_gate = {
         country_modifiers = {
 		    burghers_loyalty_modifier = 0.1
 		    diplomatic_upkeep = 1
+			monthly_militarized_society = 0.01
+			monthly_prussian_militarized_society_1 = 0.01
+			monthly_prussian_militarized_society_2 = 0.02
+			monthly_prussian_militarized_society_3 = 0.03
+			prestige_from_land = 0.5	
 		}
 
         on_upgraded = {
@@ -11140,6 +11145,12 @@ brandenburg_gate = {
 		    burghers_loyalty_modifier = 0.1
  		    merchants = 1
 		    diplomatic_upkeep = 1
+			monthly_militarized_society = 0.02	
+			prestige_from_land = 1
+			army_tradition_from_battle = 0.25
+			monthly_prussian_militarized_society_1 = 0.04
+			monthly_prussian_militarized_society_2 = 0.05
+			monthly_prussian_militarized_society_3 = 0.06
 		}
 
         on_upgraded = {
@@ -11169,6 +11180,19 @@ brandenburg_gate = {
 			burghers_loyalty_modifier = 0.2
 			diplomatic_reputation = 1
 		    global_trade_power = 0.2
+			monthly_militarized_society = 0.05
+			prestige_from_land = 1.5
+			army_tradition_from_battle = 0.5
+			monthly_prussian_militarized_society_1 = 0.07
+			monthly_prussian_militarized_society_2 = 0.08
+			monthly_prussian_militarized_society_3 = 0.09
+		}
+		conditional_modifier = {
+			trigger = { owner = { mission_completed = emp_brapru_the_balance_of_power } }
+			modifier = {
+				max_absolutism_effect = 0.1
+				manpower_in_culture_group_provinces = 0.1 
+			}
 		}
 
         on_upgraded = {
@@ -14066,9 +14090,33 @@ malbork_castle = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+		    culture_group = germanic
+		    OR = {
+		    	has_owner_culture = yes
+		    	has_owner_accepted_culture = yes
+		    }
+		    culture_group = west_slavic 
+		    OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+		    culture_group = germanic
+		    OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+		    culture_group = west_slavic 
+		    OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+			}
+		}
 	}
 
 	keep_trigger = {

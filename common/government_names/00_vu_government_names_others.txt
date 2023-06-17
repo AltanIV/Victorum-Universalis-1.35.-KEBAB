@@ -103,6 +103,43 @@ principality_of_orange = {
     }
 }
 
+principality_of_achaea = {
+    rank = {
+        1 = PRINCIPALITY_ACHAEA
+        2 = PRINCIPALITY_ACHAEA
+        3 = PRINCIPALITY_GRAND_ACHAEA
+    }
+
+    ruler_male = {
+        1 = PRINCIPALITY_PRINCE_ACHAEA
+        2 = PRINCIPALITY_PRINCE_ACHAEA
+        3 = PRINCIPALITY_GRAND_PRINCE_ACHAEA
+    }
+
+    ruler_female = {
+        1 = PRINCIPALITY_PRINCESS_ACHAEA_fem
+        2 = PRINCIPALITY_PRINCESS_ACHAEA_fem
+        3 = PRINCIPALITY_GRAND_PRINCESS_ACHAEA_fem
+    }
+
+    consort_male = {
+		1 = PRINCIPALITY_PRINCE_CONSORT_ACHAEA
+		2 = PRINCIPALITY_PRINCE_CONSORT_ACHAEA
+		3 = GRAND_PRINCIPALITY_PRINCE_CONSORT_ACHAEA
+	}
+
+	consort_female = {
+		1 = PRINCIPALITY_PRINCESS_CONSORT_ACHAEA_fem
+		2 = PRINCIPALITY_PRINCESS_CONSORT_ACHAEA_fem
+		3 = GRAND_PRINCIPALITY_PRINCESS_CONSORT_ACHAEA_fem
+	}
+
+    trigger = {
+        tag = ACH
+        has_reform = western_principality
+    }
+}
+
 principality_of_wales = {
     rank = {
         1 = PRINCIPALITY_WALES
@@ -680,6 +717,10 @@ gov_greek_lordship = { #Starting Old Byzantine minors.
 	
 	trigger = {
 		has_reform = greek_lordship_reform
+		OR = {
+		    tag = MOT
+			tag = TSS
+		}
 	}
 }
 

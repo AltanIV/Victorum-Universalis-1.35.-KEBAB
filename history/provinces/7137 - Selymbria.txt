@@ -1,5 +1,6 @@
 #7137 - Selymbria
 
+#Default
 owner = BYZ
 controller = BYZ
 add_core = BYZ
@@ -12,35 +13,43 @@ base_manpower = 6
 trade_goods = olive_oil			#Particularly good soil & weather for productive agriculture.
 is_city = yes
 hre = no
+
+#Claimants
+
+#Buildings
 fort_16th = yes
 
-1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = eastern
-discovered_by = bohemian
-discovered_by = byzantine
-discovered_by = hungarian
-discovered_by = polish
-discovered_by = russian
-discovered_by = western
-discovered_by = dutch
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = portuguese
-discovered_by = roman
-discovered_by = scandinavian
-discovered_by = spanish
-discovered_by = swiss
-
+#Special Modifiers
 #add_permanent_province_modifier = {
 #	name = walls_of_theodosius_modifier
 #	duration = -1
 #}
 
-#History completed by docRobert
+#Known by Technology groups
+1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = bohemian_tech_group
+discovered_by = byzantine_tech_group
+discovered_by = hungarian_tech_group
+discovered_by = polish_tech_group
+discovered_by = russian_tech_group
+discovered_by = western
+discovered_by = dutch_tech_group
+discovered_by = english_tech_group
+discovered_by = french_tech_group
+discovered_by = german_tech_group
+discovered_by = italian_tech_group
+discovered_by = portuguese_tech_group
+discovered_by = roman_tech_group
+discovered_by = scandinavian_tech_group
+discovered_by = spanish_tech_group
+discovered_by = swiss_tech_group
+
+#Histories by docRobert & SF
+1215.6.15 = { owner = LTE controller = LTE add_core = LTE } # Latin territorial lands - By San Felipe
+1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe
 1453.5.29 = {
 	owner = TUR
 	controller = TUR
@@ -57,7 +66,7 @@ discovered_by = swiss
 	base_manpower = 8
 }
 1475.1.1 = {
-	regimantal_camp = yes
+	regimental_camp = yes
 }
 1481.6.1 = { unrest = 6 } # Civil war, Bayezid & Jem
 1482.7.26 = { unrest = 0 } # Jem escapes to Rhodes

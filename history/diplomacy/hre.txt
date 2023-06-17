@@ -71,7 +71,7 @@ dependency = {
 dependency = {
 	subject_type = silesian_duke
 	first = BOH
-	second = MSTS
+	second = MST
 	start_date = 1472.6.1
 	end_date = 1526.8.30
 }
@@ -79,13 +79,13 @@ dependency = {
 dependency = {
 	subject_type = silesian_duke
 	first = HAB
-	second = MSTS
+	second = MST
 	start_date = 1526.8.30
 	end_date = 1542.6.1
 }
 vassal = {
 	first = HAB
-	second = MSTS
+	second = MST
 	start_date = 1551.6.1
 	end_date = 1569.3.17
 }

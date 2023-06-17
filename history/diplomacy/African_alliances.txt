@@ -255,8 +255,8 @@ vassal = {
 	end_date = 1811.1.1
 }
 
-Magna Carta Alliances
-Hafsids (Sultanate of Tunis)
+#Magna Carta Alliances
+#Hafsids (Sultanate of Tunis)
 march = {
 	first = AMD
 	second = TUN

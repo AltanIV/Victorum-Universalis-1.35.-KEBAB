@@ -23,6 +23,13 @@ vassal = {
 
 vassal = {
 	first = VEN
+	second = CEP
+	start_date = 1215.06.15
+	end_date = 1490.1.1
+}
+
+vassal = {
+	first = VEN
 	second = NAX
 	start_date = 1207.1.1
 	end_date = 1579.1.1

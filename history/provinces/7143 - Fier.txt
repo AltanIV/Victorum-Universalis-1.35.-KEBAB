@@ -51,4 +51,4 @@ discovered_by = swiss_tech_group
 
 #Histories by SF
 1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirian territorial lands - By San Felipe
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
+1444.1.1 = { owner = ALB controller = ALB add_core = ALB } # Albanian territorial lands - By Quonton

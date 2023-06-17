@@ -47,7 +47,7 @@ discovered_by = russian_tech_group
 	remove_core = MAM
 	add_claim = MAM
 } # The Aq-Qoyunlu extends its borders to roughly this area
-1444.11.11 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
+1444.11.11 = { owner = AKK controller = AKK add_core = AKK } 
 1469.2.4 = {
 	remove_core = QAR
 }

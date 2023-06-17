@@ -51,7 +51,7 @@ discovered_by = nomad_group
 
 #Histories by docRobert & SF
 1215.6.15 = { owner = NIC controller = NIC add_core = NIC } # Nicean territorial lands - By San Felipe
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
+1444.11.11 = { owner = KNI controller = KNI add_core = KNI } # Knights of St John territorial lands - By San Felipe
 1522.12.21 = {
 	owner = TUR
 	controller = TUR

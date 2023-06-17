@@ -63,7 +63,6 @@ discovered_by = nomad_group
 	controller = GEN
 	add_core = GEN
 } # Given to Genoa in 1267- Treaty of Nymphaeum
-1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe
 1453.5.29 = {
 	owner = TUR
 	controller = TUR

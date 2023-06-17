@@ -24,8 +24,8 @@
 vassal = {
 	first = KAR
 	second = ALI
-	start_date = 1444.1.1
-	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
+	start_date = 1444.1.11
+	end_date = 1444.11.11 #VictorumUniversalis batch edit shortcut second performance start begins
 }	#From start date to date Karaman takes over fully, followed by Ottomans
 
 vassal = {

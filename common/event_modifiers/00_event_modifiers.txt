@@ -17,8 +17,8 @@ vu_german_settlement = {
 
 great_wall_modifier = {
   prestige = 0.2
-  defensiveness = 0.25
-  hostile_attrition = 1
+  local_defensiveness = 0.25
+  local_hostile_attrition = 1
   picture = "great_wall_of_china_icon"
 }
 
@@ -16877,9 +16877,9 @@ grand_canal_modifier = {
 #}
 
 hadrians_wall_modifier = {
-  diplomatic_reputation = 0.2
-  prestige = 0.2
-  defensiveness = 0.05
+    diplomatic_reputation = 0.2
+    prestige = 0.2
+    local_defensiveness = 0.1
 	picture = "hadrians_wall_icon"
 }
 

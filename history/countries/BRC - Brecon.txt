@@ -1,6 +1,7 @@
 capital = 3034 #Breconshire, Brecon
 
-technology_group = western
+technology_group = english_tech_group
+unit_type = western
 
 government = monarchy
 add_government_reform = feudalism_reform

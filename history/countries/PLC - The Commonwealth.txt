@@ -6,7 +6,7 @@ add_accepted_culture = prussian
 add_accepted_culture = byelorussian
 religion = catholic
 #technology_group = eastern
-technology_group = polish
+technology_group = polish_tech_group
 unit_type = eastern
 capital = 262 # Krakow
 

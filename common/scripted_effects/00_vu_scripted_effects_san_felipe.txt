@@ -46,7 +46,7 @@ vu_change_tech_group_to_western = {
 				tag = TFR
 			}
         }
-		change_technology_group = french
+		change_technology_group = french_tech_group
     }
 	else_if = {
         limit = {
@@ -63,7 +63,7 @@ vu_change_tech_group_to_western = {
 				tag = SPB
 			}
         }
-		change_technology_group = spanish
+		change_technology_group = spanish_tech_group
     }
 	else_if = {
         limit = {
@@ -76,7 +76,7 @@ vu_change_tech_group_to_western = {
 				tag = AUS
 			}
         }
-		change_technology_group = english
+		change_technology_group = english_tech_group
     }
 	else_if = {
         limit = {
@@ -85,7 +85,7 @@ vu_change_tech_group_to_western = {
 				tag = NED
 			}
         }
-		change_technology_group = dutch
+		change_technology_group = dutch_tech_group
     }
 	else_if = {
         limit = {
@@ -95,7 +95,7 @@ vu_change_tech_group_to_western = {
 				tag = SWE
 			}
         }
-		change_technology_group = scandinavian
+		change_technology_group = scandinavian_tech_group
     }
 	else_if = {
         limit = {
@@ -108,7 +108,7 @@ vu_change_tech_group_to_western = {
 				tag = VEN
 			}
         }
-		change_technology_group = italian
+		change_technology_group = italian_tech_group
     }
 	else_if = {
         limit = {
@@ -118,7 +118,7 @@ vu_change_tech_group_to_western = {
 				primary_culture = brazilian
 			}
         }
-		change_technology_group = portuguese
+		change_technology_group = portuguese_tech_group
     }
     else_if = {
         limit = {
@@ -135,13 +135,13 @@ vu_change_tech_group_to_western = {
 				tag = WUR
 			}
         }
-		change_technology_group = german_group
+		change_technology_group = german_tech_group
     }
 	else_if = {
         limit = {
 			tag = SWI
         }
-		change_technology_group = swiss
+		change_technology_group = swiss_tech_group
     }
 	else_if = {
         limit = {
@@ -150,7 +150,7 @@ vu_change_tech_group_to_western = {
 				tag = ROR
 			}
         }
-		change_technology_group = swiss
+		change_technology_group = roman_tech_group
     }
 	else = {
 		change_technology_group = western
@@ -166,13 +166,13 @@ vu_change_tech_group_to_eastern = {
 				tag = TZR
 			}
         }
-		change_technology_group = russian
+		change_technology_group = russian_tech_group
     }
 	else_if = {
         limit = {
 			tag = BOH
         }
-		change_technology_group = bohemian
+		change_technology_group= bohemian_tech_group
     }
 	else_if = {
         limit = {
@@ -183,19 +183,19 @@ vu_change_tech_group_to_eastern = {
 				tag = TRE
 			}
         }
-		change_technology_group = byzantine
+		change_technology_group = byzantine_tech_group
     }
 	else_if = {
         limit = {
 			tag = HUN
         }
-		change_technology_group = hungarian
+		change_technology_group = hungarian_tech_group
     }
 	else_if = {
         limit = {
 		    tag = POL
         }
-		change_technology_group = polish
+		change_technology_group = polish_tech_group
     }
 	else = {
 		change_technology_group = eastern

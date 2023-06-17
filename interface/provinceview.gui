@@ -2840,7 +2840,7 @@ guiTypes = {
 		windowType = {
 			name = "buildings_window"
 			backGround=""
-			position = { x = 480 y = 50 }
+			position = { x = 480 y = -50 }
 			size = { x = 475 y = 610 }
 			dontRender = ""
 			horizontalBorder= ""

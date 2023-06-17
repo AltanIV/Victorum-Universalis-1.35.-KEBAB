@@ -1,18 +1,17 @@
 #4282 - Sahda
 
 #Default
-owner = AZD
-controller = AZD
-add_core = AZD
-capital = "Qal`at Bishah"
 culture = bedouin_arabic
 religion = sunni
-trade_goods = dates			#immense agricultural importance due to high soil fertility, abundant water, and palm cultivation
+capital = "Qal`at Bishah"
+trade_goods = unknown
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 2 
-is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 9
+native_hostileness = 5
 
 #Claimants
 
@@ -27,9 +26,21 @@ discovered_by = indian
 discovered_by = nomad_group
 
 #Histories
-1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
-
-1444.11.11 = { owner = AZD controller = AZD add_core = AZD } # Ghamd territorial lands - By San Felipe
+1215.6.15 = { 
+    owner = AZD 
+	controller = AZD 
+	add_core = AZD
+} #Ghamd territorial lands - By San Felipe
+1444.11.11 = { 
+    owner = MAM 
+	controller = MAM 
+	add_core = MAM
+	trade_goods = dates			#immense agricultural importance due to high soil fertility, abundant water, and palm cultivation
+	base_tax = 3
+	base_production = 3
+	base_manpower = 2
+	is_city = yes
+} #Mamluk territorial lands - By San Felipe
 
 1644.1.1 = {
 	owner = RAS

@@ -4,7 +4,8 @@ government_rank = 1
 primary_culture = occitain
 add_accepted_culture = occitain
 religion = catholic
-technology_group = western
+technology_group = french_tech_group
+unit_type = western
 capital = 196	# Toulouse
 fixed_capital = 196 # Cannot move capital away from this province & no power cost to move to it
 

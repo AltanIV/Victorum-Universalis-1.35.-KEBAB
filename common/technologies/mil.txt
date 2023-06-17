@@ -1,9 +1,13 @@
 #VU updated by San Felipe for 1.35
 monarch_power = MIL
 
-##################################
-#	THIS NEEDS FIXED!!!!!!   #
-##################################
+# applied when a country is ahead of time in this technology
+# no bonus for MIL currently
+ahead_of_time = {
+	monthly_russian_modernization = 0.05
+}
+
+# Pre-era techs
 
 technology = {
 	# Tech 0
@@ -81,18 +85,36 @@ technology = {
 	enable = pacific_spearman
 }
 
-technology = {  
-	year = 1217
-	#THIS IS COPY PASTE NEEDS WORK
+technology = {  # Siege Engines
+	# Tech 2
+	year = 1200
 	expects_institution = {
 		feudalism = 0.5
-		gunpowder_warfare = 0.05
 	}
+
+	military_tactics = 0.02
 }
 
+technology = {
+	# Tech 3
+	year = 1217
+	expects_institution = {
+		feudalism = 0.5
+	}
+	
+	#Earth Rampart
+	
+	land_morale = 0.5
+	may_drill = yes
+
+	enable = mongol_steppe	
+	
+	#Road System Building
+	road_system = yes
+}
 
 technology = {
-	# Tech 2
+	# Tech 4
 	year = 1220
 	expects_institution = {
 		feudalism = 0.5
@@ -112,192 +134,222 @@ technology = {
 	combat_width = 5
 }
 
-##################################
-#	THIS NEEDS FIXED!!!!!!   #
-##################################
-
-#Begining of pre-1444 tech NEEDS WORK
-technology = {  
+technology = {  # Recurve Bow
+	# Tech 5
 	year = 1232
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
 	}
+
+	infantry_fire = 0.05
 }
 
 
-technology = {  
+technology = {  # Longsword
+	# Tech 6
 	year = 1245
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
 	}
+
+	infantry_shock = 0.05
 }
 
 
 
-technology = {  
+technology = {  # Brigandine Armor
+	# Tech 7
 	year = 1258
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
 	}
+
+	land_morale = 0.20
 }
 
 
-technology = {  
+technology = {  # Return of Crusades
+	# Tech 8
 	year = 1271
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	supply_limit = 0.1
+	combat_width = 1
 }
 
 
-technology = {  
+technology = {  #Pikes
+	# Tech 9
 	year = 1284
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	infantry_shock = 0.05
 }
 
 
-technology = {  
+technology = {  # Aftermath of the Crusades
+	# Tech 10
 	year = 1297
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	military_tactics = 0.03
 }
 
 
-technology = {  
+technology = {  #Heavy Calvalry
+	# Tech 11
 	year = 1310
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	cavalry_shock = 0.10
+	maneuver_value = 0.1
 }
 
 
-technology = {  
+technology = {  #Plate Armor
+	# Tech 12
 	year = 1323
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	land_morale = 0.2
 }
 
-technology = {  
+technology = {  # Heavy Knights
+	# Tech 13
 	year = 1336
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	military_tactics = 0.2
 }
 
-technology = {  
+technology = {  #Hundreds Year War
+	# Tech 14
 	year = 1349
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	military_tactics = 0.02
+	cavalry_shock = 0.05
 }
 
-technology = {  
+technology = {  #Late Medieval Armies
+	# Tech 15
 	year = 1362
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	combat_width = 1
+	maneuver_value = 0.1
+	supply_limit = 0.1
+	infantry_fire = 0.05
+	infantry_shock = 0.05
+	cavalry_fire = 0.05
+	cavalry_shock = 0.05
 }
 
-technology = {  
+technology = {  # Fight over the Seas
+	# Tech 16
 	year = 1375
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	supply_limit = 0.20
 }
 
-technology = {  
+technology = {  #Swarm
+	#Tech 17
 	year = 1388
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	military_tactics = 0.1
+	maneuver_value = 0.1
 }
 
-technology = {  
+technology = {  #Logistics
+	#Tech 18
 	year = 1401
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	supply_limit = 0.20
+	land_morale = 0.1
 }
 
-technology = {  
+technology = {  # Moats
+	#Tech 19
 	year = 1414
-	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+
+	infantry_shock = 0.05
 }
 
-technology = {  
+technology = {  #Cart Warfare
+	# Tech 20
 	year = 1427
 	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.05
+		medicine = 0.05
 	}
+	
+	combat_width = 1
+	maneuver_value = 0.1
+	supply_limit = 0.1
+	infantry_fire = 0.05
+	infantry_shock = 0.05
+	cavalry_fire = 0.05
+	cavalry_shock = 0.05
 }
 
 #End of pre-1444 techs
-
-# applied when a country is ahead of time in this technology
-# no bonus for MIL currently
-ahead_of_time = {
-	monthly_russian_modernization = 0.05
-}
-
-# Pre-era techs
-# The 30 big techs from here on
-
-technology = {
-	# Tech 3
-	year = 1440
-	expects_institution = {
-		feudalism = 0.5
-		gunpowder_warfare = 0.05
-	}
-	
-	#Earth Rampart
-	
-	land_morale = 0.5
-	may_drill = yes
-
-	enable = mongol_steppe	
-	
-	#Road System Building
-	road_system = yes
-}
 
 technology = {
 	# Tech 4
@@ -305,6 +357,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.1
+		medicine = 0.1
 	}
 
 	
@@ -319,7 +372,8 @@ technology = {
 	year = 1466
 	expects_institution = {
 		feudalism = 0.5
-		gunpowder_warfare = 0.15
+		gunpowder_warfare = 0.1
+		medicine = 0.15
 		renaissance = 0.15
 	}
 	
@@ -368,6 +422,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 0.5
+		medicine = 0.25
 		renaissance = 0.3
 	}
 	
@@ -397,7 +452,8 @@ technology = {
 	year = 1492
 	expects_institution = {
 		feudalism = 0.5
-		gunpowder_warfare = 1	#This is a big one from now on. This tech unlocks artillery.
+		gunpowder_warfare = 1
+		medicine = 1	#This is a big one from now on. This tech unlocks artillery.
 		renaissance = 0.5		#Good luck advancing in tech without access to gunpowder and canons
 	}
 	
@@ -419,6 +475,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 	}
 
@@ -444,6 +501,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.15
 	}
@@ -472,6 +530,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.3
 	}
@@ -529,6 +588,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 	}
@@ -568,6 +628,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 	}
@@ -609,6 +670,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.15
@@ -639,6 +701,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.3
@@ -676,6 +739,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -705,6 +769,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -734,6 +799,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -752,6 +818,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -788,6 +855,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -833,6 +901,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -868,6 +937,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -890,6 +960,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -914,6 +985,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -966,6 +1038,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1003,6 +1076,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1032,6 +1106,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1082,6 +1157,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1110,6 +1186,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1147,6 +1224,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1191,6 +1269,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1240,6 +1319,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1270,6 +1350,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1290,6 +1371,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1314,6 +1396,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1349,6 +1432,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1372,6 +1456,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1397,6 +1482,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1434,6 +1520,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1460,6 +1547,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
@@ -1485,6 +1573,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 		gunpowder_warfare = 1
+		medicine = 1
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5

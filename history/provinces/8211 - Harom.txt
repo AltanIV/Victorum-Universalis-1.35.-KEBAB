@@ -1,55 +1,56 @@
-#8211 - Hï¿½romszï¿½k
+#8211 - Háromszék
 #Area - Northern Transylvania
 #Region - Carpathia
 
-#Core Details
-capital = "Sepsiszentgyï¿½rgy"
+#Default
+owner = TEU
+controller = TEU
+add_core = TEU
+capital = "Sepsiszentgyörgy"
 is_city = yes
-owner = SZE
-controller = SZE
-
-#Demographics
 culture = szekely
 religion = catholic
-
-#Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = naval_supplies
+hre = no
 
-#Cores and Occupation (Alphabetical after current)
+#Claimants
 add_core = HUN
 add_core = TRA
 add_core = SZE
+add_core = TEU
 
-#Other Political
-hre = no
-
-#Fort/Other Buildings
+#Buildings
 
 #Special Modifiers
 
-#Discoveries
+#Known by Technology groups
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western
-discovered_by = dutch
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = portuguese
-discovered_by = roman
-discovered_by = scandinavian
-discovered_by = spanish
-discovered_by = swiss
+discovered_by = dutch_tech_group
+discovered_by = english_tech_group
+discovered_by = french_tech_group
+discovered_by = german_tech_group
+discovered_by = italian_tech_group
+discovered_by = portuguese_tech_group
+discovered_by = roman_tech_group
+discovered_by = scandinavian_tech_group
+discovered_by = spanish_tech_group
+discovered_by = swiss_tech_group
 discovered_by = eastern
-discovered_by = bohemian
-discovered_by = byzantine
-discovered_by = hungarian
-discovered_by = polish
-discovered_by = russian
+discovered_by = bohemian_tech_group
+discovered_by = byzantine_tech_group
+discovered_by = hungarian_tech_group
+discovered_by = polish_tech_group
+discovered_by = russian_tech_group
 discovered_by = muslim
 discovered_by = ottoman
 
-#Histories
+#Histories by docRobert & SF
+1444.1.1 = {
+	owner = SZE
+	controller = SZE
+	remove_core = TEU
+}

@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = polynesian
 religion = animism
 #technology_group = polynesian_tech
-technology_group = rapanuan
+technology_group = rapanuan_tech_group
 capital = 1988 #Hanga Roa
 
 

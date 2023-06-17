@@ -84,9 +84,9 @@ can_colonize_province = {
 					technology_group = central_african
 					technology_group = sub_saharan
 					technology_group = aboriginal_tech
-					technology_group = rapanuan
+					technology_group = rapanuan_tech_group
 					technology_group = polynesian_tech
-					technology_group = papuan
+					technology_group = papuan_tech_group
 					dip_tech = 35 #After 1856 the restrictions are lifted
 				}
 			}
@@ -132,9 +132,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 					}
 				}
 				FROM = {
@@ -181,9 +181,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 					}
 				}
 				FROM = {
@@ -232,9 +232,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 					}
 				}
 				FROM = {
@@ -315,9 +315,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -397,9 +397,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -521,9 +521,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -658,9 +658,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -741,9 +741,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -805,9 +805,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -869,9 +869,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -933,9 +933,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -998,9 +998,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1090,9 +1090,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1160,9 +1160,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1248,9 +1248,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1318,9 +1318,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1389,9 +1389,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1463,9 +1463,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1541,9 +1541,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1615,9 +1615,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1681,9 +1681,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1748,9 +1748,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1819,9 +1819,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1897,9 +1897,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -1977,9 +1977,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -2064,9 +2064,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonisation in their capital's Colonial Region
 						AND = {
@@ -2154,9 +2154,9 @@ can_colonize_province = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 						
 						#Colonial Nations ignore Historical Colonization in their capital's Colonial Region
 						AND = {
@@ -2266,9 +2266,9 @@ can_colonize_province_siberian_frontier = {
 						technology_group = central_african
 						technology_group = sub_saharan
 						technology_group = aboriginal_tech
-						technology_group = rapanuan
+						technology_group = rapanuan_tech_group
 						technology_group = polynesian_tech
-						technology_group = papuan
+						technology_group = papuan_tech_group
 					}
 				}
 			}

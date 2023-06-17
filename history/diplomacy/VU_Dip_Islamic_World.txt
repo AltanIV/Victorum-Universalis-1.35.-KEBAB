@@ -117,7 +117,7 @@ vassal = {
 	first = MOR
 	second = DBD
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+	end_date = 1444.11.1 #VictorumUniversalis batch edit shortcut the second shattering begins
 }	#Semi-independent Principality of Debdou
 
 vassal = {

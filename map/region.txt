@@ -152,7 +152,7 @@ north_german_region = {
 		uckermark_area
 		saxony_area
 		lower_saxony_area
-		vogtland_area
+		#vogtland_area
 		thuringia_area
 		neumark_area
 		mittelmark_area

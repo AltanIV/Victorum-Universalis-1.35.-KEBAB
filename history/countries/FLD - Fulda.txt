@@ -4,7 +4,8 @@ government_rank = 1
 primary_culture = franconian
 add_accepted_culture = saxon
 religion = catholic
-technology_group = western
+technology_group = german_tech_group
+unit_type = western
 capital = 4774
 fixed_capital = 4774
 

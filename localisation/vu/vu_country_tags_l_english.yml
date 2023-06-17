@@ -6,8 +6,14 @@
  CTT_ADJ:0 "Catalonian"
  #VU New Magna Carta Tags
  #Africa
- AMD:0 "Almohad"
- AMD_ADJ:0 "Almohads"
+ AMD:0 "Almohads"
+ AMD_ADJ:0 "Almohad"
+ #Anatolia
+ CHB:0 "Chobanids"
+ CHB_ADJ:0 "Chobanid"
+ #Crusader States
+ LTE:0 "Latin Empire"
+ LTE_ADJ:0 "Latin"
  #France
  ALL:0 "Albi"
  ALL_ADJ:0 "Albigeois"
@@ -33,8 +39,8 @@
  BNA_ADJ:0 "Bodonitsan"
  CCN:0 "County of Cephalonia"
  CCN_ADJ:0 "Cephalonian"
- MTS:0 "Maniotes"
- MTS_ADJ:0 "Manioter"
+ MOT:0 "Maniotes"
+ MOT_ADJ:0 "Manioter"
  NIC:0 "Nicea"
  NIC_ADJ:0 "Nicean"
  NRP:0 "Triarchy of Negroponte"
@@ -42,7 +48,7 @@
  PLS:0 "Philippopolis"
  PLS_ADJ:0 "Philippopolisan"
  RHO:0 "Rhodes"
- RHO_ADJ:0 "Rhodesian"
+ RHO_ADJ:0 "Rhodsian"
  THE:0 "Thessalonica"
  THE_ADJ:0 "Thessalonican"
  TSP:0 "Tsepina"
@@ -1364,3 +1370,15 @@
  CSA_ADJ:0 "Confederate"
  LBA:0 "Liberia"
  LBA_ADJ:0 "Liberian"
+ 
+ #poland
+ GPL:0 "Greaterpoland"
+ GPL_ADJ:0 "Greaterpolan"
+ KPL:0 "Kalisz"
+ KPL_ADJ:0 "Kaliszian"
+ SLP:0 "Slawno"
+ SLP_ADJ:0 "Slawnian"
+ DYM:0 "Dymin"
+ DYM_ADJ:0 "Dyminian"
+ KIR:0 "Kievan Rus'"
+ KIR_ADJ:0 "Kievan Rus'"

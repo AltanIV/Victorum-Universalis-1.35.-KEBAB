@@ -1,5 +1,9 @@
 ﻿l_english:
 #Quonton Counties
+ WDS:0 "Waldsassen"
+ WDS_ADJ:0 "Waldsassen"
+ WDS_ADJ2:0 "Waldsassen"
+
  IGR:0 "Ingria"
  IGR_ADJ:0 "Ingrian"
  IGR_ADJ2:0 "Ingrian"

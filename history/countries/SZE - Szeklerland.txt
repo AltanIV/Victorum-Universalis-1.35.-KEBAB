@@ -1,6 +1,7 @@
 capital = 158 #Maros
 
-technology_group = eastern
+technology_group = hungarian_tech_group
+unit_type = eastern
 
 government = monarchy
 add_government_reform = feudalism_reform

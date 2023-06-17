@@ -144,16 +144,16 @@ songhai_military_slot = {
 					any_country = {
 						OR = {
 		                	technology_group = western
-		                	technology_group = english
-		                	technology_group = french
-		                	technology_group = dutch
-		                	technology_group = german_group
-		                	technology_group = italian
-			            	technology_group = portuguese
-		                	technology_group = roman
-							technology_group = scandinavian
-		                	technology_group = spanish
-			            	technology_group = swiss
+		                	technology_group = english_tech_group
+		                	technology_group = french_tech_group
+		                	technology_group = dutch_tech_group
+		                	technology_group = german_tech_group
+		                	technology_group = italian_tech_group
+			            	technology_group = portuguese_tech_group
+		                	technology_group = roman_tech_group
+							technology_group = scandinavian_tech_group
+		                	technology_group = spanish_tech_group
+			            	technology_group = swiss_tech_group
 		                }
 						ROOT = {
 							NOT = { mil_tech = PREV }	#Checks if no country with western tech has more mil tech than Songhai. Double negations are fun!

@@ -3763,12 +3763,12 @@ country_event = {
 	#	if = {
 	#		limit = { 
 	#	        OR = {
-	#			    technology_group = bohemian
-	#			    technology_group = byzantine
+	#			    technology_group = bohemian_tech_group
+	#			    technology_group = byzantine_tech_group
 	#			    technology_group = eastern
-	#			    technology_group = hungarian
-	#			    technology_group = polish
-	#			    technology_group = russian 
+	#			    technology_group = hungarian_tech_group
+	#			    technology_group = polish_tech_group
+	#			    technology_group = russian_tech_group 
 	#			}
 	#		}
 	#		unlock_estate = {

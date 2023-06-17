@@ -1119,16 +1119,16 @@ emp_france_missions_2_c = {
 			owner = {
 				OR = {
 		        	technology_group = western
-		        	technology_group = english
-		        	technology_group = french
-		        	technology_group = dutch
-		        	technology_group = german_group
-		        	technology_group = italian
-			    	technology_group = portuguese
-		        	technology_group = roman
-					technology_group = scandinavian
-		        	technology_group = spanish
-			    	technology_group = swiss
+		        	technology_group = english_tech_group
+		        	technology_group = french_tech_group
+		        	technology_group = dutch_tech_group
+		        	technology_group = german_tech_group
+		        	technology_group = italian_tech_group
+			    	technology_group = portuguese_tech_group
+		        	technology_group = roman_tech_group
+					technology_group = scandinavian_tech_group
+		        	technology_group = spanish_tech_group
+			    	technology_group = swiss_tech_group
 		        }
 			}
 			NOT = { owned_by = ROOT }
@@ -1144,16 +1144,16 @@ emp_france_missions_2_c = {
 					owner = {
 						NOT = { 
 				        	technology_group = western
-		    	            technology_group = english
-		    	            technology_group = french
-		    	            technology_group = dutch
-		    	            technology_group = german_group
-		    	            technology_group = italian
-				        	technology_group = portuguese
-		    	            technology_group = roman
-							technology_group = scandinavian
-		    	            technology_group = spanish
-				        	technology_group = swiss
+		    	            technology_group = english_tech_group
+		    	            technology_group = french_tech_group
+		    	            technology_group = dutch_tech_group
+		    	            technology_group = german_tech_group
+		    	            technology_group = italian_tech_group
+				        	technology_group = portuguese_tech_group
+		    	            technology_group = roman_tech_group
+							technology_group = scandinavian_tech_group
+		    	            technology_group = spanish_tech_group
+				        	technology_group = swiss_tech_group
 			            }
 					}
 				}

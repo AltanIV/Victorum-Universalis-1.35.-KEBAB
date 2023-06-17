@@ -5,7 +5,8 @@ mercantilism = 25
 religion = catholic
 primary_culture = gotlander
 add_accepted_culture = swedish
-technology_group = western
+technology_group = scandinavian_tech_group
+unit_type = western
 capital = 25	#Gotland
 
 # Fun pirate king stuff for later discussion with Niklas

@@ -2097,23 +2097,23 @@
 		}
 		potential = {
 			OR = {
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group
 				has_reform = magnate_law_reform
 			}
 		}
 		trigger = {
 			OR = {
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group
 				has_reform = magnate_law_reform
 			}
 		}
@@ -3038,12 +3038,12 @@
 		}
 		potential = {
 			NOT = { 
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group
 			}
 			NOT = { culture_group = berber_group }
 		}
@@ -3127,23 +3127,23 @@
 		}
 		potential = {
 			OR = {
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group
 				has_reform = magnate_govenors_reform
 			}
 		}
 		trigger = {
 			OR = {
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group
 				has_reform = magnate_govenors_reform
 			}
 		}
@@ -5503,12 +5503,12 @@
 				value = 2
 			}
 			NOT = { 
-				technology_group = bohemian
-				technology_group = byzantine
+				technology_group = bohemian_tech_group
+				technology_group = byzantine_tech_group
 				technology_group = eastern
-				technology_group = hungarian
-				technology_group = polish
-				technology_group = russian
+				technology_group = hungarian_tech_group
+				technology_group = polish_tech_group
+				technology_group = russian_tech_group
 			}
 			NOT = {
 				has_estate = estate_maratha

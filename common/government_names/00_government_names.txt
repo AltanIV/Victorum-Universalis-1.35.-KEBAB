@@ -1213,7 +1213,10 @@ palatine_monarchy = {
 	
 	trigger = {
 		government = monarchy
-		tag = PAL
+		OR = {
+		    tag = PAL
+			tag = CCN
+		}
 	}
 }
 
@@ -2847,6 +2850,99 @@ byzantine_monarchy = {
 			tag = TRE
 			tag = EPI
 			tag = MOE
+		}
+	}
+}
+
+#crusader_states_baronies = {
+#	rank = {
+#		1 = BARONY_CS
+#	}
+#
+#	ruler_male = {
+#		1 = BARON_CS
+#	}
+#
+#	ruler_female = {
+#		1 = BARONESS_CS_fem
+#	}
+#
+#	consort_male = {
+#		1 = PRINCE_CONSORT_CS
+#	}
+#
+#	consort_female = {
+#		1 = CONSORT_CS_fem
+#	}
+#
+#	heir_male = {
+#		1 = PRINCE_CS
+#	}
+#
+#	heir_female = {
+#		1 = PRINCESS_CS_fem
+#	}
+#
+#	trigger = {
+#	    has_reform = crusader_state_vu_reform
+#		OR = {
+#			tag = XXX
+#			tag = XXX
+#			tag = XXX
+#			tag = XXX
+#		}
+#	}
+#}
+
+crusader_states_kingdoms = {
+	rank = {
+		1 = PRINCEDOM_CS
+		2 = KINGDOM_CS
+		3 = EMPIRE_CS
+	}
+
+	ruler_male = {
+		1 = PRINCE_CS
+		2 = KING_CS
+		3 = EMPEROR_CS
+	}
+
+	ruler_female = {
+		1 = PRINCESS_CS_fem
+		2 = QUEEN_CS_fem
+		3 = EMPRESS_CS_fem
+	}
+
+	consort_male = {
+		1 = PRINCE_CONSORT_CS
+		2 = PRINCE_CONSORT_CS
+		3 = PRINCE_CONSORT_CS
+	}
+
+	consort_female = {
+		1 = CONSORT_CS_fem
+		2 = CONSORT_CS_fem
+		3 = CONSORT_CS_fem
+	}
+
+	heir_male = {
+		1 = PRINCE_CS
+		2 = PRINCE_CS
+		3 = PRINCE_CS
+	}
+
+	heir_female = {
+		1 = PRINCESS_CS_fem
+		2 = PRINCESS_CS_fem
+		3 = PRINCESS_CS_fem
+	}
+
+	trigger = {
+		has_reform = crusader_state_vu_reform
+		OR = {
+			tag = LTE
+			tag = THE
+			tag = PLS
 		}
 	}
 }

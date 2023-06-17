@@ -15,7 +15,7 @@ native_hostileness = 8
 center_of_trade = 1
 extra_cost = 8
 
-discovered_by = papuan
+discovered_by = papuan_tech_group
 
 add_permanent_province_modifier = {
     name = navalbase_modifier

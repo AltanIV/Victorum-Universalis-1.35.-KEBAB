@@ -4,9 +4,12 @@ latent_trade_goods = {
 	coal
 }
 
-owner = RAC
-controller = RAC
-culture = silesian_german
+#Default
+owner = OPL
+controller = OPL
+add_core = OPL
+add_core = POL
+culture = polish
 religion = catholic
 hre = yes
 base_tax = 4 
@@ -15,31 +18,44 @@ capital = "Ratibor"
 is_city = yes
 trade_goods = cloth #Was wine
 base_manpower = 3 
-add_core = RAC
 center_of_trade = 1
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
-discovered_by = dutch
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = portuguese
-discovered_by = roman
-discovered_by = scandinavian
-discovered_by = spanish
-discovered_by = swiss
+discovered_by = dutch_tech_group
+discovered_by = english_tech_group
+discovered_by = french_tech_group
+discovered_by = german_tech_group
+discovered_by = italian_tech_group
+discovered_by = portuguese_tech_group
+discovered_by = roman_tech_group
+discovered_by = scandinavian_tech_group
+discovered_by = spanish_tech_group
+discovered_by = swiss_tech_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-discovered_by = bohemian
-discovered_by = byzantine
-discovered_by = hungarian
-discovered_by = polish
-discovered_by = russian
+discovered_by = bohemian_tech_group
+discovered_by = byzantine_tech_group
+discovered_by = hungarian_tech_group
+discovered_by = polish_tech_group
+discovered_by = russian_tech_group
 
-# History completed by docRobert
-
+#Histories by docRobert & SF
+1444.1.1 = {
+	owner = RAC
+	controller = RAC
+	remove_core = OPL
+	remove_core = POL
+	add_core = RAC
+	culture = silesian_german
+}
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

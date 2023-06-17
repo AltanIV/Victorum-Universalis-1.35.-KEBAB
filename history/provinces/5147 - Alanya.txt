@@ -1,5 +1,6 @@
-# No previous file for Victorum Universalis or Beyond the Pale Legacy province
+#5147 - Alanya
 
+#Default
 owner = ALI
 controller = ALI
 add_core = ALI
@@ -13,28 +14,37 @@ base_production = 4
 base_manpower = 4
 is_city = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
-discovered_by = dutch
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = portuguese
-discovered_by = roman
-discovered_by = scandinavian
-discovered_by = spanish
-discovered_by = swiss
+discovered_by = dutch_tech_group
+discovered_by = english_tech_group
+discovered_by = french_tech_group
+discovered_by = german_tech_group
+discovered_by = italian_tech_group
+discovered_by = portuguese_tech_group
+discovered_by = roman_tech_group
+discovered_by = scandinavian_tech_group
+discovered_by = spanish_tech_group
+discovered_by = swiss_tech_group
 discovered_by = eastern
-discovered_by = bohemian
-discovered_by = byzantine
-discovered_by = hungarian
-discovered_by = polish
-discovered_by = russian
+discovered_by = bohemian_tech_group
+discovered_by = byzantine_tech_group
+discovered_by = hungarian_tech_group
+discovered_by = polish_tech_group
+discovered_by = russian_tech_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 
-
+#Histories by SF
+1215.6.15 = { owner = RMM controller = RMM add_core = RMM } # Sultanate of Rum territorial lands - By San Felipe
+1444.11.11 = { owner = ALI controller = ALI add_core = ALI } # Karaman territorial lands - By San Felipe
 1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = KAR
 	controller = KAR

@@ -85,4 +85,3 @@ discovered_by = swiss_tech_group
 	base_production = 3
 	base_manpower = 3
 }
-1444.11.11 = { owner = BYZ controller = BYZ add_core = BYZ } # Byzantine territorial lands - By San Felipe

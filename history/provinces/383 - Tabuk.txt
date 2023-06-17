@@ -32,9 +32,9 @@ discovered_by = east_african
 	add_core = MDA
 } #Medina territorial lands - By San Felipe
 1444.11.11 = {
-	owner = MAM 
-	controller = MAM 
-	add_core = MAM
+	owner = MDA
+	controller = MDA
+	add_core = MDA
 	trade_goods = camel		#Served as desert fortress with small oasis for most of the history
 	base_tax = 3 			#More dev might be ideal, but I want to keep Arabia generally low dev, and represent all the historical divisions, so a few regions (mostly NW and SE corners) get slightly lower dev than maybe thry should at this point
 	base_production = 3

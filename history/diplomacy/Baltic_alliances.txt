@@ -274,7 +274,7 @@ vassal = {
 	first = POL
 	second = MAZ
 	start_date = 1215.1.15
-	end_date = 1444.3.9
+	end_date = 1450.3.9
 }
 
 # Polish vassal

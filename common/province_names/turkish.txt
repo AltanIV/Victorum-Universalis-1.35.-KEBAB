@@ -168,6 +168,7 @@
 3247 = { "Üzüm" "Üzüm" }
 3248 = { "Lazistan" "Rize" }
 3754 = { "Suruç" "Suruç" }
+3697 = { "Belene" "Kule" }
 3972 = "Ulaº"
 4125 = "Eger"
 4126 = "Segedin"
@@ -305,7 +306,7 @@
 7751 = { "Uzunköy" "Uzunköy" }
 7752 = { "Arcish" "Ercishisar" }
 7753 = { "Islatine" "Islatine" }
-7754 = { "Kule" "Kule" }
+7754 = { "Arjantin" "Arjantin" }
 7755 = { "Saghisar" "Saghisar" }
 7756 = { "Kiliras" "Kiliras" }
 7757 = { "Abaçarsu" "Abaçarsu" }

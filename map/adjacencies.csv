@@ -99,8 +99,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6974;153;sea;3011;-1;-1;-1;-1;Buda - Pest
 4239;1954;sea;3010;-1;-1;-1;-1;Belgrade - Pancevo
 2746;7748;sea;8354;-1;-1;-1;-1;Vidin - Calafat
-7754;150;sea;8354;-1;-1;-1;-1;Turnu - Nigbolu
-159;4531;sea;3004;-1;-1;-1;-1;Silistre - Giurgiu
+3698;2746;sea;8354;-1;-1;-1;-1;Ostrov_Copanita - Vidin
+7754;3697;sea;8354;-1;-1;-1;-1;Turnu - Belene Island
+3697;150;sea;8354;-1;-1;-1;-1;Belene Island - Nikopol
+7159;3696;sea;3004;-1;-1;-1;-1;Nigbolu - Vardim Island
+3696;4531;sea;3004;-1;-1;-1;-1;Vardim Island - Giurgiu
+3695;159;sea;3004;-1;-1;-1;-1;Batin_Island - Silistre
 4180;5703;sea;1390;-1;-1;-1;-1;Hyuga - Osumi Islands
 5701;1015;sea;1392;-1;-1;-1;-1;Amami - Okinawa
 1015;5702;sea;1392;-1;-1;-1;-1;Okinawa - Sakishima

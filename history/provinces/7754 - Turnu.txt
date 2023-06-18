@@ -1,10 +1,9 @@
 #7754 - Turnu
 
 #Default
-owner = TUR
-controller = TUR
+owner = WAL
+controller = WAL
 add_core = WAL
-add_core = TUR
 culture = romanian
 religion = orthodox
 capital = "Turnu"
@@ -14,7 +13,6 @@ base_manpower = 2
 trade_goods = horses
 is_city = yes
 hre = no
-fort_15th = yes
 add_local_autonomy = 10
 
 #Claimants
@@ -46,5 +44,3 @@ discovered_by = spanish_tech_group
 discovered_by = swiss_tech_group
 
 #Province history completed by - Nikicaga
-1215.6.15 = { owner = WAL controller = WAL add_core = WAL } # Wallachia territorial lands - By San Felipe
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

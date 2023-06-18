@@ -44,47 +44,45 @@ discovered_by = russian_tech_group
 
 #Province history completed by - Nikicaga & Darth Modus
 #First shattering unused
-1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
-	owner = MLO
-	controller = MLO
-	add_core = MLO
-} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
-	owner = BSC
-	controller = BSC
-	add_core = BSC
-	remove_core = MLO
-} #Return to proper mod added owners and cuts vanilla core, typically.
-
-1329.1.1 = {
-	owner = VRN
-	controller = VRN
-	add_core = VRN
-}	#taken by Verona with the help of the emperor
-1337.10.8 = {
-	owner = MLO
-	controller = MLO
-	add_core = MLO
-	remove_core = VRN
-} #Visconti establish control over the region.
-1404.1.1 = {
-	owner = BSC
-	controller = BSC
-	base_tax = 9
-	base_production = 9
-}	#Pandolfo Malatesta rules the city, quite competently. I'm not quite giving it to Rimini
-1417.1.1 = {
-	owner = MLO
-	controller = MLO
-	add_core = MLO
-}	#traded to Visconti
+#1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+#	owner = MLO
+#	controller = MLO
+#	add_core = MLO
+#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+#1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+#	owner = BSC
+#	controller = BSC
+#	add_core = BSC
+#	remove_core = MLO
+#} #Return to proper mod added owners and cuts vanilla core, typically.
+#1329.1.1 = {
+#	owner = VRN
+#	controller = VRN
+#	add_core = VRN
+#}	#taken by Verona with the help of the emperor
+#1337.10.8 = {
+#	owner = MLO
+#	controller = MLO
+#	add_core = MLO
+#	remove_core = VRN
+#} #Visconti establish control over the region.
+#1404.1.1 = {
+#	owner = BSC
+#	controller = BSC
+#	base_tax = 9
+#	base_production = 9
+#}	#Pandolfo Malatesta rules the city, quite competently. I'm not quite giving it to Rimini
+#1417.1.1 = {
+#	owner = MLO
+#	controller = MLO
+#	add_core = MLO
+#}	#traded to Visconti
 1426.10.6 = {
 	owner = VEN
 	controller = VEN
 	add_core = VEN
 }	#Brescia swears loyalty to Venice
 1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE
-
 1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = BSC
 	controller = BSC

@@ -2,6 +2,7 @@
 
 owner = SZO
 controller = SZO
+add_core = SZO
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -11,7 +12,6 @@ trade_goods = cloth			#generic rich city good. This was at various times a floru
 base_manpower = 2
 capital = "Cuneo"
 is_city = yes
-add_core = SZO
 add_core = PRO
 center_of_trade = 1
 
@@ -36,53 +36,52 @@ discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
 
-#Note this is indeed Cuneo, not Turin, funny naming aside.
-#Province history completed by - Darth Modus
+#Histories by SF
 #First Shattering not used
-1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
-	owner = PRO
-	controller = PRO
-}
-1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
-	owner = SZO
-	controller = SZO
-}
-1306.1.1 = {
-	owner = NAP
-	controller = NAP
-	add_core = NAP
-	remove_core = PRO
-    base_tax = 7
-    base_production = 7
-	base_manpower = 3
-} # The Mint of the Kingdom of Naples moved to Cuneo, which becomes the capital of 'Angevin Piedmont'. Note the link between Naples and Cuneo dates back to 1260 when Cuneo subjected itself to Provence, Naples and Provence's later unity accounting for Naples's presence.
-1347.1.1 = {
-	owner = SAV
-	controller = SAV
-	add_core = SAV
-} # Savoy briefly takes the city. Naples seems to be a bit less invested in the area at this point, so lowering dev a bit.
-1348.1.1 = {
-	owner = MLO
-	controller = MLO
-	add_core = MLO
-} # The surging Visconti become the defacto kings of most of Northern Italy, including Cuneo
+#1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+#	owner = PRO
+#	controller = PRO
+#}
+#1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+#	owner = SZO
+#	controller = SZO
+#}
+#1306.1.1 = {
+#	owner = NAP
+#	controller = NAP
+#	add_core = NAP
+#	remove_core = PRO
+#    base_tax = 7
+#    base_production = 7
+#	base_manpower = 3
+#} # The Mint of the Kingdom of Naples moved to Cuneo, which becomes the capital of 'Angevin Piedmont'. Note the link between Naples and Cuneo dates back to 1260 when Cuneo subjected itself to Provence, Naples and Provence's later unity accounting for Naples's presence.
+#1347.1.1 = {
+#	owner = SAV
+#	controller = SAV
+#	add_core = SAV
+#} # Savoy briefly takes the city. Naples seems to be a bit less invested in the area at this point, so lowering dev a bit.
+#1348.1.1 = {
+#	owner = MLO
+#	controller = MLO
+#	add_core = MLO
+#} # The surging Visconti become the defacto kings of most of Northern Italy, including Cuneo
 1356.1.1 = {
 	owner = SZO
 	controller = SZO
 	add_core = SZO
 } # Saluzzo manages to reestablish control
 #Saluzzo at war with Savoy in 1363, but Saluzzo holds
-1366.1.1 = {
-	owner = MLO
-	controller = MLO
-	add_core = MLO
-} # Visconti wrest it back for a time
-1372.1.1 = {
-	owner = NAP
-	controller = NAP
-	add_core = NAP
-	remove_core = MLO
-} # Very uncertain here, but looks like Cuneo briefly returned to Naples's sphere of influence
+#1366.1.1 = {
+#	owner = MLO
+#	controller = MLO
+#	add_core = MLO
+#} # Visconti wrest it back for a time
+#1372.1.1 = {
+#	owner = NAP
+#	controller = NAP
+#	add_core = NAP
+#	remove_core = MLO
+#} # Very uncertain here, but looks like Cuneo briefly returned to Naples's sphere of influence
 1382.1.1 = {
 	owner = SAV
 	controller = SAV

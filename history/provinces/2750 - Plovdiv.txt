@@ -46,10 +46,8 @@ discovered_by = scandinavian_tech_group
 discovered_by = spanish_tech_group
 discovered_by = swiss_tech_group
 
-
-#Province history completed by - Nikicaga
+#Histories by SF
 1215.6.15 = { owner = TSP controller = TSP add_core = TSP } # Tsepina (Alexios Slav) territorial lands - By San Felipe
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
 1371.1.1 = {
 	owner = TUR
 	controller = TUR
@@ -62,10 +60,6 @@ discovered_by = swiss_tech_group
 	base_production = 4 
 	base_manpower = 2
 } #no longer the capital of Rumelia
-
-#2nd Shattering unused
-#2nd Performance Start Unused
-
 1500.1.1 = {
 	base_tax = 5
 	base_production = 5

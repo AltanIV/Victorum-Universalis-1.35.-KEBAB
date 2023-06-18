@@ -90,4 +90,3 @@ discovered_by = ottoman
 	base_manpower = 4
 	add_local_autonomy = 10
 }	#Ottomans come along. Pax Ottomana. Technically held as a subject for a couple decades before being fully annexed, but whatever
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe

@@ -45,7 +45,6 @@ discovered_by = swiss_tech_group
 
 #Province history completed by - Nikicaga
 1215.6.15 = { owner = BUL controller = BUL add_core = BUL } # Bulgarian territorial lands - By San Felipe
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
 1388.1.1 = {
 	owner = TUR
 	controller = TUR
@@ -54,10 +53,6 @@ discovered_by = swiss_tech_group
 #1402.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Interregnum
 1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
 1413.1.1 = { revolt = {} controller = TUR }
-
-#2nd Shattering unused
-#2nd Performance Start Unused
-
 1500.1.1 = {
 	base_tax = 2
 	base_production = 2

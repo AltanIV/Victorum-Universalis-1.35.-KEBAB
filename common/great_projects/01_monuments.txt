@@ -16827,9 +16827,9 @@ dujiangyan = {
 	}
 }
 
-palace_of_the_popes = {
-	start = 202 #Avignon
-	date = 1335.10.07
+palace_of_the_popes = {		#Identical monument added by docRobert long time ago.
+	start = 202 #Avignon	#Original version is very powerful, so
+	date = 1335.10.07		#removing most of bonuses to balance things out.
 	time = { months = 0	}
 	build_cost = 0
 	can_be_moved = no
@@ -16892,7 +16892,7 @@ palace_of_the_popes = {
 			
 		}
 		area_modifier = {
-			local_governing_cost = -0.15
+			local_governing_cost = -0.05
 		}
 		country_modifiers = {
 			church_privilege_slots = 1 
@@ -16924,14 +16924,12 @@ palace_of_the_popes = {
 			
 		}
 		area_modifier = {
-			local_governing_cost = -0.25
+			local_governing_cost = -0.1
 		}
 		country_modifiers = {
 			church_privilege_slots = 1 
-			church_loyalty_modifier = 0.1
+			church_loyalty_modifier = 0.025
 			papal_influence = 1
-			church_power_modifier = 0.25
-			monthly_fervor_increase = 0.3
 		}
 		on_upgraded = {
 			if = {
@@ -16963,11 +16961,11 @@ palace_of_the_popes = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_governing_cost = -0.33
+			local_governing_cost = -0.2
 		}
 		country_modifiers = {
 			church_privilege_slots = 1 
-			church_loyalty_modifier = 0.15
+			church_loyalty_modifier = 0.05
 			papal_influence = 2
 			church_power_modifier = 0.33
 			monthly_fervor_increase = 0.5

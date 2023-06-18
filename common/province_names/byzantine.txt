@@ -120,7 +120,7 @@
 268 = "Upper Pyretus"
 282 = { "Niconium" "Boristhenis" }
 283 = "Borysthenian Scythia"
-284 = { "Bosporia" "Bosporis Crimea" }
+284 = { "Bosporia" "Taphros" }
 285 = { "Theodosia" "Caffa" }
 286 = { "Tanais" "Tanais" }
 287 = "Dandarioi"
@@ -994,9 +994,9 @@
 7159 = { "Prista" "Prista" }
 7160 = "Rettimo"
 7163 = "Monemvasia"
-7190 = { "Caulita" "Cembalo" }
+7190 = { "Caulita" "Symbolon" }
 7191 = { "Eupatoria" "Eupatoria" }
-7192 = { "Tazos" "Solkhat" }
+7192 = { "Tazos" "Phoulloi" }
 7193 = { "East Taurica" "Therma" }
 7195 = { "Olbia" "Olbia" }
 7194 = { "Borysthenes" "Borysthenes" }

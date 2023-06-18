@@ -58,7 +58,6 @@ discovered_by = swiss_tech_group
 } #falls to Turkey, but doesn't seem to have been devastated much
 1404.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB }
 1413.1.1 = { revolt = {} controller = TUR }
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
 1500.1.1 = {
 	base_tax = 2
 	base_production = 2

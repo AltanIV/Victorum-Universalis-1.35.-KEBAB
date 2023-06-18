@@ -1,8 +1,8 @@
 #7099 - Ogliastra
 
+#Default
 owner = PIS
 controller = PIS
-add_core = SAR
 add_core = PIS
 culture = sardinian
 religion = catholic
@@ -14,6 +14,14 @@ trade_goods = fish
 is_city = yes
 hre = no
 
+#Claimants
+add_core = SAR
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -34,30 +42,29 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Darth Modus being lazy
-1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
-	owner = SAR
-	controller = SAR
-	remove_core = PIS
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
-	owner = PIS
-	controller = PIS
-	add_core = PIS
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
+#Histories by SF
+#1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
+#	owner = SAR
+#	controller = SAR
+#	remove_core = PIS
+#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
+#1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
+#	owner = PIS
+#	controller = PIS
+#	add_core = PIS
+#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
 #First performance start not used
 #1297.1.1 = { } #Pope declares the Kingdom of Sardinia and Corsica, in an attempt to resolve the War of Sicilian Vespers, and offers this new kingdom to James II of Aragon. No one bothered to ask the poor sods in Sardinia & Corsica, though, so it took a while to become reality.
 1324.1.1 = {
 	owner = SAR
 	controller = SAR
-	add_core = SAR
+#	add_core = SAR
 }	#James II of Aragon begins the conquest of his new 'Kingdom'
-1368.1.1 = {
-	owner = ARR
-	controller = ARR
-	add_core = ARR
-}	#Marianus IV the Great reconquers most of Sardinia for Arborea
+#1368.1.1 = {
+#	owner = ARR
+#	controller = ARR
+#	add_core = ARR
+#}	#Marianus IV the Great reconquers most of Sardinia for Arborea
 #Skipping 3-4 year Aragon resurgence 1388-1392
 1406.1.1 = {
 	remove_core = PIS

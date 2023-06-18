@@ -1,9 +1,9 @@
 #2299 - Bolu
 
 #Default
-owner = GZR
-controller = GZR
-add_core = GZR
+owner = NIC
+controller = NIC
+add_core = NIC
 culture = pontic_greek			#Relgion and culture difficult to determine here. Was clearly Greek and Orthodox until around 1210, when the Seljuks took it, but they stayed only for about 50 years. At this point, province under Genoa for 160 years.
 religion = orthodox
 capital = "Amastris"
@@ -43,9 +43,13 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 #Histories by SF
-1215.6.15 = { owner = NIC controller = NIC add_core = NIC } # Nicean territorial lands - By San Felipe
-1444.11.11 = { owner = GZR controller = GZR add_core = GZR add_core CND } # Turkish territorial lands - By San Felipe
-1461.1.1 = {
+1444.1.1 = { 
+   owner = GZR 
+   controller = GZR 
+   add_core = GZR 
+   add_core CND 
+} # Turkish territorial lands - By San Felipe
+1475.1.2 = {
 	owner = TUR
 	controller = TUR
 	add_core = TUR

@@ -53,7 +53,6 @@ discovered_by = swiss_tech_group
 	controller = TUR
 	add_core = TUR
 }	#taken by Turkey, devastated
-1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
 1500.1.1 = {
 	base_tax = 2
 	base_production = 3

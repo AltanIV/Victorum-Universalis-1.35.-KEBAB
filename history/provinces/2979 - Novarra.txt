@@ -4,6 +4,7 @@
 
 owner = NVA
 controller = NVA
+add_core = NVA
 culture = lombard
 religion = catholic
 hre = yes
@@ -13,7 +14,6 @@ trade_goods = grain			#in Vercelli and Novara, the economy is based on the culti
 base_manpower = 3
 capital = "Novara"
 is_city = yes	# Estimated
-add_core = NVA
 center_of_trade = 1
 
 #Special Modifiers
@@ -43,18 +43,18 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-#Province history completed by - Driaocht
+#Histories by SF
 #First Shattering not used
-1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
-	owner = MLO
-	controller = MLO
-	add_core = MLO
-} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
-	owner = NVA
-	controller = NVA
-	#remove_core = NVA #Why remove its core? Neighboring prov still has Novara core.
-} #Return to proper mod added owners and cuts vanilla core, typically.
+#1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
+#	owner = MLO
+#	controller = MLO
+#	add_core = MLO
+#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+#1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
+#	owner = NVA
+#	controller = NVA
+#	#remove_core = NVA #Why remove its core? Neighboring prov still has Novara core.
+#} #Return to proper mod added owners and cuts vanilla core, typically.
 1339.2.21 = {
 	owner = MLO
 	controller = MLO
@@ -65,10 +65,10 @@ discovered_by = russian_tech_group
 	controller = NVA
 	add_core = NVA
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
-	owner = MLO
-	controller = MLO
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
+#1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
+#	owner = MLO
+#	controller = MLO
+#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
 #Second Performance Start not used
 #Just ignoring the Visconti to Sforza drama for now. Easier to just change rulers and not mess with tag changes or such nonsense.
 #1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, VU is going with 1648, when the Peace of Westphalia definitively and formally ended HRE influence in Italy.

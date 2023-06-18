@@ -1,5 +1,6 @@
 #So there are two ways of connecting this. First is to use coordinates ;start_x;start_y;stop_x;stop_y; which can be gathered by opening bmp map and then refering to how Rob has explained it in the server map room or to do it the automatic way by simply entering -1;-1;-1;-1; which will automatically connect two provinces. 
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+8788;7731;sea;8353;-1;-1;-1;-1;Danzig-Marienburg
 43;1841;sea;7310;-1;-1;-1;-1;Danzig-Marienburg
 7257;7196;sea;3016;-1;-1;-1;-1;Dnipro-Ekaterinoslav
 2957;8778;sea;8355;-1;-1;-1;-1;Regensburg-Kelheim

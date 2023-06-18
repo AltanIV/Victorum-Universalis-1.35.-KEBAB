@@ -2477,7 +2477,6 @@ gaelic	= {
 	}
 	#ME additions
 	cornish = {
-		primary = CRN
 		dynasty_names = { 
 			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
 			#CK2
@@ -14976,7 +14975,7 @@ brythonic = {
 	}
 	cornish_br = {
 		graphical_culture = westerngfx
-		#primary = CRN
+		primary = CRN
 		dynasty_names = {
 			Kernew "of Cornwall" Penrose Trevelyan Bolitho Kernow Nance Nancarrow Chegwin Nancekivell Chenoweth
 			Menhenick Teague Trelawny Trewin Tremayne

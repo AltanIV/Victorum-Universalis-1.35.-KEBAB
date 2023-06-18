@@ -54,6 +54,7 @@ fixed_capital = 151 # Cannot move capital away from this province & no power cos
 }
 
 1425.7.21 = {
+capital = 151
 	heir = {
 		name = "Konstantinos"
 		monarch_name = "Konstantinos XI"

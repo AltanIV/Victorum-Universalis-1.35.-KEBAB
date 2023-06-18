@@ -913,6 +913,7 @@ country_event = {
 		name = flavor_brapru.23.a
 		set_country_flag = accepted_ANS_union_flag
 		create_union = ANS
+		ANS = { inherit = BYT } 
 		hidden_effect = {
 			country_event = { id = flavor_brapru.25 days = 1825 } #Used for the Dispositio Achillea Followup
 		}

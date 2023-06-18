@@ -4141,6 +4141,7 @@ country_decisions = {
 			owns_core_province = 215	# Valladolid
 			owns_core_province = 219	# Toledo
 			owns_core_province = 1746	# Burgos
+			adm_tech = 27		#Diplo tech requirement
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				region = iberia_region

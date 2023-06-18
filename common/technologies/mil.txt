@@ -1363,6 +1363,8 @@ technology = {
 	
 	supply_limit = 0.35
 	maneuver_value = 0.25	
+	cavalry_shock = 0.35
+	cavalry_fire = 0.35
 }
 
 technology = {

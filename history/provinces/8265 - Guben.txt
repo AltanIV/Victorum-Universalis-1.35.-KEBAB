@@ -4,13 +4,13 @@
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Guben"
+capital = "Kopenick"
 is_city = yes
 culture = saxon
 religion = catholic
 base_tax = 2
-base_production = 1
-base_manpower = 1
+base_production = 3
+base_manpower = 2
 trade_goods = wool
 hre = yes
 
@@ -43,7 +43,7 @@ discovered_by = russian_tech_group
 
 #Histories by docRobert & SF
 1444.1.1 = {
-	owner = BOH
-	controller = BOH
-	add_core = BOH
+	owner = BRA
+	controller = BRA
+	add_core = BRA
 }

@@ -13,9 +13,8 @@ base_tax = 3			#Okay, Brandenburg's population was minute and the little wealth 
 base_production = 3			#By 1317, it was mentioned as a small town. In 1573, it was still a small market town of 2,000 inhabitants. Potsdam lost nearly half of its population due to the Thirty Years' War (1618�1648).
 trade_goods = iron
 base_manpower = 2 			#Don't want dev too low in Brandenburg, so giving it 6, the surround countryside was rich enough to justify it
-capital = "Luckenwalde"
+capital = "Spandau"
 is_city = no
-center_of_trade = 2
 
 #Claimants
 

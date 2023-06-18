@@ -42,5 +42,5 @@ discovered_by = swiss_tech_group
 	remove_core = POM
 	hre = yes
 }	#House of Wizlaw dies out. Rugen inherited by the Griffins and goes with them to Pomerania. Specifically Wartislaw IV of Wolgast.
-#1350.1.1 = { culture = pommeranian }	#Ostsiedlung
-1450.1.1 = { culture = pommeranian } #Slavs outcompeted
+1444.1.1 = { owner = RUG controller = RUG add_core = RUG }
+1450.1.1 = { culture = pommeranian 	owner = WOL controller = WOL add_core = WOL} #Slavs outcompeted

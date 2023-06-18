@@ -4,14 +4,14 @@
 owner = SOR
 controller = SOR
 add_core = SOR
-culture = sorbian
+culture = saxon
 religion = catholic
 hre = yes
 base_tax = 6
 base_production = 6	
 trade_goods = lumber
 base_manpower = 4
-capital = "Luckau"
+capital = "Luckenwalde"
 is_city = yes
 
 #Claimants

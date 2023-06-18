@@ -6,11 +6,11 @@ controller = TUR
 add_core = TUR
 culture = greek
 religion = orthodox
-capital = "Volos"			#Demetrias in earlier starts, possibly, but Volos really had eclipsed it, it would seem.
+capital = "Volos"	
 base_tax = 4
 base_production = 4
-base_manpower = 3
-trade_goods = fish			#No real reason
+base_manpower = 2
+trade_goods = cloth #No real reason
 is_city = yes
 hre = no
 center_of_trade = 2
@@ -51,10 +51,8 @@ discovered_by = spanish_tech_group
 discovered_by = swiss_tech_group
 
 #Histories by SF
-1215.6.15 = { owner = ATH controller = ATH add_core = ATH } # Athenian territorial lands - By San Felipe
+1215.6.15 = { owner = EPI controller = EPI add_core = EPI } # Epirian territorial lands - By San Felipe
 1444.11.11 = { owner = TUR controller = TUR add_core = TUR } # Turkish territorial lands - By San Felipe
-1480.1.1 = { fort_15th = yes } #Ottomans fortify the city against Venetian attacks
-1500.1.1 = { marketplace = yes }
 1525.1.1 = { 
 	remove_core = BYZ
 }

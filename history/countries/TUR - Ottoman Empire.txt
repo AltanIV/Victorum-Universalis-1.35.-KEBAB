@@ -40,6 +40,7 @@ add_country_modifier = {
 }
 
 1444.10.1 = {
+	capital = 149
 	set_estate_privilege = estate_dhimmi_guaranteed_autonomy
 	set_estate_privilege = estate_dhimmi_lighter_dhimmi_taxes
 	set_estate_privilege = estate_dhimmi_manpower

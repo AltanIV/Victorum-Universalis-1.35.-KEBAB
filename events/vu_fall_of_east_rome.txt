@@ -270,6 +270,11 @@ country_event = { # Turks capture Theodosian Walls
 		NOT = { is_year = 1490 }
 		at_war_with_religious_enemy = yes
 		NOT = { 7137 = { controlled_by = ROOT }	}
+		7137 = {
+			controller = {
+				religion_group = muslim
+			}
+		}
 	}
 	
 	option = { # rip
@@ -294,7 +299,7 @@ country_event = { # Turks capture Theodosian Walls
 		7137 = {
 			add_great_project_tier = {
 				type = walls_of_theodosius
-				tier = -1
+				tier = -2
 			}
 		}
 	}

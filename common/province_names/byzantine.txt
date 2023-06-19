@@ -429,6 +429,12 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3686 = "Kisyriospan"
+3687 = { "Raodita" "Raodita" }
+3688 = { "Aetofolia" "Alamut" }
+3689 = { "Marlik" "Nea Marlikos" }
+3690 = "Taros"
+3692 = { "Tavales" "Hashpar" }
 3727 = "Kaleiros"
 3728 = { "Barzan" "Barza" }
 3729 = "Bokan"

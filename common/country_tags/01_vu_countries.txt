@@ -586,6 +586,7 @@ TKK = "countries/Tekke.txt"
 UNZ = "countries/Unaizah.txt"
 MUK = "countries/Mukriyan.txt"
 EGI = "countries/Egil.txt"
+BDP = "countries/Rustamdar.txt"
 
 #VU - Rest of Asia
 #ARU	= "countries/Aru.txt" - Removed from list because it was added in vanilla EU4 as DLI

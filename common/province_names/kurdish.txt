@@ -3,6 +3,8 @@
 2209 = "Ilam"
 2211 = { "Ardalan" "Sine" }
 2309 = "Singar"
+3684 = { "Qesra Sirin" "Qesra Sirin" }
+3685 = { "Kweyest" "Kewyest" }
 3727 = { "Badd" "Keleivar" }
 3728 = { "Seqiz" "Bane" }
 3729 = { "Bokan" "Bokan" }

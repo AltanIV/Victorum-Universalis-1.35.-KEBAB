@@ -6,11 +6,11 @@ controller = BUL
 add_core = BUL
 culture = bulgarian
 religion = orthodox
-capital = "Cherven"			#Would decline in favour of Ruse later, but in 1444 it appears to have remained the Ottoman admin center for the area.
+capital = "Vardim"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = fruit			#For no real reason
+trade_goods = seafood
 is_city = yes
 hre = no
 

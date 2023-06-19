@@ -679,7 +679,7 @@ cannon_foundry = {
 		}
 		
 		FROM = {
-			mil_tech = 7
+			mil_tech = 24
 			
 			#OR = {
 			#	innovativeness = 10
@@ -829,7 +829,7 @@ metalworking_workshop = {
 			}
 		}
 		FROM = {
-			mil_tech = 16
+			mil_tech = 33
 			
 			#OR = {
 			#	innovativeness = 15
@@ -955,7 +955,7 @@ munition_factory = {
 			}
 		}
 		FROM = {
-			mil_tech = 15
+			mil_tech = 32
 			#OR = {
 			#	innovativeness = 15
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1078,7 +1078,7 @@ wood_workshop = {
 		}
 		
 		FROM = {
-			adm_tech = 10
+			adm_tech = 27
 			#OR = {
 			#	innovativeness = 5
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1135,7 +1135,7 @@ leather_workshop = {
 		}
 		
 		FROM = {
-			adm_tech = 14
+			adm_tech = 31
 			#OR = {
 			#	innovativeness = 7
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1195,7 +1195,7 @@ sculpture_workshop = {
 		has_dlc = "Leviathan"
 		
 		FROM = {
-			adm_tech = 7
+			adm_tech = 24
 			#OR = {
 			#	innovativeness = 7
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1259,7 +1259,7 @@ jewellery_workshop = {
 		}
 		
 		FROM = {
-			dip_tech = 11
+			dip_tech = 28
 			#OR = {
 			#	innovativeness = 20
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1311,7 +1311,7 @@ uniforms_workshop = {
 
 	build_trigger = {
 		FROM = {
-			mil_tech = 21
+			mil_tech = 38
 			#OR = {
 			#	innovativeness = 7
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1378,7 +1378,7 @@ uniforms_workshop = {
 #					NOT = {	has_building = off_4 }
 #				}
 #			}
-#			adm_tech = 24
+#			adm_tech = 41
 #			has_institution = enlightenment
 #			
 #			OR = {
@@ -1407,7 +1407,7 @@ steam_engine_manu = {
 	
 	build_trigger = {
 		FROM = {
-			adm_tech = 24
+			adm_tech = 41
 			has_institution = enlightenment
 			#OR = {
 			#	innovativeness = 30
@@ -1598,7 +1598,7 @@ spectacle_factory = {
 	
 	build_trigger = {
 		FROM = {
-			dip_tech = 9
+			dip_tech = 26
 			#OR = {
 			#	innovativeness = 15
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1722,7 +1722,7 @@ cigars_factory = {
 	
 	build_trigger = {
 		FROM = {
-			dip_tech = 12
+			dip_tech = 29
 			#OR = {
 			#	innovativeness = 15
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -1845,7 +1845,7 @@ chocolate_factory = {
 	
 	build_trigger = {
 		FROM = {
-			dip_tech = 10
+			dip_tech = 27
 			#OR = {
 			#	innovativeness = 15
 			#	NOT = { has_dlc = "Rule Britannia" }
@@ -2014,7 +2014,7 @@ Ai_def_push_dip = {
 					#	innovativeness = 7
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					adm_tech = 14
+					adm_tech = 31
 				}
 			}
 			
@@ -2028,7 +2028,7 @@ Ai_def_push_dip = {
 					#	innovativeness = 7
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					adm_tech = 7
+					adm_tech = 24
 				}
 			}
 			
@@ -2042,7 +2042,7 @@ Ai_def_push_dip = {
 					#	innovativeness = 5
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					adm_tech = 10
+					adm_tech = 27
 				}
 			}
 			
@@ -2056,7 +2056,7 @@ Ai_def_push_dip = {
 					#	innovativeness = 17
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					mil_tech = 15
+					mil_tech = 32
 				}
 			}
 			
@@ -2070,7 +2070,7 @@ Ai_def_push_dip = {
 					#	innovativeness = 15
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					mil_tech = 18
+					mil_tech = 35
 				}
 			}
 			
@@ -2084,7 +2084,7 @@ Ai_def_push_dip = {
 					#	innovativeness = 15
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					dip_tech = 9
+					dip_tech = 26
 				}
 			}
 			
@@ -2195,7 +2195,7 @@ Ai_def_push_tax = {
 					#	innovativeness = 7
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					adm_tech = 14
+					adm_tech = 34
 				}
 			}
 			
@@ -2209,7 +2209,7 @@ Ai_def_push_tax = {
 					#	innovativeness = 7
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					adm_tech = 7
+					adm_tech = 24
 				}
 			}
 			
@@ -2223,7 +2223,7 @@ Ai_def_push_tax = {
 					#	innovativeness = 5
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					adm_tech = 10
+					adm_tech = 27
 				}
 			}
 			
@@ -2237,7 +2237,7 @@ Ai_def_push_tax = {
 					#	innovativeness = 17
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					mil_tech = 15
+					mil_tech = 32
 				}
 			}
 			
@@ -2251,7 +2251,7 @@ Ai_def_push_tax = {
 					#	innovativeness = 15
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					mil_tech = 18
+					mil_tech = 35
 				}
 			}
 			
@@ -2265,7 +2265,7 @@ Ai_def_push_tax = {
 					#	innovativeness = 15
 					#	NOT = { has_dlc = "Rule Britannia" }
 					#}
-					dip_tech = 9
+					dip_tech = 26
 				}
 			}
 			

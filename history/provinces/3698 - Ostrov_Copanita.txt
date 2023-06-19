@@ -15,6 +15,7 @@ base_manpower = 1
 is_city = yes
 
 #Claimants
+add_core = WAL
 
 #Buildings
 

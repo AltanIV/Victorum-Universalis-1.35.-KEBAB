@@ -168,7 +168,12 @@
 3247 = { "Üzüm" "Üzüm" }
 3248 = { "Lazistan" "Rize" }
 3754 = { "Suruç" "Suruç" }
+3693 = { "Kozloduy Adasi" "Kozloduy Adasi" }
+3694 = { "Doichov Adasi" "Doichov Adasi" }
+3695 = { "Silistre adasi" "Arjantin" }
+3696 = { "Rusçuk" "Rusçuk" }
 3697 = { "Belene" "Kule" }
+3698 = { "Oztrov Adasi" "Oztrov Adasi" }
 3972 = "Ulaº"
 4125 = "Eger"
 4126 = "Segedin"

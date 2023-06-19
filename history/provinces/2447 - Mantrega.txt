@@ -68,6 +68,7 @@ discovered_by = nomad_group
 	add_core = RUS
 	remove_core = TUR
 	fort_18th = no
+	trade_goods = seafood		#slave trade ends
 } #Treaty of Adrianople, fort in Anapa destroyed
 1853.11.1 = {
 	add_devastation = 25

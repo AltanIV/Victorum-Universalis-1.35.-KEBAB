@@ -16,13 +16,6 @@ base_manpower = 2
 is_city = yes
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
-discovered_by = english_tech_group
-discovered_by = french_tech_group
-discovered_by = german_tech_group
-discovered_by = italian_tech_group
-discovered_by = russian_tech_group
-discovered_by = scandinavian_tech_group
-discovered_by = spanish_tech_group
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -43,6 +36,9 @@ discovered_by = russian_tech_group
 discovered_by = muslim
 discovered_by = ottoman
 
+1179.1.1 = { owner = HAB controller = HAB add_core = HAB capital = "Neuhaus" } # Lost to Austria in 1179
+1220.1.1 = { capital = "Jindrich" } # First documented in 1220 and named after the Jindrich I Vítkovec, founder of the line of lords of Hradec 
+1410.1.1 = { capital = "Jindrichuv Hradec" } # Named changed in 1410 to the present and current name of Jindrichuv Hradec
 1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
 1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
 1457.1.1 = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns. Pilsen is very hostile towards him, the Roman church being dominant throughout Pilsen's history.

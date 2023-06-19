@@ -330,3 +330,4 @@
 4762 = "Vídensky les"
 4765 = "Mylhúzy"
 4778 = "Zhorelec"
+7666 = { "Nova Ves nad Luznici" "Jindrichuv Hradec" }

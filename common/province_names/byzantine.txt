@@ -429,6 +429,8 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3684 = { "Shirin" "Shirin" }
+3685 = "Hudah"
 3686 = "Kisyriospan"
 3687 = { "Raodita" "Raodita" }
 3688 = { "Aetofolia" "Alamut" }

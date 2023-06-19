@@ -17,13 +17,6 @@ add_core = BOH
 add_core = MVA
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
-discovered_by = english_tech_group
-discovered_by = french_tech_group
-discovered_by = german_tech_group
-discovered_by = italian_tech_group
-discovered_by = russian_tech_group
-discovered_by = scandinavian_tech_group
-discovered_by = spanish_tech_group
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group

@@ -1,21 +1,34 @@
 #158 - Maros
 
-owner = SZE
-controller = SZE
+#Core Details
+capital = "Targu Mures"
+is_city = yes
+owner = TRA
+controller = TRA
+
+#Demographics
 culture = szekely
 religion = catholic
-capital = "Targu Mures"
-trade_goods = fur
-hre = no
+
+#Development and Trade
 base_tax = 2
 base_production = 2
-base_manpower = 2 
-is_city = yes
+base_manpower = 2
+trade_goods = fur
+
+#Cores and Occupation (Alphabetical after current)
 add_core = HUN
 add_core = TRA
 add_core = SZE
 
+#Other Political
+hre = no
 
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries known by technology groups
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western
 discovered_by = dutch_tech_group
@@ -37,14 +50,15 @@ discovered_by = russian_tech_group
 discovered_by = muslim
 discovered_by = ottoman
 
+#Histories by SF
 1506.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # Szekely rebellion
 1507.1.1 = { revolt = {} controller = SZE }
 1514.4.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Peasant rebellion against Hungary's magnates
 1514.10.1 = { revolt = {} controller = SZE }
-1526.8.30 = { 
-	owner = TRA 
-	controller = TRA
-} #Hungary fractured after Battle of Mohacs
+#1526.8.30 = { 
+#	owner = TRA 
+#	controller = TRA
+#} #Hungary fractured after Battle of Mohacs
 1528.1.1 = { add_core = TUR }
 1551.7.19 = {
 	owner = HAB

@@ -429,6 +429,8 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3682 = "Qurve"
+3683 = { "Konkobar" "Konkobar" }
 3684 = { "Shirin" "Shirin" }
 3685 = "Hudah"
 3686 = "Kisyriospan"

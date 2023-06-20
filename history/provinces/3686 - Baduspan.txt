@@ -3,7 +3,7 @@
 owner = TAB
 controller = TAB
 culture = mazandarani
-religion = shiite
+religion = zoroastrian	#Mazandran state originally followed zoroastrian, converting only in 12th century; represents the remnants of old faith
 capital = "Kiasar"
 trade_goods = lumber	#Rare temperate rainforest, Forests of Tabaristan
 hre = no
@@ -24,7 +24,7 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 
-
+1500.1.1 = { religion = shiite } #Zoroastrian fades away
 1598.1.1 = {
 	owner = PER
 	controller = PER

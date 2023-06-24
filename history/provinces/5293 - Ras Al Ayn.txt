@@ -34,7 +34,7 @@ discovered_by = nomad_group
 
 #Histories
 1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
-1444.11.11 = { owner = AKK controller = AKK add_core = AKK } # Ak Qoyunlu territorial lands - By San Felipe
+1444.11.11 = { owner = AKK controller = AKK add_core = AKK remove_core = MAM } # Ak Qoyunlu territorial lands - By San Felipe
 1469.2.4 = {
 	owner = MAM
 	controller = MAM

@@ -33,6 +33,7 @@ discovered_by = indian
 	remove_core = BUK
 } # The Safavids took over, Shi'ism became the state religion
 1550.1.1 = { discovered_by = TUR }
+1600.1.1 = { culture = kurdish }	#Kurds forced to move to Khorasan
 1673.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
 1715.12.1 = { base_tax = 8 base_production = 8 } # Political fragmentation

@@ -137,7 +137,7 @@ vu_konigsberg_castle = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = {	factor = 7000 }
 		province_modifiers = { local_defensiveness = 0.5 local_manpower_modifier = 0.15 local_development_cost = -0.1}
-		area_modifier = {local_governing_cost = -0.5 local_production_efficiency = 0.1}
+		area_modifier = {local_governing_cost = -0.05 local_production_efficiency = 0.1}
 		country_modifiers = { army_tradition = 0.5 stability_cost_modifier = -0.05 }
 		on_upgraded = {}
 	}

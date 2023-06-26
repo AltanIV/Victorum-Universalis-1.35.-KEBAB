@@ -74,6 +74,7 @@
 259 = "Sandomir"
 261 = "Halitsch"
 262 = "Krakau"
+264 = "Breslau"
 265 = "Brünn"
 266 = "Prag"
 267 = "Pilsen"

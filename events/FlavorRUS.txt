@@ -2613,22 +2613,27 @@ country_event = {
 			}
 		}
 		is_year = 1500
-		owns = 1955
-		1955 = {
+		owns = 313
+		313 = {
 			NOT = { has_province_modifier = arkhangelsk_modifier }
 		}
 	}
 	mean_time_to_happen = {
 		months = 30
 	}
-	goto = 1955
+	goto = 313
 
 	# Ok
 	option = {
 		name = flavor_rus.102.a
 		1955 = {
-			rename_capital = "Arkhangelsk"
-			change_province_name = "Arkhangelsk"
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
+				add_center_of_trade_level = -1
+		}
+		313 = {
+			center_of_trade = 2
 			add_base_tax = 2
 			add_base_production = 2
 			add_base_manpower = 2

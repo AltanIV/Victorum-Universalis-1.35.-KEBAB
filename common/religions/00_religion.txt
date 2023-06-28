@@ -379,19 +379,17 @@ christian = {
 		country = {
 			shock_damage_received = -0.05
 			global_heretic_missionary_strength = 0.02
-			global_tax_modifier = 0.2
 			tolerance_own = 1
 			adm_tech_cost_modifier = -0.10 #FULL - Radical ideas
 			legitimacy = 0.50
 			republican_tradition = 0.25
 			horde_unity = 0.25
 			devotion = 1
-			land_morale = 0.10
+			land_morale = 0.05
 		}
 		
 		country_as_secondary = {
 			shock_damage_received = -0.025
-			idea_cost = -0.1
 			tolerance_own = -1
 			global_heretic_missionary_strength = 0.01
 		}
@@ -589,6 +587,7 @@ christian = {
 		country = {
 			tolerance_heretic = 2
 			advisor_pool = 1
+			global_unrest = -1
 		}
 		
 		country_as_secondary = {
@@ -710,7 +709,7 @@ christian = {
 			republican_tradition = 0.25
 			horde_unity = 0.25
 			devotion = 1
-			local_missionary_strength = 0.01
+			global_missionary_strength = 0.01
 		}
 		country_as_secondary = {
 			global_colonial_growth = 20
@@ -889,8 +888,9 @@ christian = {
 			republican_tradition = 0.25
 			horde_unity = 0.25
 			devotion = 1
-			improve_relation_modifier = 0.25
+			improve_relation_modifier = 0.2
 			global_missionary_strength = 0.01
+			fire_damage_received = -0.025
 		}
 		country_as_secondary = {
 			siege_ability = 0.1
@@ -898,7 +898,7 @@ christian = {
 			global_missionary_strength = -0.01
 			tolerance_own = -1
 			devotion = 1
-			improve_relation_modifier = 0.25
+			improve_relation_modifier = 0.15
 		}
 		
 		province = {
@@ -944,14 +944,14 @@ christian = {
 	#		tolerance_own = 2
 	#		stability_cost_modifier = -0.1
 	#		adm_tech_cost_modifier = -0.05
-	#		local_missionary_strength = 0.01
+	#		global_missionary_strength = 0.01
 	#		global_unrest = -1 
 	#		may_recruit_female_generals = yes
 	#		female_advisor_chance = 0.2
 	#	}
 	#	country_as_secondary = {
 	#		stability_cost_modifier = -0.15
-	#		local_missionary_strength = -0.01
+	#		global_missionary_strength = -0.01
 	#		tolerance_own = -1
 	#		yearly_corruption = -0.1
 	#		advisor_pool = 1
@@ -1281,9 +1281,10 @@ christian = {
 	#		tolerance_own = 4
 	#	}
 	#	country_as_secondary = {
-	#		unjustified_demands = -0.3
+	#		unjustified_demands = -0.25
 	#		raze_power_gain = 0.2
 	#		global_missionary_strength = 0.01
+	#		tolerance_heretic = -2
 	#	}
 	#	province = {
 	#		local_missionary_strength = -0.01
@@ -1371,13 +1372,14 @@ christian = {
 		color = { 173 85 66 }
 		icon = 33
 		allowed_conversion = {
-			catholic
+			#catholic
 			protestant		#bogomilists hated church institution, so they may be keen on joining the reformation
 			reformed
 			orthodox
 			coptic
 			miaphysite
 			#jewish
+			###iconoclast	#to be added later
 		}
 		allowed_center_conversion = {
 			protestant 
@@ -1388,13 +1390,16 @@ christian = {
 			catholic
 		}
 		country = {
-			local_missionary_strength = 0.005
 			tolerance_own = 1
 			adm_tech_cost_modifier = -0.05
-			global_unrest = -1 
+			global_unrest = -1
 			stability_cost_modifier = -0.1
 			shock_damage_received = -0.15
 			global_manpower_modifier = 0.15
+			build_cost = 0.1
+			build_time = 0.1
+			global_tax_modifier = -0.15
+			same_religion_advisor_cost = -0.2
 		}
 		country_as_secondary = {
 			tolerance_own = -1
@@ -1528,6 +1533,9 @@ christian = {
 			tolerance_own = -1
 			global_missionary_strength = -0.005
 			development_cost = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.005
 		}
 		
 		on_convert = {
@@ -2358,6 +2366,7 @@ muslim = {
 			druze_new
 			yazidi
 			shiite
+			sunni
 		}
 		
 		country = {
@@ -2547,7 +2556,7 @@ muslim = {
 	#	uses_piety = yes				# Uses piety mechanics
 	#}
 
-# Alevi Religion
+	# Alevi Religion
 	#alevi = {		#Not added yet
 	#	color = { 0 117 91 }
 	#	icon = 1
@@ -2620,7 +2629,7 @@ muslim = {
 			advisor_pool = 1
 			tolerance_heathen = 2
 			tolerance_own = -1
-			land_morale = 0.10 
+			land_morale = 0.075
 			global_missionary_strength = -0.01
 		}
 		province = {
@@ -2650,7 +2659,7 @@ eastern = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 58 80 }
 
-	#buddhism = { } #Moved to buddhist group in 01_new_religions_VU
+	#buddhism = { } #Moved to separate buddhist group
 	
 	state_shinto = {
 		color = { 255 40 20 }
@@ -2691,11 +2700,11 @@ eastern = {
 		
 	}
 	
-	#vajrayana = { } #Moved to buddhist group in 01_new_religions_VU
+	#vajrayana = { } #Moved to separate buddhist group
 	
-	#mahayana = { } #Moved to buddhist group in 01_new_religions_VU
+	#mahayana = { } #Moved to separate buddhist group
 	
-	#tantra = { } #Moved to buddhist group in 01_new_religions_VU
+	#tantra = { } #Moved to separate buddhist group
 	
 	confucianism = {
 		color = { 177 196 132 }
@@ -2718,9 +2727,9 @@ eastern = {
 		}
 		
 		country_as_secondary = {
-			adm_tech_cost_modifier = -0.1
+			adm_tech_cost_modifier = -0.075
 			stability_cost_modifier = -0.1
-			improve_relation_modifier = 0.25
+			improve_relation_modifier = 0.15
 			legitimacy = -0.25
 			republican_tradition = -0.5
 			horde_unity = -0.5
@@ -2796,10 +2805,10 @@ eastern = {
 			global_unrest = -2
 			global_manpower_modifier = 0.15
 			ae_impact = -0.1
-			yearly_corruption = -1
+			yearly_corruption = -0.5
 			innovativeness_gain = 0.1
 			idea_cost = -0.1
-			adm_tech_cost_modifier = -0.05
+			adm_tech_cost_modifier = -0.025
 			heir_chance = 0.5
 		}
 
@@ -2808,7 +2817,6 @@ eastern = {
 			global_manpower_modifier = 0.1
 			innovativeness_gain = 0.05
 			idea_cost = -0.05
-			adm_tech_cost_modifier = -0.05
 			heir_chance = 0.5
 		}
 
@@ -2909,17 +2917,13 @@ dharmic = {
 			brahmins_hindu_influence_modifier = 0.2
 			legitimacy = 0.50
 			advisor_cost = -0.15
-			heir_chance = 0.5
-			advisor_pool = -1
-			global_unrest = 1
 		}
 		
 		country_as_secondary = {
 			tolerance_heretic = 1
 			tolerance_heathen = 2
 			legitimacy = 0.50
-			advisor_cost = -0.15
-			advisor_pool = -1
+			advisor_cost = -0.05
 			tolerance_own = -1
 		}
 		
@@ -2962,7 +2966,6 @@ dharmic = {
 			army_tradition = 0.5
 			tolerance_heretic = 1
 			tolerance_heathen = 1
-			legitimacy = -0.25
 		}
 		
 		province = {
@@ -4390,7 +4393,7 @@ pagan = {
 		}
 		country_as_secondary = {
 			land_morale = 0.1
-			shock_damage = 0.1
+			shock_damage = 0.05
 			hostile_attrition = 2
 		}
 		
@@ -4428,9 +4431,8 @@ jewish_group = {
 		
 		country_as_secondary = {
 			advisor_pool = 1 #highly educated, emphasis on education and law
-			interest = -2 #no compunction against usury
+			interest = -1 #no compunction against usury
 			merchants = 1 #well educated middle class
-			trade_efficiency = 0.10 #contacts throughout the world 
 			diplomatic_reputation = -1 #Suspicion of Jews
 			production_efficiency = 0.1
 			global_unrest = -1
@@ -4759,7 +4761,7 @@ zoroastrian_group = {
 		}
 		province = {
 			local_missionary_strength = -0.02
-			global_regiment_recruit_speed = -0.25
+			regiment_recruit_speed = -0.25
 		}
 		country_as_secondary = {
 			tolerance_own = 2
@@ -4853,7 +4855,7 @@ balto_slavic_group = {
 			hussite	
 			orthodox	
 		}	
-		date = 1444.1.1							
+		date = 500.1.1							
 		country = {
 			enemy_core_creation = 0.2
 			hostile_attrition = 1
@@ -4869,13 +4871,6 @@ balto_slavic_group = {
 		on_convert = {
 			change_religion = baltic_pagan_reformed			
 			add_prestige = -100
-			remove_country_modifier = counter_reformation
-			remove_country_modifier = the_statue_in_restraint_of_appeals
-			remove_country_modifier = bavarian_jesuits
-			remove_country_modifier = the_societas_jesu
-			remove_country_modifier = the_declaration_of_indulgence
-			remove_country_modifier = de_heretico_comburendo
-			remove_country_modifier = the_conventicle_act
 			
 			add_country_modifier = {
 				name = "conversion_zeal"
@@ -4913,6 +4908,7 @@ finnic_group = {
 		country = {
 			hostile_attrition = 1
 			defensiveness = 0.2
+			land_attrition = -0.1
 		}
 		country_as_secondary = {
 			hostile_attrition = 1
@@ -4921,13 +4917,6 @@ finnic_group = {
 		on_convert = {
 			change_religion = finnish_pagan_reformed
 			add_prestige = -100
-			remove_country_modifier = counter_reformation
-			remove_country_modifier = the_statue_in_restraint_of_appeals
-			remove_country_modifier = bavarian_jesuits
-			remove_country_modifier = the_societas_jesu
-			remove_country_modifier = the_declaration_of_indulgence
-			remove_country_modifier = de_heretico_comburendo
-			remove_country_modifier = the_conventicle_act		
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -4974,13 +4963,6 @@ slavic_group = {
 		on_convert = {
 			change_religion = slavic_pagan_reformed
 			add_prestige = -100
-			remove_country_modifier = counter_reformation
-			remove_country_modifier = the_statue_in_restraint_of_appeals
-			remove_country_modifier = bavarian_jesuits
-			remove_country_modifier = the_societas_jesu
-			remove_country_modifier = the_declaration_of_indulgence
-			remove_country_modifier = de_heretico_comburendo
-			remove_country_modifier = the_conventicle_act		
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -5088,8 +5070,7 @@ buddhist_group = {
 		}
 		
 		country_as_secondary = {
-			development_cost = -0.1
-			diplomats = 1
+			development_cost = -0.05
 			prestige = 1
 			tolerance_heretic = 2
 			tolerance_heathen = 1
@@ -5183,7 +5164,7 @@ buddhist_group = {
 			global_tax_modifier = 0.1
 			tolerance_heathen = 2
 			prestige = 0.5 
-			idea_cost = -0.10
+			idea_cost = -0.075
 			free_leader_pool = 1
 			global_autonomy = 0.02
 			global_missionary_strength = 0.005
@@ -5233,7 +5214,7 @@ buddhist_group = {
 			free_leader_pool = 1
 			tolerance_of_heretics_capacity = 1
 			discovered_relations_impact = -0.1
-			years_of_nationalism = -3
+			years_of_nationalism = -2
 		}
 		
 		on_convert = {

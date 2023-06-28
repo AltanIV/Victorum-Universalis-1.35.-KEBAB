@@ -130,6 +130,10 @@
  PROV405:0 "Palmyra"         #Formerly 5182
  PROV407:0 "Rakka"         #Formerly 405
  PROV418:0 "Amida"
+ PROV437:0 "Nisa"           #was Kopet Dag
+ PROV_ADJ437:0 "Nisan"
+ PROV438:0 "Gokdepe"        #was Karakum
+ PROV_ADJ438:0 "Gokdepeni"
  PROV467:0 "Uryupin"
  PROV473:0 "Uryupin"
  PROV482:0 "Bahama"

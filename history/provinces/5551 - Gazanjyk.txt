@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 culture = turkmeni
-religion = zoroastrian	#Zoroastrian communities scattered around region around that time
+religion = sunni
 capital = "Bereket"	#Early Modern name but there aren't any records on previous settlements
 trade_goods = carpet	#Cloth-related buisness and wheat processing, so may also be cotton, livestock, grain, wool, cloth
 hre = no

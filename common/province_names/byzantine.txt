@@ -429,6 +429,7 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3653 = { "Hamamshen" "Tambur" }
 3676 = { "Rhagai" "Rhagai Europos" }
 3677 = "Kalakio"
 3678 = "Mahalat"

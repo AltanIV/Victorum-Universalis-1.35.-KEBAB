@@ -1409,6 +1409,16 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
+			3506.000 6.550 1572.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
 			1569.000 9.300 274.000 
 		}
 		rotation={
@@ -2339,7 +2349,7 @@ type={
 		name="buddha_big"
 		hidden_on_start=no
 		position={
-			3692.200 -1.300 1632.600 
+			3692.000 -0.500 1575.000 
 		}
 		rotation={
 			0.000 25.000 0.000 
@@ -2355,7 +2365,7 @@ type={
 		name="buddha_small"
 		hidden_on_start=no
 		position={
-			3701.000 -0.800 1631.000 
+			3698.000 -0.800 1578.000 
 		}
 		rotation={
 			0.000 -15.000 0.000 

@@ -208,6 +208,7 @@
 426 = { "Orotan" "Orotan" }
 430 = { "Arakia" "Amarak" }
 431 = { "Hamozeia" "Hamozeia" }
+450 = { "Bactra" "Zariaspa" }
 462 = { "Archaiopolis" "Phasis" }
 463 = "Siracia"
 468 = "North Siracia"
@@ -268,6 +269,7 @@
 2218 = { "Persepolis" "Persepolis" }
 2219 = { "Sirathos" "Sirathos" }
 2223 = { "Utia" "Karniyos" }
+2227 = { "Drapsaka" "Drapsaka" }
 2244 = { "Kerne" "Kerne" }
 2296 = { "Abydos" "Abydos" }
 2297 = { "Magnesia" "Sardeis" }
@@ -429,6 +431,7 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3636 = { "Eukratidia" "Eukratidia" }
 3653 = { "Hamamshen" "Tambur" }
 3676 = { "Rhagai" "Rhagai Europos" }
 3677 = "Kalakio"

@@ -1,4 +1,4 @@
-#VU updated for 1.35 by San Felipe
+#VU updated for 1.35.4 by Altan
 ##Made by Ogele 'Comrade Flan'
 #Slot 1 and 2
 #Special to Muscovy only
@@ -590,6 +590,7 @@ mos_rus_eastern_europe = {
 				add_accepted_culture = sorbian
 				add_accepted_culture = schlesian
 				add_accepted_culture = polish
+				add_accepted_culture = slovak
 			}
 			add_country_modifier = {
 				name = rus_west_slavic_union
@@ -601,6 +602,7 @@ mos_rus_eastern_europe = {
 				add_accepted_culture = sorbian
 				add_accepted_culture = schlesian
 				add_accepted_culture = polish
+				add_accepted_culture = slovak
 			}
 			add_country_modifier = {
 				name = "rus_partition_poland_modifier"
@@ -638,7 +640,6 @@ mos_rus_eastern_europe = {
 			tooltip = {
 				add_accepted_culture = hungarian
 				add_accepted_culture = romanian
-				add_accepted_culture = slovak
 				add_accepted_culture = transylvanian
 			}
 			add_country_modifier = {
@@ -649,7 +650,6 @@ mos_rus_eastern_europe = {
 			hidden_effect = {
 				add_accepted_culture = hungarian
 				add_accepted_culture = romanian
-				add_accepted_culture = slovak
 				add_accepted_culture = transylvanian
 			}
 			custom_tooltip = mos_rus_carpathian_conquest_ct
@@ -1211,6 +1211,7 @@ nov_rus_eastern_europe = {
 				add_accepted_culture = sorbian
 				add_accepted_culture = schlesian
 				add_accepted_culture = polish
+				add_accepted_culture = slovak
 			}
 			add_country_modifier = {
 				name = rus_west_slavic_union
@@ -1222,6 +1223,7 @@ nov_rus_eastern_europe = {
 				add_accepted_culture = sorbian
 				add_accepted_culture = schlesian
 				add_accepted_culture = polish
+				add_accepted_culture = slovak
 			}
 			add_country_modifier = {
 				name = "rus_partition_poland_modifier"
@@ -1337,7 +1339,7 @@ nov_rus_eastern_europe = {
 			simple_dynamic_effect_without_alternative = {
 				first_custom_tooltip = nov_rus_involve_in_asian_trade_at
 				first_limit = "
-				507 = {
+				707 = {
 					trade_share = {
 						country = ROOT
 						share = 20
@@ -1368,7 +1370,7 @@ nov_rus_eastern_europe = {
 				}"
 				second_custom_tooltip = nov_rus_involve_in_asian_trade_vu
 				second_limit = "
-				707 = {
+				507 = {
 					trade_share = {
 						country = ROOT
 						share = 20
@@ -3925,6 +3927,15 @@ rus_russian_streltsy = {
 					second_limit = "has_estate_privilege = estate_nobles_increased_peasant_freedom has_country_flag = rus_crushed_boyars_revolt NOT = { has_spawned_rebels = noble_rebels }"
 					second_effect = "custom_tooltip = rus_solidify_serfdom_ft set_country_flag = rus_buffed_free_peasantry_privileges"
 				}
+				if = {
+					limit = {
+						NOT = { has_estate_privilege = estate_nobles_early_serfdom }
+						NOT = { has_estate_privilege = estate_nobles_increased_peasant_freedom }
+					}
+					add_adm_power = 100
+					add_dip_power = 100
+					add_mil_power = 100
+				}
 			}
 			else = {
 				add_adm_power = 100
@@ -4429,6 +4440,32 @@ rus_russian_religion_serfdom = {
 		trigger = {
 			reform_level = 4
 			OR = {
+				AND = {
+					custom_trigger_tooltip = {  
+						tooltip = rus_6_tot_tt
+						has_global_modifier_value = { 
+							which = tolerance_own 
+							value = 6
+						}
+					}
+					if = {
+						limit = { has_estate = estate_church }
+						estate_loyalty = {
+							estate = estate_church
+							loyalty = 80
+						}
+					}
+					if = {
+						limit = { uses_patriarch_authority = yes }
+						OR = {
+							patriarch_authority = 1
+							num_of_owned_provinces_with = {
+								has_state_patriach = yes
+								value = 70
+							}
+						}
+					}
+				}
 				custom_trigger_tooltip = {
 					tooltip = rus_most_holy_synod_xx
 					any_known_country = {
@@ -4448,32 +4485,6 @@ rus_russian_religion_serfdom = {
 						}
 					}
 					diplomatic_reputation = 2
-				}
-				AND = {
-					if = {
-						limit = { has_estate = estate_church }
-						estate_loyalty = {
-							estate = estate_church
-							loyalty = 80
-						}
-					}
-					if = {
-						limit = { uses_patriarch_authority = yes }
-						OR = {
-							patriarch_authority = 1
-							num_of_owned_provinces_with = {
-								has_state_patriach = yes
-								value = 70
-							}
-						}
-					}
-					custom_trigger_tooltip = {  
-						tooltip = rus_6_tot_tt
-						has_global_modifier_value = { 
-							which = tolerance_own 
-							value = 6
-						}
-					}
 				}
 			}
 		}

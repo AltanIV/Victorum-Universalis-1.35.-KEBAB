@@ -1,3 +1,4 @@
+#Added 1.35.4 changes - Altan
 french_missions_1 = {
 	slot = 1
 	generic = no
@@ -1194,7 +1195,7 @@ french_missions_1_Continuation_a = {
 					limit = { has_country_flag = FRA_supports_catholic_majority }
 					add_country_modifier = {
 						name = fra_catholic_supremacy_modifier
-						duration = 9125 
+						duration = -1
 					}
 					set_defender_of_the_faith = {
 						who = ROOT 
@@ -3176,7 +3177,7 @@ french_missions_3_normal_continued = {
 		}
 		effect = {
 			1272 = { change_province_name = "La Manche" }
-			1269 = { change_province_name = "Basse-C�te" }
+			1269 = { change_province_name = "Basse-Côte" }
 			add_country_modifier = {
 				name = fra_channel_dominance_modifier
 				duration = -1 

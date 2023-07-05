@@ -293,3 +293,9 @@
  spanish_carlists_desc:0 "Carlists want to bring about the restoration of the traditional monarchy, even though it has no place in our day and age. Therefore, let us hoist the royal colours and proclaim, "Viva España y Dios salve la Constitución!""
  imperial_russia_title:0 "Imperial Russia"
  imperial_russia_desc:0 "'Imperatorskaya Rossiya' is the new name we shall call our empire and St.Petersburg will be her new and shining capital on the shores of the Baltic. Gone are the days of old as we welcome with open arms this new modern age of enlightenment."
+
+ ##############################
+ # VU - Custom Tooltip by Altan
+ ##############################
+
+russian_nation_requirements_vu: "You must own §YMoskva§!, §YNovgorod§!, §YTver§! or §YYaroslavl§!, §YRyazan§! or §YSmolensk§!, §YNijni-Novgorod§! or §YVladimir§!.\nYou must start as or have annexed §YTver§!, §YGalich§!, §YZubtsov§!, §YPronsk§!, §YRyazan§!, §YYaroslav§!, §YPolotsk§! or §YRostov§!.\n§YMozhaysk§!, §YSerpukhov§!, §YPskov§!, §YMologa§!, §YBeloozero§! must either be your starting country or your vassal or annexed."

@@ -922,6 +922,8 @@
  desc_eye_of_sahara:0 "Strange, omnius rock formation spanning kilimeters in diameter. Circular, resembles an eye. In reality it's eroded dome 40 kilometres in diameter, rich in igneous rock. Locals of that time likely believed it to either be lost city of Atlantis or spiritual site of otherworldly origin."
  vu_djerid_canal:0 "Terraformed Chott El-Djerid"
  desc_vu_djerid_canal:0 "Chott El-Djerid has been turned into permanent lake. This allows for hostile desert to thrive once again."
+ afghan_lapis_lazuli:0 "Afghan Lapis Lazuli"
+ desc_afghan_lapis_lazuli:0 "This province contains large deposits of Lapis Lazuli - a rare, blue mineral found almost exclusively in mountains of Afghanistan. Since the dawn of first civilizations, Afghanistan was the sole source of this precious mineral, which was used for decorative purposes, as jewelry and as one of the few existing way to obtain natural blue dye. Its use as blue pigment was one of the main reasons for its extreme preciousness. In this case, lapis lazuli is found in limestone in the Kokcha River valley of Badakhshan province in north-eastern Afghanistan, where the famous Sar-e-Sang mine deposits have been worked for more than 6,000 years. Whoever can secure those lapis deposits, can expect huge boost it their income."
  vu_conquest_of_the_great_fire:0 "Great Fire"
  desc_vu_conquest_of_the_great_fire:0 "Great Fire Temples where significant inaugural sites in pre-Muslim Persian tradition, as well as being the holiest sites of the Zoroastrian religion. Recapturing these sites is crucial to the restoration of Zoroastrianism as a major religion!"   #This is horrible, but whatever... I wasn't feeling inspired   Darth Modus
  vuaddon_triggered_modifier_adm_focus:0 "Administrative Focus"

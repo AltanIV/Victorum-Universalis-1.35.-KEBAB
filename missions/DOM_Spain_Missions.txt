@@ -67,11 +67,16 @@ dom_cas_missions_1 = {
 
 		provinces_to_highlight = {
 			area = upper_andalucia_area
+			area = lower_andalucia_area
 			NOT = { owned_by = ROOT }
 		}
 
 		trigger = {
 			upper_andalucia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			lower_andalucia_area = {
 				type = all
 				owned_by = ROOT
 			}

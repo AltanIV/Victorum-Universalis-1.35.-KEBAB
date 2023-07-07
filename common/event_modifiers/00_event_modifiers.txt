@@ -15551,6 +15551,13 @@ eye_of_sahara = {	#Richat Structure
 	local_unrest = -0.5
 }
 
+afghan_lapis_lazuli = {
+	trade_value = 1
+	trade_goods_size = 0.5
+	tax_income = 12		#1 gold/month
+	local_development_cost = -0.1
+}
+
 ##############################################
 # Malaria stopping colonisation by docRobert #
 ##############################################

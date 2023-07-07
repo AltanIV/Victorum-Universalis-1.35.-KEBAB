@@ -134,6 +134,8 @@
  PROV_ADJ437:0 "Nisan"
  PROV438:0 "Gokdepe"        #was Karakum
  PROV_ADJ438:0 "Gokdepeni"
+ PROV452:0 "Jauz Gun"       #was Badakhashan
+ PROV_ADJ452:0 "Jauz Guni"
  PROV467:0 "Uryupin"
  PROV473:0 "Uryupin"
  PROV482:0 "Bahama"

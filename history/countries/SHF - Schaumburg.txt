@@ -5,7 +5,6 @@ primary_culture = lower_saxon
 technology_group = german_tech_group
 unit_type = western
 religion = catholic
-technology_group = german_tech_group
 unit_type = western
 capital = 7516 #Schaumburg
 

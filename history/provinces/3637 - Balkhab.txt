@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = hazara
 religion = sunni
 capital = "Balkhab"
 trade_goods = copper		#One of the largest copper deposits

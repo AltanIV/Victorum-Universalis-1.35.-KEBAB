@@ -2,7 +2,7 @@
 
 owner = BPI
 controller = BPI
-culture = mazandarani		#should be its own Talysh culture but oh well...
+culture = talysh
 religion = sunni
 capital = "Hashtpar"
 trade_goods = wine

@@ -2,7 +2,7 @@
 
 owner = KHO
 controller = KHO
-culture = khorasani		#Should be khorasani turkish, will change later
+culture = horasanli
 religion = shiite		#khorasani turks followed shia
 capital = "Esfarayen"
 trade_goods = saffron	#3rd trade good important in the area besides carpet and wine which is nearby

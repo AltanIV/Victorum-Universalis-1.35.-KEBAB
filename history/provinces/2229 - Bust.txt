@@ -2,7 +2,7 @@
 
 owner = SIS
 controller = SIS
-culture = afghani
+culture = pashtun
 religion = sunni
 capital = "Bust"
 trade_goods = marble

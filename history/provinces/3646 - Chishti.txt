@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = aimaq
 religion = sunni
 capital = "Chisht-e Sharif"
 trade_goods = wine			#And other fruits grown along the river

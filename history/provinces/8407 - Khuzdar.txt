@@ -2,7 +2,7 @@
 
 owner = BAL
 controller = BAL
-culture = baluchi
+culture = brahui
 religion = sunni
 capital = "Khuzdar"
 trade_goods = incense		#Generic, no data on specific production there but town was on the strategic mountain trade route so could be carpet, cloth, silk, dyes, spices, etc.

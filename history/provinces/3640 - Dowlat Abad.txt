@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = khorasani			#northern pashto
 religion = sunni
 capital = "Shirin Tagab"
 trade_goods = marble		#known only for salt mines and marble deposits, marble seems more important

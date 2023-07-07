@@ -6696,9 +6696,9 @@ iranian	= {
 			Šêlaz Šîlan Šînî Šîwen
 		}
 	}
-	afghani = {
+	afghani = {		#Now represents Dari
 		graphical_culture = persiangfx
-		primary = AFG
+		#primary = AFG
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
@@ -6836,6 +6836,428 @@ iranian	= {
 	dynasty_names = {
 		Afsharid Zand Qajar Qoli Zahedi Talish Safavid Zulqadr Shamlu Sahandlu Zanganeh
 		Zaman Ustajlu Tekkelu Jaberi Khuzani Kujuji Ordubadi Khalifeh Karaki
+	}
+	talysh = {
+		male_names = {
+			Bisutun "Adud ud-Dawlah" Kayumarth "Bakir Almaluf" "Kai-Ka'us" Jahangir Aziz "Sa'ad ud-Dawlah" Bahman
+		}
+		female_names = {
+			Manli Mitchka Mila Vanoosheh Marjam Marzhan Milaana Nurbiika Nurishat Nuura Peet'mat Qoqa
+		}
+		dynasty_names = {
+			Afrasiyab Paduspanid Alid "Banu Kawus" "Banu Iskandar" Marashi Kiya
+			Bavandid Eshaqvand
+		}
+	}
+	pashtun = {
+		graphical_culture = persiangfx
+		primary = AFG
+		male_names = {
+			Afshar Afshar Ahmad Ahmad Akbar Akbar Allahyar Amin Anushirvan Anushirvan
+			Ardahan Ardahan Ardavan Ardavan Ardeshir Ardeshir Ayeshah Babak Babak Bahman
+			Bahram Bahram Bakhtiar Bakhtiar Behrad Behrouz Bozorg Danush Danush Darab Dariush Darius Davud
+			David Djamasp Ebrahim Abraham Ehsan Esfandiar Esfandiar Eskander Alexander Esma'il Ismail
+			Faramarz Faramarz Faraz Faraz Fareed Farid Farhad Farhad Fariborz Fariborz Farroukh Farroukh
+			Farrukhzad Farrukhzad Farzad Farzad Fath Ferdows Ferdows Fereedun Feridun Ghobad Gholam Godarz
+			Goshtasb Goshtasb Hafez Hassan Hasan Hazarasp Hazarasp Hedayat Hooshyar Hooshyar Hormazd
+			Hormazd Hormoz Hossein Hossein Humayun Jahandar Jahandar Jahangir Jahangir Jahanshah Jahanshah
+			Jamshid Jamshid Javeed Javeed Kambiz Kamran Kavoos Kavoos Keyghobad Keykhosrau Keykhosrau
+			Kharmandar Kharmandar Khashayar Khashayar Kavadh Khodadad Khodadad Khosrau Khosrau Khudayar
+			Khudayar Khurshid Khurshid Kurush Cyrus Mahmud Manuchihr Manuchihr Manushihr Manushihr Marzuban
+			Marzuban Mashad Mashad Maziar Mehrab Mehrzad Mohammed Muhammad Morad Morad Morteza Mozaffar
+			Nard Naveed Nawid Nezam Parviz Pashang Pashang Peroz Peroz Pujman Reza Rostam Rostam Ruhollah
+			Sadri Salman Shahab Shahab Shahbaz Shahbaz Shahin Shahin Shahram Shahram Shahrokh Sharokh
+			Shahruz Shahruz Shahryar Shahryar Shapur Shapur Shayan Shayan Sina Tahmasb Tahmasb Vahhab
+			Vahhab Vahid Vali Vandad Varshasb Varshasb Vishtasb Vishtasb Yazdegerd Yousef Joseph Zahak
+			Zakaria Zand Zartosht Zartosht Zia Joneid Haidar Ismï¿½'ï¿½l Tamï¿½shp Mohammad Kodabï¿½nda 'Abbï¿½s Safi
+			Hosayn Nï¿½der Shï¿½h 'ï¿½del Shï¿½h Ebrï¿½him Shï¿½h Rukh Nï¿½der Mirza Karim Khï¿½n Abu'l Fath
+			Sï¿½diq Morï¿½d Ja'far Loft Ali Aga Muhammad Fath Alï¿½ Solaymï¿½n
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram
+			Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva Furuzan Ghamze Ghazal
+			Ghoncheh Ghoncheh Golbahar Golbahar Golnaz Golnaz Golpari Golshan Hamdam Hurmat Irandokht
+			Jamileh Javaneh Leila Mahdokht Mahtab Mariam Mariam Navvaba Nazgol Nazgol Nazilla Noor Parvaneh
+			Parvaneh Parvin Pertevniyal Pourandokht Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh
+			Shirin Soraya Touran Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh Atiya
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
+	}
+	pamiri = {
+		graphical_culture = persiangfx
+		male_names = {
+			Afshar Afshar Ahmad Ahmad Akbar Akbar Allahyar Amin Anushirvan Anushirvan
+			Ardahan Ardahan Ardavan Ardavan Ardeshir Ardeshir Ayeshah Babak Babak Bahman
+			Bahram Bahram Bakhtiar Bakhtiar Behrad Behrouz Bozorg Danush Danush Darab Dariush Darius Davud
+			David Djamasp Ebrahim Abraham Ehsan Esfandiar Esfandiar Eskander Alexander Esma'il Ismail
+			Faramarz Faramarz Faraz Faraz Fareed Farid Farhad Farhad Fariborz Fariborz Farroukh Farroukh
+			Farrukhzad Farrukhzad Farzad Farzad Fath Ferdows Ferdows Fereedun Feridun Ghobad Gholam Godarz
+			Goshtasb Goshtasb Hafez Hassan Hasan Hazarasp Hazarasp Hedayat Hooshyar Hooshyar Hormazd
+			Hormazd Hormoz Hossein Hossein Humayun Jahandar Jahandar Jahangir Jahangir Jahanshah Jahanshah
+			Jamshid Jamshid Javeed Javeed Kambiz Kamran Kavoos Kavoos Keyghobad Keykhosrau Keykhosrau
+			Kharmandar Kharmandar Khashayar Khashayar Kavadh Khodadad Khodadad Khosrau Khosrau Khudayar
+			Khudayar Khurshid Khurshid Kurush Cyrus Mahmud Manuchihr Manuchihr Manushihr Manushihr Marzuban
+			Marzuban Mashad Mashad Maziar Mehrab Mehrzad Mohammed Muhammad Morad Morad Morteza Mozaffar
+			Nard Naveed Nawid Nezam Parviz Pashang Pashang Peroz Peroz Pujman Reza Rostam Rostam Ruhollah
+			Sadri Salman Shahab Shahab Shahbaz Shahbaz Shahin Shahin Shahram Shahram Shahrokh Sharokh
+			Shahruz Shahruz Shahryar Shahryar Shapur Shapur Shayan Shayan Sina Tahmasb Tahmasb Vahhab
+			Vahhab Vahid Vali Vandad Varshasb Varshasb Vishtasb Vishtasb Yazdegerd Yousef Joseph Zahak
+			Zakaria Zand Zartosht Zartosht Zia Joneid Haidar Ismï¿½'ï¿½l Tamï¿½shp Mohammad Kodabï¿½nda 'Abbï¿½s Safi
+			Hosayn Nï¿½der Shï¿½h 'ï¿½del Shï¿½h Ebrï¿½him Shï¿½h Rukh Nï¿½der Mirza Karim Khï¿½n Abu'l Fath
+			Sï¿½diq Morï¿½d Ja'far Loft Ali Aga Muhammad Fath Alï¿½ Solaymï¿½n
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram
+			Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva Furuzan Ghamze Ghazal
+			Ghoncheh Ghoncheh Golbahar Golbahar Golnaz Golnaz Golpari Golshan Hamdam Hurmat Irandokht
+			Jamileh Javaneh Leila Mahdokht Mahtab Mariam Mariam Navvaba Nazgol Nazgol Nazilla Noor Parvaneh
+			Parvaneh Parvin Pertevniyal Pourandokht Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh
+			Shirin Soraya Touran Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh Atiya
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
+	}
+	hazara = {
+		graphical_culture = persiangfx
+		male_names = {
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
+	}
+	aimaq = {
+		graphical_culture = persiangfx
+		male_names = {
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
+	}
+}
+
+nuristani_group = {
+	graphical_culture = persiangfx
+	kafir = {	#General, northern language group
+        graphical_culture = persiangfx
+		dynasty_names = {
+			"Shah Miri" "Sayyidi" "Mirrani" "Prasuni" "Ashkun" "Kalasha-ala" "Gambiri"
+			"Pech" "Alingara" "Beshgal" "Kunar" "Kunara" "Landai" "Landai Sin" "Zemiaki"
+		}
+		male_names = {
+			"Sikandar" "Ali Shah" "Zayn al-'Abidin" "Haydar Shah" "Hasan Shah" "Muhammad Shah" "Sayyid Hassan" "Fath Shah" "Ibrahim Shah"
+			"Nazuk Shah" "Shams ad-Din" "Ismail Shah" "Ghazi Shah" "Husayn Shah" "Yusuf Shah"
+			"Lohir Shah" "Nabib Shah" "Ya'qub Shah" "Ibrahim" "Hassan" "Nazuk" "Yusuf" "Ya'qub" "Muhammad" "Ali"
+			"Ismail" "Gulab" "Ranbir" "Hari" "Pratap" "Kishore" "Zorawar" "Jonaraja" "Prajna" "Hamza"
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		female_names = {
+			"Kota" "Sibaia" "Tara Devi"
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
+		
+	}
+	ashkun = {	#small, southern language group
+        graphical_culture = persiangfx
+		dynasty_names = {
+			"Shah Miri" "Sayyidi" "Mirrani" "Prasuni" "Ashkun" "Kalasha-ala" "Gambiri"
+			"Pech" "Alingara" "Beshgal" "Kunar" "Kunara" "Landai" "Landai Sin" "Zemiaki"
+		}
+		male_names = {
+			"Sikandar" "Ali Shah" "Zayn al-'Abidin" "Haydar Shah" "Hasan Shah" "Muhammad Shah" "Sayyid Hassan" "Fath Shah" "Ibrahim Shah"
+			"Nazuk Shah" "Shams ad-Din" "Ismail Shah" "Ghazi Shah" "Husayn Shah" "Yusuf Shah"
+			"Lohir Shah" "Nabib Shah" "Ya'qub Shah" "Ibrahim" "Hassan" "Nazuk" "Yusuf" "Ya'qub" "Muhammad" "Ali"
+			"Ismail" "Gulab" "Ranbir" "Hari" "Pratap" "Kishore" "Zorawar" "Jonaraja" "Prajna" "Hamza"
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		female_names = {
+			"Kota" "Sibaia" "Tara Devi"
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
 	}
 }
 
@@ -12239,6 +12661,59 @@ dravidian = {
 			Rudramadevi Srimahadevi Tundaka Bashirunissa Umda Samiya Dawudunissa
 		}
 	}
+	brahui = {
+		dynasty_names = {
+			"Gurgnari" "Iltazay" "Qalandarani" "Mirwari" "Qambarani" "Rodani" "Sasoli" "Sumalani" "Bangulzay" "Bizanjo"
+			"Kurd" "Lahri" "Langaw" "Mahmasay" "Mahmasani" "Mengal" "Nicari" "Omarani" "Perikani" "Raysani" "Sajidi"
+			"Sarparra" "Satakzay" "Sahwani" "Yagizi" "Zahri" "Zirkari"
+		}
+		male_names = {
+			"Quli" "Jamshid" "Subhan Quli" "Ibrahim" "Muhammed Quli" "Muhammed" "'Abdullah" "Abul'l-Hassan" "Kabir" 
+			"Mir Musa" "Quli Sultan" "Mahmud Gawan" "Sayid Hanif" "Imad al-Mulk" "Saif Allah" "Iftikhar al-Mulk" "Mir Abu'l-Qasim" "Ubbaid Allah" "Sayid Nasir al-Din" "Shah Khalil Allah" "Mullah Qutb al-Din" "Abd Allah" 
+			"Rustam Khan" "Mir Shams al-Din" "Qasim Beg" "Khwaja Imad al-Din" "Mir Ali" "Khusrau" "Daud Khan" "Mujahid" 
+			"Quazi Siraj-ud-din" "Fulad Khan" "Jamal-ud-din" "Abdul" "Malik" "Ala-ud-din" "Malik-ut-Tujjar" "Sikandar" 
+			"Hakim"
+			Allada Allayavema Amma Ammaraja Anavema Anavota Ayyapayya Baladitya Ballaladeva Beta Bhima 
+			Bhandanaditya Chennappa 
+			Danamava Devanayaka Durgaraja Ganapathideva Ganapathinayaka Indrabhattaraka Jayasimha 
+			Kaapayanayaka Kadeyaraja Kalakampa 
+			Kammanayaka Katayavema Kumaragiri Kubjavishnuvardhana Mahadeva Mahakala Mangiyuvaraja Mallapa 
+			Nachana Narendra 
+			Niravadyadhavala Nrpakama Pandaranga Prataparudra Prola Prolayanayak Prolayavema Prthiviyaraja 
+			Rajanayaka Rajaraja 
+			Rudradeva Saktivarman Singamanayaka Somaditya Vengabhupathi Vijayaditya Vimaladitya Virabhadra 
+			Vishnuvardhana 
+			Yuddamalla Yuddamalla Yuddhamalla Yuddamalla
+		}
+		female_names = {
+			Anitalli Chamekamba Chandena Chellava Gamakamba Hariharamba Nagipoti Pammava Rudramba 
+			Rudramadevi Srimahadevi Tundaka "Bashirunissa" "Umda" "Samiya" "Dawudunissa"
+			Aaleyaamma Elizabeth Accamma Rebecca Accattêvi Annamma Anna Aiyyârratikal Akkâranankayâr 
+			Amittiravalli Ammaiyâlvi Ammakkanâr Ammankâtêvi Ammangadevi Ankâti Aramutaiyâl 
+			Aricukâti Ariyapillai Ariñcikai Ariñcikaipirâtti Ariñcikaippirâttiyâr Arulmolinankaiyâr 
+			Aruvanki Atavallâl Atittapatâriyâr Atittapitâri 
+			Atittapitâriyâr Atticapitâriyâr Avutaiyâlccâni Cankâni Cantirâdêvi Cenkulam Ceyyacôlam 
+			Ceyyavâymani Civatêvi Civallapatevi 
+			Corappaiyâr Câmuntappai Cêramankai Côlamâtêvi Eccumantai Eluvanai Eluvattûr Etuttapâtam 
+			Irâcinkam Irâcâticci Irâcacuntari 
+			Kalacci Kalicci Kanavati Kannapparaciyâr Kantiyûr Kariyamâtêvi Karumânikkam Kaucalaiyâr 
+			Kavatiyakkan Kañciakkan Kutitânkinâl 
+			Kuñcaramalli Kuñciramalli Kâmuttiri Kâraikkâl Kôkilânadigal Kôlâliyâr Kômalavalli 
+			Kôyinâccipitâriyâr Kûrrantêvi Kûttâtunâcci 
+			Mahâdeviyâr Malaiyamân Malapâti Maraikkâtu Mañcavi Mânikkam Mariamma MariMâtêvatikal 
+			Mâtêvatikalâr Nakarattâl Naltêviyâr Namaiyâr Nankaiyâr Nantirinankai 
+			Netuntukkai Nilammai Nimmatikal Nâcci Nâcciyâlvi Nârani Nârâyani Nâñcûri Nîlakanti Nîliyâr 
+			Olimatiyâr Orriâlvi Pavitram Pennaraciyâr 
+			Peranankai Periyanâcci Perrappai Pillayâlvi Piramaccâni Piratamâtevi Pirriccâni Pollâtapillai 
+			Pommavâyi Ponnampalattatikalâr Punniyavâtti Pûvânti
+			Raahelamma Rachel Râcatêviyâr Râcakêcari Sâmavâyi Saramma Sarah Sosamma Susan Taturântakiyâr 
+			Tavañceytâl Tayânitiyâr Thresiamma Teresa Tirumûlattânam Tiruvaranki Tiruvennâval Tiruvânaikkâvi 
+			Tiruvênkatam Tunaiyiruntâlcâni Tânatonkiyâr Têcappukal Têmpâvai Têvânrâl Tûnkânai Umaiyâlvâr 
+			Utaiyaval Utaiyañceytâl Vaccavaiyâr 
+			Varakuni Vatavâyil Venankai Vennâval Vicciyakkan Viccâtiri Vikkiramâtitti Viraiyâccilai Vitari 
+			Vânavanmâtêvi "Mangammal" "Meenakshi" "Velunatchiyar"
+		}
+	}
 }
 
 central_indic = {
@@ -15540,6 +16015,45 @@ turkish_g = {
 			Malahat Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand
 			Aaliyah Aamina Aamira Aaqila Aarifa Aazzi Adelah Adela Adiba Adilah Adilia Adiva Adjan Aeesha
 			Adila Ikram
+		}
+	}
+	horasanli = { #Khorasani Turks
+		graphical_culture = turkishgfx
+		dynasty_names = {
+			Arabshahid Qungrat "Bayan Arslan" "Mongke Cheren" "Mongke Bayar" "Suren Chinua" "Oyugun Nasan"
+			"Bora Tolui" Qadancher Batulun Batutai Bokejin Arighqan Burilgiteni
+			Bayarnai Subegene Tegusdai Yekedei
+		}
+		male_names = {
+			Abd¿ Sa'd¿d Bd¿bur Badd¿ al-Zamd¿'n Husayn Bd¿'yqard¿' Abu al-Qasim Mahmd¿'d Shd¿'h Rukh Ulugh Beg 'Abbas 'Abd
+			'Abd al-Rahman 'Ald¿' 'Abdalld¿'h Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
+			Karim Khalil Mald¿'k Mirza Muhammad Qasim Rashd¿'d Sulayman Tard¿'q 'Umar Usama Yasir Yusuf Zaid Zd¿'yad
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
+		}
+	}
+	qashqai = {		#Turks in Central Iran
+		graphical_culture = turkishgfx
+		dynasty_names = {
+			"Arabshahid" "Qungrat" "Bayan Arslan" "Mongke Cheren" "Mongke Bayar" "Suren Chinua" "Oyugun Nasan"
+			"Bora Tolui" Qadancher Batulun Batutai Bokejin Arighqan Burilgiteni
+			Bayarnai Subegene Tegusdai Yekedei
+		}
+		male_names = {
+			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr
+			Abu'l-Mansur Agatay Alim Anusha Arab Muhammad Avanesh Bahadur Bakht Baqi Muhammad Budjuga Bureke
+			Djuchi Dost Habash Hadji Hadji Muhammad Hassan Quli Haydar Imam Quli Ilbars Irdana Isfandiyar Isim
+			Janibek Kal Khudayar Khudaydad Kochkunju Muhammad Muhammad Amin Muhammad Hakim Muhammad Rahim Nadir
+			Muhammad Narbuta Navruz Ahmad Niyaz Pir Muhammad Sanjar Sevinch Shadi Shahmurad Shahrukh Shaykh
+			Subhan Quli Sufyan Suleyman Tahir Timur Ubaydulla Umar Vali Vali Muhammad Yadgar Daniyal Haidar
+			Iskandar
+		}
+		female_names = {
+			Hooda Malaika Munira Rabiya Rafiqa Ksyusha Sabina Zarina Hatyra Gulnaza Selbi Aziza Jeren Zeynab Myahri
 		}
 	}
 }

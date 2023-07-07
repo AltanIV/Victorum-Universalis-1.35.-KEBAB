@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = uzbehk
 religion = sunni
 capital = "Adkhoy"
 trade_goods = carpet		#Well known for its carpets and woven kilims

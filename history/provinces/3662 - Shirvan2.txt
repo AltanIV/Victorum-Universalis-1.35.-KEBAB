@@ -2,7 +2,7 @@
 
 owner = KHO
 controller = KHO
-culture = khorasani
+culture = horasanli		#Khorasani Turks living all around Shirvan
 religion = shiite
 capital = "Shirvan"
 trade_goods = glass

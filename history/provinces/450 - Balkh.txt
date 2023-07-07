@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = khorasani			#northern pashto
 religion = sunni
 capital = "Balkh"
 trade_goods = carpet		#was opium, add opium somewhere nearby if this place recieves more provinces

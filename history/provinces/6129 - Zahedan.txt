@@ -2,7 +2,7 @@
 
 owner = SIS
 controller = SIS
-culture = khorasani
+culture = baluchi
 religion = sunni
 capital = "Zahedan"
 trade_goods = carpet		#industry of mostly cotton textiles, woven and hand-knotted carpets, rugs, livestock and hides

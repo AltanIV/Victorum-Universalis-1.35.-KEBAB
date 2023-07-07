@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = khorasani			#northern pashto
 religion = sunni
 capital = "Samangan"		#would later be known as Aybak
 trade_goods = copper		#copper deposits around the town, could also be any type of silk road good

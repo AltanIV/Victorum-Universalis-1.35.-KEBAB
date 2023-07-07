@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = tajik
 religion = sunni
 capital = "Munjan"
 trade_goods = opium		#Besides lapis lazuli, rubies, sapphires and emeralds extracted in the mountains, the region's lower lands are primarily growing opium

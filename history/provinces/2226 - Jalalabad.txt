@@ -2,7 +2,7 @@
 
 owner = AFG
 controller = AFG
-culture = afghani
+culture = pashtun
 religion = sunni
 capital = "Jalalabad"
 trade_goods = camel

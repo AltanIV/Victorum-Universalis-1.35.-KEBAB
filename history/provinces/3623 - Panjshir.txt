@@ -2,7 +2,7 @@
 
 owner = AFG
 controller = AFG
-culture = afghani			#change to nuristani later
+culture = kafir
 religion = animism			#inhabitants believed in some ancient version of hinduism with some ancient iranian gods mixed in
 capital = "Bazarak"
 trade_goods = gems			#Panjshir valley is famous for its massive emerald deposits
@@ -14,7 +14,7 @@ is_city = yes
 add_core = AFG
 add_core = TIM
 
-add_local_autonomy = 90		#Local tribes, that should really be independent
+add_local_autonomy = 50		#Local tribes, that should really be independent
 
 1444.1.1 = { discovered_by = KAS } 
 discovered_by = muslim

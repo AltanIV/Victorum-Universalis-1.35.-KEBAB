@@ -2,7 +2,7 @@
 
 owner = AFG
 controller = AFG
-culture = afghani			#change to nuristani later
+culture = ashkun
 religion = animism			#inhabitants believed in some ancient version of hinduism with some ancient iranian gods mixed in
 capital = "Chaghasarai"
 trade_goods = citrus		#Babur in his diary metiones agricultural products: citron, oranges, coriander, orchards, strong yellow wines

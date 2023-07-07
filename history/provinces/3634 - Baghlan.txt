@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = hazara
 religion = sunni
 capital = "Puli Khumri"
 trade_goods = citrus		#wheat, cotton, rice, grapes, pistachios and pomegranates and spices are the main crops

@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = aimaq
 religion = sunni
 capital = "Qala e-Naw"
 trade_goods = wool		#barren agriculture and sustainance farming

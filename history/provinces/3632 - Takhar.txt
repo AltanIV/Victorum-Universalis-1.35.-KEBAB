@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = tajik
 religion = sunni
 capital = "Taloqan"
 trade_goods = gold			#Gold washed from Takhar river or for Panj River's evaporative beds

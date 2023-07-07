@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = pamiri
 religion = sunni
 capital = "Sar-e-Sang"
 trade_goods = dyes			#Main source of Lapis Lazuli in the world, lapis mined here since ancient Sumeria

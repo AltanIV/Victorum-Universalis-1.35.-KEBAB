@@ -2,7 +2,7 @@
 
 owner = SIS
 controller = SIS
-culture = khorasani
+culture = pashtun
 religion = sunni
 capital = "Zaranj"
 trade_goods = wool

@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = pamiri
 religion = sunni
 capital = "Khandud"
 trade_goods = dyes		#Lapis Lazuli, could also be gems (rubies, emeralds)

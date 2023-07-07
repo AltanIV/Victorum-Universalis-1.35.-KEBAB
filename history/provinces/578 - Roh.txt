@@ -3,7 +3,7 @@
 owner = AFG
 controller = AFG
 add_core = AFG
-culture = afghani
+culture = pashtun
 religion = sunni
 capital = "Peshawar"
 trade_goods = saffron

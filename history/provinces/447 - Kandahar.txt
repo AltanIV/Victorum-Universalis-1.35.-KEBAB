@@ -2,7 +2,7 @@
 
 owner = AFG
 controller = AFG
-culture = afghani
+culture = pashtun
 religion = sunni
 capital = "Kandahar"
 trade_goods = opium

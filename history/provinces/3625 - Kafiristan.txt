@@ -2,7 +2,7 @@
 
 owner = AFG
 controller = AFG
-culture = afghani			#change to nuristani later
+culture = kafir
 religion = animism			#inhabitants believed in some ancient version of hinduism with some ancient iranian gods mixed in
 capital = "Nurgram"
 trade_goods = livestock

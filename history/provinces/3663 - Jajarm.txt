@@ -2,7 +2,7 @@
 
 owner = KHO
 controller = KHO
-culture = khorasani		#Should be khorasani turkish, will change later
+culture = horasanli
 religion = shiite		#khorasani turks followed shia
 capital = "Garmeh"
 trade_goods = wine
@@ -33,7 +33,7 @@ discovered_by = indian
 	add_core = PER
 	remove_core = BUK
 } # The Safavids took over, Shi'ism became the state religion
-1600.1.1 = { culture = kurdish }	#Kurds forced to move to Khorasan
+#1600.1.1 = { culture = kurdish }	#Kurds forced to move to Khorasan
 1550.1.1 = { discovered_by = TUR }
 1673.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

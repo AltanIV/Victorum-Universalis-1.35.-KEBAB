@@ -2,7 +2,7 @@
 
 owner = SIS
 controller = SIS
-culture = khorasani
+culture = persian
 religion = sunni
 capital = "Zabol"
 trade_goods = opium

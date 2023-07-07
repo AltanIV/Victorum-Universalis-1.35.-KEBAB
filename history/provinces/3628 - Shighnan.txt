@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = pamiri
 religion = sunni
 capital = "Shighnan"
 trade_goods = gems		#prime site for Ruby mines, known since ancient times

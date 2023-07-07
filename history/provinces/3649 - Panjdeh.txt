@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = khorasani
+culture = aimaq			#Probably dominated by Iranians, Turkmens would settle later
 religion = sunni
 capital = "Panjdeh"
 trade_goods = grain

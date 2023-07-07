@@ -2,7 +2,7 @@
 
 owner = BAL
 controller = BAL
-culture = afghani		#Apparently the cradle of Pashtuns (Afghans)
+culture = pashtun
 religion = sunni
 capital = "Appozai"		#Name of the oldest settlement there
 trade_goods = glass		#Generic, no data on specific production there but town was on the strategic mountain trade route so could be carpet, cloth, silk, dyes, spices, etc.

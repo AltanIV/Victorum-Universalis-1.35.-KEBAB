@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = uzbehk
 religion = sunni
 capital = "Sheberghan"
 trade_goods = opium		#Could be any agricultural good, went for opium as it was important silk road town, so opium would be most valued

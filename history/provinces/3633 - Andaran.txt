@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = tajik
 religion = sunni
 capital = "Andaran"
 trade_goods = wool		#Karakul sheep

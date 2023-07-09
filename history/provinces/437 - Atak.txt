@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = turkmeni
+culture = khorasani		##Ahal area populated by persian-speaking people until 1800's. Nisa seems to be border of iranian reach
 religion = sunni
 capital = "Nisa"
 trade_goods = silk		#Part of the silk road
@@ -35,3 +35,4 @@ discovered_by = nomad_group
 1717.1.1 = { discovered_by = RUS }
 1740.1.1 = { owner = PER controller = PER } # Captured by Nadir Shah
 1747.6.19 = { owner = KHI controller = KHI } # The death of Nadir Shah ends the domination
+1800.1.1 = { culture = turkmeni }	#Turkmen tribes settle the region

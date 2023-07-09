@@ -511,8 +511,10 @@ anatolia_region = {
 persia_region = {
 	areas = {
 		luristan_area
+		ardalan_area
 		farsistan_area
 		iraq_e_ajam_area
+		qumis_semnan_area
 		tabarestan_area
 		azerbaijan_area
 		isfahan_area
@@ -527,6 +529,9 @@ persia_region = {
 khorasan_region = {
 	areas = {
 		balkh_area
+		faryab_area
+		kunduz_area
+		lower_badakhshan_area
 		kabulistan_area
 		ghor_area
 		sistan_area
@@ -956,6 +961,7 @@ central_asia_region = {
 	    merv_area
 		nogai_area
 		transcaspia_area
+		ahal_area
 		transoxiana_area
 		kazakhstan_area
 		balchasj_area

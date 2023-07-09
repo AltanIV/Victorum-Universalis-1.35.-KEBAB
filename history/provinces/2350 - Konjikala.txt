@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = turkmeni
+culture = khorasani		#Ahal area populated by persian-speaking people until 1800's
 religion = sunni
 capital = "Konjikala"
 trade_goods = copper
@@ -55,3 +55,4 @@ discovered_by = nomad_group
 	owner = KHI
 	controller = KHI 
 } # The death of Nadir Shah ends the domination
+1800.1.1 = { culture = turkmeni }	#Turkmen tribes settle the region

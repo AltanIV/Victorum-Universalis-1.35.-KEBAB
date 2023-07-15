@@ -2189,12 +2189,12 @@ south_african_plateau_area = { #5
 # Greater Persia		               #
 ########################################
 
-makran_area = { #4
-	434 2232 2233 5552
+makran_area = { #7
+	434 2232 2233 3601 3602 3603 5552
 }
 
-baluchi_coast_area = { #4
-	575 2231 8407 8409
+baluchi_coast_area = { #5
+	575 2231 3600 8407 8409
 }
 
 sistan_area = { #10

@@ -634,5 +634,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6639;6670;sea;3732;-1;-1;-1;-1;Hatra-Tal Afar
 3671;6132;sea;3674;-1;-1;-1;-1;Khur-East Kavir
 3671;3669;sea;3674;-1;-1;-1;-1;Khur-Kharanaq
+3605;8404;sea;3606;-1;-1;-1;-1;Garmsir-Chagai
+8404;6129;sea;3604;-1;-1;-1;-1;Chagai-Zahedan
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

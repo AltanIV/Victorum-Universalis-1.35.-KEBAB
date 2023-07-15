@@ -533,6 +533,8 @@ khorasan_region = {
 		kunduz_area
 		lower_badakhshan_area
 		kabulistan_area
+		loya_paktia_area
+		zabulistan_area
 		ghor_area
 		sistan_area
 		makran_area

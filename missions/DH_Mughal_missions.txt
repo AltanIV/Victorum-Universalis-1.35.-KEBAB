@@ -124,6 +124,42 @@ mug_timurid_resurgence = {
 				}
 				add_permanent_claim = ROOT
 			}
+			zabulistan_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			kunduz_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			faryab_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			loya_paktia_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 		ai_weight = {
 			factor = 500	#Mughals are a conquest monster, so they should focus on that mission
@@ -139,6 +175,10 @@ mug_timurid_resurgence = {
 				area = herat_area
 				area = balkh_area
 				area = kabulistan_area
+				area = loya_paktia_area
+				area = zabulistan_area
+				area = kunduz_area
+				area = faryab_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -162,6 +202,22 @@ mug_timurid_resurgence = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			kabulistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zabulistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			loya_paktia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kunduz_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			faryab_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

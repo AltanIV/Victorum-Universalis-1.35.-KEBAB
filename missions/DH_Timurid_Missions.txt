@@ -143,6 +143,34 @@ dh_tim_india = {
 				}
 				add_permanent_claim = ROOT
 			}
+			zabulistan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			loya_paktia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kunduz_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			faryab_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 		ai_weight = {
 			factor = 500	#Reasonable conquest
@@ -159,6 +187,10 @@ dh_tim_india = {
 				area = ghor_area
 				area = kabulistan_area
 				area = balkh_area
+				area = zabulistan_area
+				area = loya_paktia_area
+				area = kunduz_area
+				area = faryab_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -173,6 +205,22 @@ dh_tim_india = {
 				owned_by = ROOT
 			}
 			balkh_area = {
+				type = all
+				owned_by = ROOT
+			}
+			faryab_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kunduz_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zabulistan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			loya_paktia_area = {
 				type = all
 				owned_by = ROOT
 			}

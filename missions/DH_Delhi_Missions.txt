@@ -518,6 +518,20 @@ dlh_west_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			zabulistan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			loya_paktia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 		ai_weight = {
 			factor = 500	#Vassal integration
@@ -830,6 +844,8 @@ dlh_slot_4 = {
 			OR = {
 				area = kabulistan_area
 				area = sind_sagar_area
+				area = zabulistan_area
+				area = loya_paktia_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -841,6 +857,14 @@ dlh_slot_4 = {
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			sind_sagar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			zabulistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			loya_paktia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}

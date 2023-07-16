@@ -5417,10 +5417,6 @@ spriteTypes = {
         texturefile = "gfx/interface/takamatsu.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_greifenberg"
-        texturefile = "gfx/interface/greifenberg.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_tula"
         texturefile = "gfx/interface/tula.dds"
     }
@@ -5431,10 +5427,6 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_usedom"
         texturefile = "gfx/interface/usedom.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_neidenburg"
-        texturefile = "gfx/interface/neidenburg.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ortelsburg"
@@ -5493,20 +5485,12 @@ spriteTypes = {
         texturefile = "gfx/interface/kulm.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_lyck"
-        texturefile = "gfx/interface/lyck.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_marienwerder"
         texturefile = "gfx/interface/marienwerder.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_osterode"
         texturefile = "gfx/interface/osterode.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_locknitz"
-        texturefile = "gfx/interface/locknitz.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ribe"
@@ -5519,10 +5503,6 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_nysa"
         texturefile = "gfx/interface/nysa.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_berent"
-        texturefile = "gfx/interface/berent.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_stargrad"
@@ -5609,10 +5589,6 @@ spriteTypes = {
         texturefile = "gfx/interface/lauenburg_holstein.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_lauenburg_pommern"
-        texturefile = "gfx/interface/lauenburg_pommern.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_drogheda"
         texturefile = "gfx/interface/drogheda.dds"
     }
@@ -5633,10 +5609,6 @@ spriteTypes = {
         texturefile = "gfx/interface/porvoo.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_pyritz"
-        texturefile = "gfx/interface/pyritz.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_uglich"
         texturefile = "gfx/interface/uglich.dds"
     }
@@ -5653,16 +5625,8 @@ spriteTypes = {
         texturefile = "gfx/interface/kolberg.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_dramburg"
-        texturefile = "gfx/interface/dramburg.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kargopol"
         texturefile = "gfx/interface/kargopol.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_ermland"
-        texturefile = "gfx/interface/ermland.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_radom"
@@ -5677,14 +5641,6 @@ spriteTypes = {
         texturefile = "gfx/interface/szczebrzeszyn.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_schlawe"
-        texturefile = "gfx/interface/schlawe.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_butow"
-        texturefile = "gfx/interface/butow.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lulea"
         texturefile = "gfx/interface/lulea.dds"
     }
@@ -5695,10 +5651,6 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lofoten"
         texturefile = "gfx/interface/lofoten.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_gniezno"
-        texturefile = "gfx/interface/gniezno.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_goslar"

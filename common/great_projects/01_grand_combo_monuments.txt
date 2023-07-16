@@ -3194,7 +3194,7 @@ zweibruecken_castle = {
 
 speyer_cathedral = {
 	# province it starts in
-	start = 1761
+	start = 8467
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1106.01.01

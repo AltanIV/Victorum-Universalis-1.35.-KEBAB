@@ -30,17 +30,12 @@ discovered_by = nomad_group
     owner = AZD 
 	controller = AZD 
 	add_core = AZD
-} #Ghamd territorial lands - By San Felipe
-1444.11.11 = { 
-    owner = MAM 
-	controller = MAM 
-	add_core = MAM
 	trade_goods = dates			#immense agricultural importance due to high soil fertility, abundant water, and palm cultivation
 	base_tax = 3
 	base_production = 3
 	base_manpower = 2
 	is_city = yes
-} #Mamluk territorial lands - By San Felipe
+} #Ghamd territorial lands - By San Felipe
 
 1644.1.1 = {
 	owner = RAS

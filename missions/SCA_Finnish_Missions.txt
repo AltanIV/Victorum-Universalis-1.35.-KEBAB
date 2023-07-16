@@ -623,14 +623,15 @@ fin_missions_3 = {
 				has_trade_building_trigger = yes 
 			}
 		}
-		effect = { 
+		effect = {
+			32 = { change_trade_goods = tar }
 			33 = { 
 				change_trade_goods = naval_supplies 
-				add_manufactory = yes 
 				add_province_modifier = {
 					name = fin_commercial_tar_modifier
 					duration = 9125 
 				}
+				add_building = wharf
 			}
 		}
 	}

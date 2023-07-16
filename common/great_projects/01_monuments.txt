@@ -13607,7 +13607,7 @@ kashi_vishwanath = {
 		}
 		country_modifiers = {
 			core_creation = -0.125
-			ae_impact = -0.75
+			ae_impact = -0.075
 			brahmins_hindu_loyalty_modifier = 0.1
 		}
 		on_upgraded = {			

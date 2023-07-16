@@ -38,13 +38,13 @@ categories =  {
 			#Victorum Universalis
 			5697 5698 5704 6465 6486 6496 8419 8421 620 3094 4410 4454 4455 6735 8127 8107 7903 8115 4767 181 8442 8458 8461 8467 8471 8472 8477 8478 8508 
 			4392 7694 7934 7959 7962 7979 8019 7967 7606 7319 7506 7507 7514 7538 7539 7551 7552 7574 7588 7590 2971 7622 7542 7636 59 3270 7250 4542 5666 
-			4116 5663 7258 1956 26 1771 267 3190 7773 3134 4149 5342 710 4437 4438 4461 4511 4486 5378 905 916 908 988 2586 987 2519 942 4922 946 884 4910 
+			4116 5663 7257 7258 1956 26 1771 267 3190 7773 3134 4149 5342 710 4437 4438 4461 4511 4486 5378 905 916 908 988 2586 987 2519 942 4922 946 884 4910 
 			4914 2672 901 2008 2007 907 2511 2510 909 2502 2503 4919 4920 5624 2596 5785 5197 5636 5637 5852 5904 2499 4915 890 5066 5751 4340 4299 4787 
 			2584 913 917 5755 790 2851 8729 581 2042 5285 2797 5302 2322 130 4252 3277 5683 5651 4213 2159 4475 4476 2668 4904 904 5812 2483 7643 3213 
 			3214 7641 7637 7687 7616 7615 7529 7530 7674 8485 8430 175 7922 7007 7006 7005 7154 7753 7032 7067 258 7096 7086 7087 6439 4556 3108 4498 
 			4499 4497 4495 2055 4490 2080 543 4652 4417 4415 4416 2101 4457 4504 2076 4396 8677 8567 4832 4833 8597 2110 712 2192 460 4339 426 2308 
 			5225 4318 1149 599 4815 7673 2848 4903 2020 5775 4531 3064 4317 4940 4950 5795 5765 5797 5799 870 5766 7075 7057 1774 2985 7031 7136 107 7744 
-			4638 5856 2469 2998 7976 7993 7989 7971 7992 7928 8440 8503 7614 6931 7138 7127 7196 8737 7707 8189 8192 8201 4240 135 7021 7041 7043 7206 7239 4540 
+			4638 5856 2469 2998 7976 7993 7989 7971 7992 7928 8440 8503 7614 6931 7138 7127 8737 7707 8189 8192 8201 4240 135 7021 7041 7043 7206 7239 4540 
 			7246 8231 8232 4526 4528 2966 8243 4084 4091 4097 1204 7164 2513 4900 5628 4901 5621 2016 8770 7655 8792 8791 
 			
 			8774 8775 8778 8781 8782 8783
@@ -15857,7 +15857,7 @@ categories =  {
         local_build_time = -0.30
         local_build_cost = -0.25
 		terrain_override = {
-			7257
+			7196
 		}
     }
 	# Ukraine
@@ -16622,23 +16622,6 @@ categories =  {
 			2307
 		}
     }
-    # Poland
-	#urban_greifenberg = {
-		#color = { 177 156 217 }
-        #type = forest
-        #sound_type = forest
-        #supply_limit = 4
-       # movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#7823
-		#}
-    #}
     # Russia
 	urban_tula = {
 		color = { 177 156 217 }
@@ -16691,23 +16674,6 @@ categories =  {
 			7816
 		}
     }
-    # Poland
-	#urban_neidenburg = {
-		#color = { 177 156 217 }
-        #type = forest
-        #sound_type = forest
-        #supply_limit = 4
-        #movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#7830
-		#}
-    #}
     # Poland
 	urban_ortelsburg = {
 		color = { 177 156 217 }
@@ -16792,23 +16758,6 @@ categories =  {
         local_build_time = 0.25
 		terrain_override = {
 			7570
-		}
-    }
-    # Ukraine
-	urban_samara = {
-		color = { 177 156 217 }
-        type = forest
-        sound_type = forest
-        supply_limit = 4
-        movement_cost = 1.10
-        local_development_cost = -0.10
-        allowed_num_of_buildings = 3
-        nation_designer_cost_multiplier = 1.4
-        defence = 1
-        local_defensiveness = 0.1
-        local_build_cost = -0.1
-		terrain_override = {
-			7257
 		}
     }
     # Sweden
@@ -16929,23 +16878,6 @@ categories =  {
 		#}
     #}
     # Poland
-	#urban_lyck = {
-		#color = { 177 156 217 }
-        #type = forest
-        #sound_type = forest
-        #supply_limit = 4
-        #movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#767
-		#}
-    #}
-    # Poland
 	#urban_osterode = {
 		#color = { 177 156 217 }
         #type = forest
@@ -16960,23 +16892,6 @@ categories =  {
         #local_build_cost = -0.1
 		#terrain_override = {
 			#2958
-		#}
-    #}
-    # Germany
-	#urban_locknitz = {
-		#color = { 177 156 217 }
-       # type = forest
-        #sound_type = forest
-       # supply_limit = 4
-       # movement_cost = 1.10
-        #local_development_cost = -0.10
-       # allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-       # defence = 1
-       # local_defensiveness = 0.1
-       #local_build_cost = -0.1
-		#terrain_override = {
-			#7817
 		#}
     #}
     # Denmark
@@ -17029,40 +16944,6 @@ categories =  {
 			8251
 		}
     }
-    # Poland
-	#urban_berent = {
-		#color = { 177 156 217 }
-        #type = hills
-        #sound_type = mountains
-        #supply_limit = 2
-        #movement_cost = 1.80
-        #local_development_cost = 0.10
-        #allowed_num_of_buildings = 2
-        #nation_designer_cost_multiplier = 1.3
-       # defence = 2
-        #local_defensiveness = 0.2
-        #local_build_time = 0.25
-		#terrain_override = {
-			#5097
-		#}
-    #}
-    # Poland
-	#urban_stargrad = {
-		#color = { 177 156 217 }
-        #type = forest
-       # sound_type = forest
-        #supply_limit = 4
-        #movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#4746
-		#}
-    #}
     # Poland
 	urban_stolp = {
 		color = { 177 156 217 }
@@ -17216,7 +17097,6 @@ categories =  {
         local_build_cost = -0.1
 		terrain_override = {
 			#259
-
 		}
     }
     # Slovenia
@@ -17354,23 +17234,6 @@ categories =  {
 			1857
 		}
     }
-    # Poland
-	#urban_lauenburg_pommern = {
-		#color = { 177 156 217 }
-        #type = forest
-        #sound_type = forest
-       # supply_limit = 4
-        #movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-       # nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#7825
-		#}
-    #}
     # Ireland
 	urban_drogheda = {
 		color = { 177 156 217 }
@@ -17457,23 +17320,6 @@ categories =  {
 			7807
 		}
     }
-    # Germany
-	#urban_pyritz = {
-		#color = { 177 156 217 }
-        #type = forest
-        #sound_type = forest
-        #supply_limit = 4
-        #movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#8733
-		#}
-    #}
     # Russia
 	urban_uglich = {
 		color = { 177 156 217 }
@@ -17543,23 +17389,6 @@ categories =  {
 			48
 		}
     }
-    # Poland
-	#urban_dramburg = {
-		#color = { 177 156 217 }
-       # type = forest
-       # sound_type = forest
-       # supply_limit = 4
-       # movement_cost = 1.10
-       # local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#4747
-		#}
-    #}
     # Russia
 	urban_kargopol = {
 		color = { 177 156 217 }
@@ -17577,23 +17406,6 @@ categories =  {
 			1958
 		}
     }
-    # Poland
-	#urban_ermland = {
-		#color = { 177 156 217 }
-        #type = forest
-        #sound_type = forest
-        #supply_limit = 4
-        #movement_cost = 1.10
-        #local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#42
-		#}
-    #}
     # Poland
 	urban_radom = {
 		color = { 177 156 217 }
@@ -17645,41 +17457,6 @@ categories =  {
 			7266
 		}
     }
-    # Poland
-	#urban_schlawe = {
-		#color = { 177 156 217 }
-        #type = marsh
-        #sound_type = forest
-        #supply_limit = 2
-       # movement_cost = 1.50
-       # local_development_cost = 0.10
-       # allowed_num_of_buildings = 2
-        #nation_designer_cost_multiplier = 1.30
-        #defence = 2
-        #local_defensiveness = 0.2
-        #local_build_time = 0.25
-        #local_build_cost = 0.25
-		#terrain_override = {
-			#7824
-		#}
-    #}
-    # Poland
-	#urban_butow = {
-		#color = { 177 156 217 }
-       # type = forest
-        #sound_type = forest
-       # supply_limit = 4
-       # movement_cost = 1.10
-       # local_development_cost = -0.10
-       # allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#7826
-		#}
-    #}
     # Sweden
 	urban_lulea = {
 		color = { 177 156 217 }
@@ -17733,23 +17510,6 @@ categories =  {
 			7747
 		}
     }
-    # Poland
-	#urban_gniezno = {
-		#color = { 177 156 217 }
-        #type = forest
-       # sound_type = forest
-       # supply_limit = 4
-        #movement_cost = 1.10
-       # local_development_cost = -0.10
-        #allowed_num_of_buildings = 3
-        #nation_designer_cost_multiplier = 1.4
-        #defence = 1
-        #local_defensiveness = 0.1
-        #local_build_cost = -0.1
-		#terrain_override = {
-			#4526
-		#}
-    #}
     # Germany
 	urban_goslar = {
 		color = { 177 156 217 }

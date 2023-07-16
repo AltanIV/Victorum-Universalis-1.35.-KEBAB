@@ -33,7 +33,7 @@ discovered_by = east_african
 #Histories
 1215.6.15 = { owner = MAM controller = MAM add_core = MAM } # Mamluk territorial lands - By San Felipe
 
-1444.11.11 = { owner = MKR controller = MKR add_core = MKR } # Makurian territorial lands - By San Felipe
+1444.11.11 = { owner = MKR controller = MKR add_core = MKR remove_core = MAM } # Makurian territorial lands - By San Felipe
 
 1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = MAM

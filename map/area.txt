@@ -3113,8 +3113,8 @@ jetysuu_area = { #5
 	459 461 2125 2126 2368
 }
 
-kashgaria_area = { #5 #Just Kashgar & Yarkand
-	739 2124 2127 4209 4210
+kashgaria_area = { #6 #Just Kashgar & Yarkand
+	739 2124 2127 3596 4209 4210
 }
 
 tarim_basin_area = { #3 #The rest of the Seven Cities
@@ -4778,7 +4778,7 @@ unused_area = {
 	3564 3565 3566 3567 3568 3569 3570 3571 3572 3573 3574 3575 3576 3577 3578 3579 3580 3581 3582 3583 3584 3585 3586 3587 3588 3589
 
 	#RNW Wastelands (error log seems to want RNW provinces here?)
-	3415 3416 3417 3418 3419 3590 3591 3592 3593 3594 3595 3596
+	3415 3416 3417 3418 3419 3590 3591 3592 3593 3594 3595
 
 	#Paradox provinces cut (but probably to be readded)
 	1783

@@ -410,6 +410,46 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = flavor_brapru.58
+	title = "flavor_brapru.EVTNAME3"
+	desc = "flavor_brapru.EVTDESC3"
+	picture = UNIVERSITY_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = has_konigsberg_university
+		}
+	}
+	option = {
+		name = "flavor_brapru.EVTOPTA3" #Sponsor the University
+		add_years_of_income = -0.25
+		change_innovativeness = 2
+		add_adm_power = 100
+		41 = {
+			if = {
+				limit = { NOT = { has_building = university } }
+				add_building = university
+			}
+			add_province_modifier = {
+				name = teu_pru_university_of_konigsberg
+				duration = -1
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "flavor_brapru.EVTOPTB3" #Do nothing
+		add_prestige = -1
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
 #The Grain Tax
 country_event = {
 	id = flavor_brapru.12

@@ -269,7 +269,7 @@ emp_bra_pru_1 = {
 		}
 		effect = {
 			set_country_flag = konigsberg_university_flag
-			country_event = { id = flavor_brapru.11 }
+			country_event = { id = flavor_brapru.58 }
 			if = { 
 				limit = { has_dlc = "Domination" }
 				custom_tooltip = pru_golden_era_20_unis_tt

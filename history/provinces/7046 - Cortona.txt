@@ -1,5 +1,6 @@
 #7046 - Cortona
 
+#Default
 owner = CTN
 controller = CTN
 add_core = CTN
@@ -13,6 +14,13 @@ trade_goods = wine #famous for its wines.
 is_city = yes
 hre = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,22 +41,18 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
-#First Shattering not used
+#Histories by SF
 1409.1.1 = {
 	owner = NAP
 	controller = NAP
 	add_core = NAP
-	} # taken by Ladislaus
+} # taken by Ladislaus
 1411.1.1 = {
   owner = LAN
   controller = LAN
   add_core = LAN
   remove_core= NAP
-	} # sold to the Medici
-#Second Shattering not used
-
+} # sold to the Medici
 1495.1.1 = { hre = no }
 1527.1.1 = { controller = SPA } # War of the League of Cognac
 1529.8.3 = { controller = LAN } # Treaty of Cambrai

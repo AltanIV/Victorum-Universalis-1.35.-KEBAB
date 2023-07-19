@@ -1,5 +1,6 @@
 #7027 - Fabriano
 
+#Default
 owner = FAB
 controller = FAB
 add_core = FAB
@@ -13,6 +14,13 @@ trade_goods = paper # famous paper mills
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,34 +41,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
-1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
-	owner = PAP
-	controller = PAP
-	add_core = PAP
-}
-1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
-	owner = FAB
-	controller = FAB
-	remove_core = PAP
-}
-1408.1.1 = { owner = NAP controller = NAP add_core = NAP } # Ladislas takes control of Ancona
-1414.8.6 = { owner = FAB controller = FAB remove_core = NAP }
-1435.1.1   = { 
-	owner = MRC
-	controller = MRC
-	add_core = MRC
-} 
-1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
-	owner = FAB
-	controller = FAB
-	add_core = FAB
-}
-1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
-	owner = MRC
-	controller = MRC
-}
+#Histories by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1444.11.11 = { owner = FAB controller = FAB add_core = FAB } # Fabriano territorial lands - By San Felipe
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = PAP
 	controller = PAP

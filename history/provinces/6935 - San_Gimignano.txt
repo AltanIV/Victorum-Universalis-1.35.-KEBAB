@@ -1,5 +1,6 @@
 #6935 - San Gimignano
 
+#Default
 owner = SGM
 controller = SGM
 add_core = SGM
@@ -13,6 +14,13 @@ trade_goods = wine
 is_city = yes
 hre = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,13 +41,10 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-1199.1.1 = { #VictorumUniversalis batch edit shortcut first performance start begins
-	owner = SGM
-	controller = SGM
-	add_core = SGM
-}
+#Histories by SF
+1215.6.15 = { owner = LAN controller = LAN add_core = LAN } # Florentine territorial lands - By San Felipe
 #1300 - San Gimignano becomes a vassal of Florence
+1444.11.11 = { owner = SGM controller = SGM add_core = SGM } # San Gimignano territorial lands - By San Felipe
 1495.1.1 = { hre = no }
 1527.1.1 = { controller = SPA } # War of the League of Cognac
 1529.8.3 = { controller = LAN } # Treaty of Cambrai

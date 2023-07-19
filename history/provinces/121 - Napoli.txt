@@ -1,9 +1,9 @@
 #121 - Napoli
-#Region - Italy
-#Area - Naples
 
+#Default
 owner = NAP
 controller = NAP
+add_core = NAP
 culture = neapolitan 
 religion = catholic 
 hre = no 
@@ -12,10 +12,22 @@ base_production = 8
 trade_goods = cloth
 base_manpower = 4
 capital = "Napoli" 
-is_city = yes	
-fort_15th = yes
-add_core = NAP
+is_city = yes
+center_of_trade = 4
+extra_cost = 15
 
+#Claimants
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_4
+    duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -35,56 +47,16 @@ discovered_by = byzantine_tech_group
 discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
-center_of_trade = 4
-extra_cost = 15
 
-add_permanent_province_modifier = {
-    name = navalbase_modifier_4
-    duration = -1
-}
-
-#Province history completed by - Darth Modus (dev changes) & Chairman_Meow (JP) (everything else)
-#1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
-	#Fantasy/alt-history tags/situations for gameplay & multiplayer balance in SE. If you need me to make a new tag, let me know. Please do not alter the above line with date & #ed comment in any way.
-	#owner = XXX
-	#controller = XXX
-	#add_core = XXX
-#}
-#1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
-	#End of shattered history. Please revert owner to default and cut any fantasy cores.
-	#owner = XXX
-	#controller = XXX
-	#remove_core = XXX
-#}
-
+#Histories by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
 1300.1.1 = {
 	base_tax = 10
 	base_production = 10
 	base_manpower = 5
 	add_center_of_trade_level = 1
 } # The rise of Naples saw large investment & great portions of the population being urbanised or immigrating from other former city states like Salerno, Capua, Amalfi, and others. In game terms, also trying to restore some of Lucera's lost dev here for the tag
-1440.1.1 = {
-	base_tax = 12
-	base_production = 12
-	base_manpower = 6
-} # Naples began to grow more and more important during this era with large investments into development, sometimes at the expense of the rest of the Kingdom of Naples. Alfonso V of Aragon apparently has a special interest in the city, as well.
-
-1442.9.1 = { 
-	controller = ARA 
-} # Alfonso V takes the Naples in early June, and uses the momentum to take most of the peninsula by the end of the year
-1443.2.23 = { 
-	controller = NAP 
-} # Alfonso V wins the war and Naples united with Aragon in a Personal Union under the Crown of Aragon
-1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
-	owner = SIC
-	controller = SIC
-	remove_core = NAP
-}
-1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
-	owner = NAP
-	controller = NAP
-	add_core = NAP
-}
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe
 1480.1.1 = {
 	base_tax = 15
 	base_production = 15

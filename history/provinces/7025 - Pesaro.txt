@@ -1,9 +1,9 @@
 #7025 - Pesaro
 
+#Default
 owner = MTS
 controller = MTS
 add_core = MTS
-add_core = PSR
 culture = romagnan
 religion = catholic
 capital = "Pesaro"
@@ -14,6 +14,14 @@ trade_goods = gunpowder # was glass because ancient tradition of majolica (like 
 is_city = yes
 hre = no
 
+#Claimants
+add_core = PSR
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -34,42 +42,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Darth Modus, messing with Nikicaga's good work for code reasons
-1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
-	owner = PSR
-	controller = PSR
-}
-1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
-	owner = MTS
-	controller = MTS
-}
-1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
-	owner = PAP
-	controller = PAP
-	add_core = PAP
-}
-1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
-	owner = MTS
-	controller = MTS
-	remove_core = PAP
-}
-1444.1.1 = { 
-	owner = MRC
-	controller = MRC
-	add_core = MRC
-}	#Major historical compromise to represent a situation which really is rather feudal and hard to represent it EU4 to begin with, doubly so with subjects.
-1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
-	owner = MTS
-	controller = MTS
-	add_core = MTS
-	remove_core = PAP
-}
-1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
-	owner = PAP
-	controller = PAP
-	add_core = PAP
-}
+#Histories by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1444.11.11 = { owner = MTS controller = MTS add_core = MTS } # Rimini territorial lands - By San Felipe
 1445.1.1 = {
 	owner = PSR
 	controller = PSR

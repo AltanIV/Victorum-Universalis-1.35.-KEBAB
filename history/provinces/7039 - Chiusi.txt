@@ -1,5 +1,6 @@
 #7039 - Chiusi
 
+#Default
 owner = CUI
 controller = CUI
 add_core = CUI
@@ -13,6 +14,13 @@ trade_goods = pottery #Changed to pottery as it was famous for such craftsmanshi
 is_city = yes
 hre = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,16 +41,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
-#First Shattering not used
-1347.1.1 = {
-  owner = SIE
-  controller = SIE
-  add_core = SIE
- }
-#Second Shattering not used
-
+#Histories by SF
+1215.6.15 = { owner = SIE controller = SIE add_core = SIE } # Sienan territorial lands - By San Felipe
+1444.11.11 = { owner = CUI controller = CUI add_core = CUI } # Chiusi territorial lands - By San Felipe
 1495.1.1 = { hre = no }
 1531.1.1 = { controller = SPA owner = SPA add_core = SPA }
 1552.1.1 = { controller = FRA owner = FRA add_core = FRA }

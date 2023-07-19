@@ -1,5 +1,6 @@
 #2977 - Urbino
 
+#Default
 owner = URB
 controller = URB
 add_core = URB
@@ -12,10 +13,15 @@ trade_goods = glass # yet another majolica center, could also be grain or wool
 base_manpower = 4
 capital = "Urbino" 
 is_city = yes
-
 extra_cost = 8
 
+#Claimants
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -36,8 +42,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
+#Histories by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1444.11.11 = { owner = GUB controller = GUB add_core = GUB } # Gubbio territorial lands - By San Felipe
 1495.1.1 = { hre = no }
 1502.1.1 = {
 	owner = RMG

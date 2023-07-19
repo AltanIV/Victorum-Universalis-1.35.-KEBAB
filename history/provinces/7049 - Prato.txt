@@ -1,5 +1,6 @@
 #7049 - Prato
 
+#Default
 owner = PRA
 controller = PRA
 add_core = PRA
@@ -13,6 +14,13 @@ trade_goods = fruit # Prato is famous for Cantucci which contains the almond nut
 is_city = yes
 hre = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,24 +41,20 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
-#First Shattering not used
-#1313 - Prato becomes a vassal of Naples
+#Histories by SF
+1215.6.15 = { owner = LAN controller = LAN add_core = LAN } # Florentine territorial lands - By San Felipe
 1326.1.1 = {
 	owner = NAP
 	controller = NAP
 	add_core = NAP
-	} # Prato fully submits to Naples
+} # Prato fully submits to Naples
 1354.1.1 = {
   owner = LAN
   controller = LAN
   add_core = LAN
   remove_core = NAP
-	} # Naples sells Prato to Florence
-
-#Second Shattering not used
-
+} # Naples sells Prato to Florence
+1444.11.11 = { owner = PRA controller = PRA add_core = PRA } # Prato territorial lands - By San Felipe
 1495.1.1 = { hre = no }
 1527.1.1 = { controller = SPA } # War of the League of Cognac
 1529.8.3 = { controller = LAN } # Treaty of Cambrai

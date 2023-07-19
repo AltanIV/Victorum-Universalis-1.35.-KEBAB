@@ -1,5 +1,6 @@
 #7041 - Orbetello
 
+#Default
 owner = SVN
 controller = SVN
 add_core = SVN
@@ -13,6 +14,23 @@ trade_goods = fish # noted for rich fisheries, could also be naval supplies
 is_city = yes
 hre = yes
 center_of_trade = 1
+
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,40 +51,20 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-#Special Modifiers
-
-add_permanent_province_modifier = {
-    name = rich_black_soil
-    duration = -1
-}
-
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
-
-#Province history completed by - Nikicaga
-#First Shattering not used
+#Histories by SF
+1215.6.15 = { owner = SIE controller = SIE add_core = SIE } # Sienan territorial lands - By San Felipe
 1303.1.1 = {
     controller = ORV
 	owner = ORV
 	add_core = ORV
 }
-1417.1.1 = {
-    controller = SIE
-	owner = SIE
-	add_core = SIE
-	remove_core = ORV
-}
-#Second Shattering not used
-
+1444.11.11 = { owner = SVN controller = SVN add_core = SVN } # Sovana territorial lands - By San Felipe
 1495.1.1 = { hre = no }
 1531.1.1 = { controller = SPA owner = SPA add_core = SPA }
 1552.1.1 = { controller = FRA owner = FRA add_core = FRA }
 1555.1.1 = { controller = SPA owner = SPA remove_core = FRA }
 1707.1.1 = { controller = HAB owner = HAB add_core = HAB remove_core = SPA }
 1707.1.1 = { controller = NAP owner = NAP add_core = NAP remove_core = HAB }
-
 1801.3.21 = {
 	owner = ETR
 	controller = ETR

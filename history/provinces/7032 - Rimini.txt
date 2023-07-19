@@ -1,5 +1,6 @@
 #7032 - Rimini
 
+#Default
 owner = MTS
 controller = MTS
 add_core = MTS
@@ -13,13 +14,17 @@ trade_goods = seafood #Changed from fish to seafood because there are hardly any
 is_city = yes
 hre = no
 
-#Special Modifiers
+#Claimants
 
+#Buildings
+
+#Special Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
 }
 
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -40,11 +45,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
-#First Shattering not used
-
-#Second Shattering not used
+#Histories by SF
+1215.6.15 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
+1444.11.11 = { owner = MTS controller = MTS add_core = MTS } # Rimini territorial lands - By San Felipe
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = PAP
 	controller = PAP
@@ -57,8 +60,6 @@ discovered_by = russian_tech_group
 	add_core = MTS
 	remove_core = PAP
 } #Return to proper mod added owners and cuts vanilla core, typically.
-
-
 1500.1.1   = { 
 	owner = RMG
 	controller = RMG

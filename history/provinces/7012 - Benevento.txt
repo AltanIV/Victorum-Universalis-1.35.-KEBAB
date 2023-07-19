@@ -1,5 +1,6 @@
 #7012 - Benevento
 
+#Default
 owner = PAP
 controller = PAP
 add_core = PAP
@@ -13,6 +14,13 @@ trade_goods = citrus
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,6 +41,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
+#Histories by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1444.11.11 = { owner = PAP controller = PAP add_core = PAP } # Papal territorial lands - By San Felipe
 1806.3.11 = {
 	controller = FRA
 } # France beats Neapolitan Army, whole Kingdom falls to French forces

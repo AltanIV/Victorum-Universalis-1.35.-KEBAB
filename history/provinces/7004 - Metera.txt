@@ -1,9 +1,9 @@
 #7004 - Metera
 
+#Default
 owner = NAP
 controller = NAP
 add_core = NAP
-add_core = MTA
 culture = neapolitan
 religion = catholic
 capital = "Matera"
@@ -14,6 +14,14 @@ trade_goods = grain
 is_city = yes
 hre = no
 
+#Claimants
+add_core = MTA
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -34,34 +42,9 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Chairman_Meow (JP)
-1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
-	owner = MTA
-	controller = MTA
-	add_core = MTA
-	remove_core = NAP
-}
-1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
-	owner = NAP
-	controller = NAP
-	add_core = NAP
-	remove_core = MTA
-}
-
-1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
-	owner = MTA
-	controller = MTA
-	add_core = MTA
-	remove_core = NAP
-}
-
-1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
-	owner = NAP
-	controller = NAP
-	add_core = NAP
-} # Hashtagged as TAN exists in 1444 so not sure it is necessary.
-
+#Histories by SF
+1215.6.15 = { owner = SIC controller = SIC add_core = SIC } # Sicilian territorial lands - By San Felipe
+1444.11.11 = { owner = NAP controller = NAP add_core = NAP } # Napolitan territorial lands - By San Felipe
 1494.1.1 = {
 	add_core = FRA
 } # Angevin claims

@@ -1,7 +1,9 @@
 #2978 - Arezzo
 
+#Default
 owner = ARE
 controller = ARE
+add_core = ARE
 culture = tuscan 
 religion = catholic 
 hre = yes 
@@ -11,8 +13,14 @@ trade_goods = livestock #chianina cattle, could also be glass for Pottery
 base_manpower = 5
 capital = "Arezzo" 
 is_city = yes # Estimated 
-add_core = ARE
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,19 +41,12 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
-
-#Province history completed by - Nikicaga
-#First Shattering not used
-
+#Histories by SF
 1384.1.1 = {
 	controller = LAN
 	owner = LAN
 	add_core = LAN
 }
-
-#Second Shattering not used
-
-
 1495.1.1 = { hre = no }
 1527.1.1 = { controller = SPA } # War of the League of Cognac
 1529.8.3 = { controller = LAN } # Treaty of Cambrai

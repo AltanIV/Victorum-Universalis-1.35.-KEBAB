@@ -1,5 +1,6 @@
 #7045 - Bardi
 
+#Default
 owner = PCZ
 controller = PCZ
 add_core = PCZ
@@ -13,6 +14,14 @@ trade_goods = apiculture
 is_city = yes
 hre = yes
 
+#Claimants
+add_core = BDI
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch_tech_group
 discovered_by = english_tech_group
@@ -33,12 +42,14 @@ discovered_by = hungarian_tech_group
 discovered_by = polish_tech_group
 discovered_by = russian_tech_group
 
+#Histories by SF
+1215.6.15 = { owner = BDI controller = BDI add_core = BDI } # Bardi territorial lands - By San Felipe
 1336.1.1 = {
 	owner = MLO
 	controller = MLO
 	add_core = MLO
 } # Visconti take Piacenza
-
+1444.11.11 = { owner = PCZ controller = PCZ add_core = PCZ } # Piacenza territorial lands - By San Felipe
 1521.1.1 = {
 	owner = PAP
 	controller = PAP
